@@ -1,0 +1,2134 @@
+Fatiando a Terra:
+  version: 0.0.1
+  date: Fri Feb 25 15:07:13 2011
+  version control info:
+    changeset:   165:c3ab868ebaf5
+    tag:         tip
+    user:        Leonardo Uieda <leouieda@gmail.com>
+    date:        Sun Jan 30 13:39:26 2011 +0100
+
+Generating synthetic gxx data:
+  grid type: regular
+  data points = 625
+Generating synthetic gxy data:
+  grid type: regular
+  data points = 625
+Generating synthetic gxz data:
+  grid type: regular
+  data points = 625
+Generating synthetic gyy data:
+  grid type: regular
+  data points = 625
+Generating synthetic gyz data:
+  grid type: regular
+  data points = 625
+Generating synthetic gzz data:
+  grid type: regular
+  data points = 625
+Building prism mesh:
+  Discretization: nx=30 X ny=30 X nz=10 = 9000 prisms
+  Cell dimensions: dx=100 X dy=100 X dz=100
+Setting seeds in mesh:
+  seed: {'cell': {'x2': 1700.0, 'x1': 1600.0, 'value': 1000, 'y1': 2000.0, 'y2': 2100.0, 'z1': 500.0, 'z2': 600.0}, 'index': 5116, 'neighbors': [], 'density': 1000}
+  seed: {'cell': {'x2': 1700.0, 'x1': 1600.0, 'value': 1000, 'y1': 1600.0, 'y2': 1700.0, 'z1': 500.0, 'z2': 600.0}, 'index': 4996, 'neighbors': [], 'density': 1000}
+  seed: {'cell': {'x2': 900.0, 'x1': 800.0, 'value': 1000, 'y1': 500.0, 'y2': 600.0, 'z1': 500.0, 'z2': 600.0}, 'index': 4658, 'neighbors': [], 'density': 1000}
+  seed: {'cell': {'x2': 1500.0, 'x1': 1400.0, 'value': 1000, 'y1': 500.0, 'y2': 600.0, 'z1': 500.0, 'z2': 600.0}, 'index': 4664, 'neighbors': [], 'density': 1000}
+Growing density model:
+  parameters = 9000
+  data = 3750
+  compactness = 100
+  power = 5
+  threshold = 0.0005
+  norm = l2
+  neighbor type = reduced
+  distance type = radial
+  Jacobian matrix file = None
+  initial misfit = 3.18402e+06
+  initial total goal function = 3.18402e+06
+  it 1:
+    append to seed 1: size=5 neighbors=10 MISFIT=3.17538e+06 COMPACTNESS=100 GOAL=3.17548e+06
+    append to seed 2: size=6 neighbors=10 MISFIT=3.16742e+06 COMPACTNESS=200 GOAL=3.16762e+06
+    append to seed 3: size=7 neighbors=10 MISFIT=3.16214e+06 COMPACTNESS=300 GOAL=3.16244e+06
+    append to seed 4: size=8 neighbors=10 MISFIT=3.15597e+06 COMPACTNESS=400 GOAL=3.15637e+06
+    time: 0.417791 s
+  it 2:
+    append to seed 1: size=9 neighbors=13 MISFIT=3.14716e+06 COMPACTNESS=965.685 GOAL=3.14813e+06
+    append to seed 2: size=10 neighbors=12 MISFIT=3.13872e+06 COMPACTNESS=1531.37 GOAL=3.14026e+06
+    append to seed 3: size=11 neighbors=13 MISFIT=3.1328e+06 COMPACTNESS=2097.06 GOAL=3.13489e+06
+    append to seed 4: size=12 neighbors=13 MISFIT=3.12629e+06 COMPACTNESS=2662.74 GOAL=3.12895e+06
+    time: 0.294019 s
+  it 3:
+    append to seed 1: size=13 neighbors=15 MISFIT=3.1177e+06 COMPACTNESS=3228.43 GOAL=3.12092e+06
+    append to seed 2: size=14 neighbors=14 MISFIT=3.10944e+06 COMPACTNESS=3794.11 GOAL=3.11324e+06
+    append to seed 3: size=15 neighbors=15 MISFIT=3.10434e+06 COMPACTNESS=4359.8 GOAL=3.1087e+06
+    append to seed 4: size=16 neighbors=15 MISFIT=3.09829e+06 COMPACTNESS=4925.48 GOAL=3.10322e+06
+    time: 0.228836 s
+  it 4:
+    append to seed 1: size=17 neighbors=17 MISFIT=3.0872e+06 COMPACTNESS=8125.48 GOAL=3.09532e+06
+    append to seed 2: size=18 neighbors=17 MISFIT=3.07856e+06 COMPACTNESS=9684.33 GOAL=3.08825e+06
+    append to seed 3: size=19 neighbors=18 MISFIT=3.07399e+06 COMPACTNESS=9784.33 GOAL=3.08377e+06
+    append to seed 4: size=20 neighbors=17 MISFIT=3.06816e+06 COMPACTNESS=10350 GOAL=3.07851e+06
+    time: 0.257394 s
+  it 5:
+    append to seed 1: size=21 neighbors=18 MISFIT=3.06014e+06 COMPACTNESS=10915.7 GOAL=3.07105e+06
+    append to seed 2: size=22 neighbors=19 MISFIT=3.05026e+06 COMPACTNESS=14115.7 GOAL=3.06438e+06
+    append to seed 3: size=23 neighbors=20 MISFIT=3.04529e+06 COMPACTNESS=14681.4 GOAL=3.05997e+06
+    append to seed 4: size=24 neighbors=18 MISFIT=3.03977e+06 COMPACTNESS=15247.1 GOAL=3.05501e+06
+    time: 0.190572 s
+  it 6:
+    append to seed 1: size=25 neighbors=18 MISFIT=3.03184e+06 COMPACTNESS=15812.8 GOAL=3.04765e+06
+    append to seed 2: size=26 neighbors=20 MISFIT=3.02481e+06 COMPACTNESS=16378.4 GOAL=3.04119e+06
+    append to seed 3: size=27 neighbors=22 MISFIT=3.01906e+06 COMPACTNESS=17937.3 GOAL=3.037e+06
+    append to seed 4: size=28 neighbors=21 MISFIT=3.01404e+06 COMPACTNESS=18037.3 GOAL=3.03208e+06
+    time: 0.203008 s
+  it 7:
+    append to seed 1: size=29 neighbors=20 MISFIT=3.00536e+06 COMPACTNESS=19596.1 GOAL=3.02496e+06
+    append to seed 2: size=30 neighbors=20 MISFIT=2.99839e+06 COMPACTNESS=20161.8 GOAL=3.01855e+06
+    append to seed 3: size=31 neighbors=24 MISFIT=2.99386e+06 COMPACTNESS=20727.5 GOAL=3.01459e+06
+    append to seed 4: size=32 neighbors=23 MISFIT=2.98753e+06 COMPACTNESS=22286.3 GOAL=3.00982e+06
+    time: 0.204214 s
+  it 8:
+    append to seed 1: size=33 neighbors=22 MISFIT=2.98089e+06 COMPACTNESS=22386.3 GOAL=3.00327e+06
+    append to seed 2: size=34 neighbors=21 MISFIT=2.97444e+06 COMPACTNESS=22486.3 GOAL=2.99693e+06
+    append to seed 3: size=35 neighbors=26 MISFIT=2.96896e+06 COMPACTNESS=24045.2 GOAL=2.99301e+06
+    append to seed 4: size=36 neighbors=25 MISFIT=2.9642e+06 COMPACTNESS=24145.2 GOAL=2.98834e+06
+    time: 0.217665 s
+  it 9:
+    append to seed 1: size=37 neighbors=24 MISFIT=2.95769e+06 COMPACTNESS=24245.2 GOAL=2.98194e+06
+    append to seed 2: size=38 neighbors=23 MISFIT=2.95131e+06 COMPACTNESS=24345.2 GOAL=2.97566e+06
+    append to seed 3: size=39 neighbors=28 MISFIT=2.94737e+06 COMPACTNESS=24445.2 GOAL=2.97182e+06
+    append to seed 4: size=40 neighbors=27 MISFIT=2.94235e+06 COMPACTNESS=25010.9 GOAL=2.96736e+06
+    time: 0.236634 s
+  it 10:
+    append to seed 1: size=41 neighbors=26 MISFIT=2.93445e+06 COMPACTNESS=26569.7 GOAL=2.96102e+06
+    append to seed 2: size=42 neighbors=25 MISFIT=2.92784e+06 COMPACTNESS=27135.4 GOAL=2.95497e+06
+    append to seed 3: size=43 neighbors=30 MISFIT=2.92407e+06 COMPACTNESS=27235.4 GOAL=2.9513e+06
+    append to seed 4: size=44 neighbors=29 MISFIT=2.91811e+06 COMPACTNESS=28794.3 GOAL=2.9469e+06
+    time: 0.228586 s
+  it 11:
+    append to seed 1: size=45 neighbors=28 MISFIT=2.9103e+06 COMPACTNESS=30353.1 GOAL=2.94065e+06
+    append to seed 2: size=46 neighbors=26 MISFIT=2.90292e+06 COMPACTNESS=31911.9 GOAL=2.93483e+06
+    append to seed 3: size=47 neighbors=31 MISFIT=2.89871e+06 COMPACTNESS=32477.6 GOAL=2.93119e+06
+    append to seed 4: size=48 neighbors=29 MISFIT=2.89118e+06 COMPACTNESS=35677.6 GOAL=2.92686e+06
+    time: 0.160415 s
+  it 12:
+    append to seed 1: size=49 neighbors=29 MISFIT=2.88455e+06 COMPACTNESS=36243.3 GOAL=2.92079e+06
+    append to seed 2: size=50 neighbors=28 MISFIT=2.87725e+06 COMPACTNESS=37802.2 GOAL=2.91506e+06
+    append to seed 3: size=51 neighbors=33 MISFIT=2.87308e+06 COMPACTNESS=38367.9 GOAL=2.91145e+06
+    append to seed 4: size=52 neighbors=31 MISFIT=2.86869e+06 COMPACTNESS=38467.9 GOAL=2.90716e+06
+    time: 0.212612 s
+  it 13:
+    append to seed 1: size=53 neighbors=31 MISFIT=2.86266e+06 COMPACTNESS=38567.9 GOAL=2.90123e+06
+    append to seed 2: size=54 neighbors=30 MISFIT=2.85712e+06 COMPACTNESS=38667.9 GOAL=2.89579e+06
+    append to seed 3: size=55 neighbors=33 MISFIT=2.85069e+06 COMPACTNESS=41867.9 GOAL=2.89256e+06
+    append to seed 4: size=56 neighbors=32 MISFIT=2.84646e+06 COMPACTNESS=41967.9 GOAL=2.88842e+06
+    time: 0.176972 s
+  it 14:
+    append to seed 1: size=57 neighbors=32 MISFIT=2.84048e+06 COMPACTNESS=42067.9 GOAL=2.88255e+06
+    append to seed 2: size=58 neighbors=31 MISFIT=2.83504e+06 COMPACTNESS=42167.9 GOAL=2.87721e+06
+    append to seed 3: size=59 neighbors=34 MISFIT=2.83178e+06 COMPACTNESS=42267.9 GOAL=2.87405e+06
+    append to seed 4: size=60 neighbors=34 MISFIT=2.82721e+06 COMPACTNESS=42833.5 GOAL=2.87004e+06
+    time: 0.181819 s
+  it 15:
+    append to seed 1: size=61 neighbors=34 MISFIT=2.8199e+06 COMPACTNESS=44392.4 GOAL=2.86429e+06
+    append to seed 2: size=62 neighbors=33 MISFIT=2.81405e+06 COMPACTNESS=44958.1 GOAL=2.85901e+06
+    append to seed 3: size=63 neighbors=34 MISFIT=2.81099e+06 COMPACTNESS=45058.1 GOAL=2.85604e+06
+    append to seed 4: size=64 neighbors=36 MISFIT=2.80677e+06 COMPACTNESS=45623.8 GOAL=2.85239e+06
+    time: 0.213614 s
+  it 16:
+    append to seed 1: size=65 neighbors=36 MISFIT=2.80074e+06 COMPACTNESS=46189.4 GOAL=2.84693e+06
+    append to seed 2: size=66 neighbors=34 MISFIT=2.795e+06 COMPACTNESS=46755.1 GOAL=2.84175e+06
+    append to seed 3: size=67 neighbors=35 MISFIT=2.79156e+06 COMPACTNESS=47320.8 GOAL=2.83888e+06
+    append to seed 4: size=68 neighbors=38 MISFIT=2.78642e+06 COMPACTNESS=48879.7 GOAL=2.8353e+06
+    time: 0.201593 s
+  it 17:
+    append to seed 1: size=69 neighbors=38 MISFIT=2.78047e+06 COMPACTNESS=49445.3 GOAL=2.82991e+06
+    append to seed 2: size=70 neighbors=34 MISFIT=2.7757e+06 COMPACTNESS=49545.3 GOAL=2.82524e+06
+    append to seed 3: size=71 neighbors=37 MISFIT=2.77253e+06 COMPACTNESS=50111 GOAL=2.82264e+06
+    append to seed 4: size=72 neighbors=38 MISFIT=2.76888e+06 COMPACTNESS=50211 GOAL=2.81909e+06
+    time: 0.166945 s
+  it 18:
+    append to seed 1: size=73 neighbors=40 MISFIT=2.76326e+06 COMPACTNESS=50776.7 GOAL=2.81404e+06
+    append to seed 2: size=74 neighbors=35 MISFIT=2.75828e+06 COMPACTNESS=51342.4 GOAL=2.80963e+06
+    append to seed 3: size=75 neighbors=39 MISFIT=2.75519e+06 COMPACTNESS=51908.1 GOAL=2.8071e+06
+    append to seed 4: size=76 neighbors=40 MISFIT=2.75016e+06 COMPACTNESS=53466.9 GOAL=2.80362e+06
+    time: 0.361072 s
+  it 19:
+    append to seed 1: size=77 neighbors=41 MISFIT=2.73964e+06 COMPACTNESS=59057.1 GOAL=2.7987e+06
+    append to seed 2: size=78 neighbors=36 MISFIT=2.73471e+06 COMPACTNESS=59622.8 GOAL=2.79433e+06
+    append to seed 3: size=79 neighbors=40 MISFIT=2.73166e+06 COMPACTNESS=60188.5 GOAL=2.79185e+06
+    append to seed 4: size=80 neighbors=42 MISFIT=2.72771e+06 COMPACTNESS=60754.2 GOAL=2.78847e+06
+    time: 0.208536 s
+  it 20:
+    append to seed 1: size=81 neighbors=41 MISFIT=2.72284e+06 COMPACTNESS=60854.2 GOAL=2.7837e+06
+    append to seed 2: size=82 neighbors=38 MISFIT=2.71696e+06 COMPACTNESS=62413 GOAL=2.77937e+06
+    append to seed 3: size=83 neighbors=42 MISFIT=2.71304e+06 COMPACTNESS=63971.8 GOAL=2.77702e+06
+    append to seed 4: size=84 neighbors=43 MISFIT=2.70926e+06 COMPACTNESS=64537.5 GOAL=2.7738e+06
+    time: 0.195554 s
+  it 21:
+    append to seed 1: size=85 neighbors=42 MISFIT=2.69897e+06 COMPACTNESS=70127.7 GOAL=2.76909e+06
+    append to seed 2: size=86 neighbors=40 MISFIT=2.69414e+06 COMPACTNESS=70693.4 GOAL=2.76484e+06
+    append to seed 3: size=87 neighbors=43 MISFIT=2.69129e+06 COMPACTNESS=71259.1 GOAL=2.76255e+06
+    append to seed 4: size=88 neighbors=44 MISFIT=2.68761e+06 COMPACTNESS=71824.8 GOAL=2.75943e+06
+    time: 0.177338 s
+  it 22:
+    append to seed 1: size=89 neighbors=42 MISFIT=2.68265e+06 COMPACTNESS=72390.4 GOAL=2.75504e+06
+    append to seed 2: size=90 neighbors=40 MISFIT=2.67288e+06 COMPACTNESS=77980.6 GOAL=2.75086e+06
+    append to seed 3: size=91 neighbors=45 MISFIT=2.66905e+06 COMPACTNESS=79539.5 GOAL=2.74859e+06
+    append to seed 4: size=92 neighbors=45 MISFIT=2.66567e+06 COMPACTNESS=80105.1 GOAL=2.74577e+06
+    time: 0.141513 s
+  it 23:
+    append to seed 1: size=93 neighbors=43 MISFIT=2.6608e+06 COMPACTNESS=80670.8 GOAL=2.74147e+06
+    append to seed 2: size=94 neighbors=41 MISFIT=2.65126e+06 COMPACTNESS=86261 GOAL=2.73752e+06
+    append to seed 3: size=95 neighbors=46 MISFIT=2.64873e+06 COMPACTNESS=86826.7 GOAL=2.73556e+06
+    append to seed 4: size=96 neighbors=46 MISFIT=2.64542e+06 COMPACTNESS=87392.4 GOAL=2.73282e+06
+    time: 0.160477 s
+  it 24:
+    append to seed 1: size=97 neighbors=44 MISFIT=2.63573e+06 COMPACTNESS=92982.5 GOAL=2.72871e+06
+    append to seed 2: size=98 neighbors=42 MISFIT=2.63138e+06 COMPACTNESS=93548.2 GOAL=2.72493e+06
+    append to seed 3: size=99 neighbors=48 MISFIT=2.62799e+06 COMPACTNESS=95107.1 GOAL=2.7231e+06
+    append to seed 4: size=100 neighbors=48 MISFIT=2.62415e+06 COMPACTNESS=96665.9 GOAL=2.72082e+06
+    time: 0.195799 s
+  it 25:
+    append to seed 1: size=101 neighbors=45 MISFIT=2.61963e+06 COMPACTNESS=97231.6 GOAL=2.71686e+06
+    append to seed 2: size=102 neighbors=43 MISFIT=2.61541e+06 COMPACTNESS=97797.3 GOAL=2.71321e+06
+    append to seed 3: size=103 neighbors=50 MISFIT=2.61227e+06 COMPACTNESS=99356.1 GOAL=2.71163e+06
+    append to seed 4: size=104 neighbors=49 MISFIT=2.60473e+06 COMPACTNESS=104946 GOAL=2.70968e+06
+    time: 0.17852 s
+  it 26:
+    append to seed 1: size=105 neighbors=46 MISFIT=2.60024e+06 COMPACTNESS=105512 GOAL=2.70575e+06
+    append to seed 2: size=106 neighbors=45 MISFIT=2.59528e+06 COMPACTNESS=107071 GOAL=2.70235e+06
+    append to seed 3: size=107 neighbors=50 MISFIT=2.59081e+06 COMPACTNESS=110271 GOAL=2.70108e+06
+    append to seed 4: size=108 neighbors=51 MISFIT=2.58733e+06 COMPACTNESS=111830 GOAL=2.69916e+06
+    time: 0.171479 s
+  it 27:
+    append to seed 1: size=109 neighbors=47 MISFIT=2.57799e+06 COMPACTNESS=117420 GOAL=2.69541e+06
+    append to seed 2: size=110 neighbors=47 MISFIT=2.57343e+06 COMPACTNESS=118979 GOAL=2.69241e+06
+    append to seed 3: size=111 neighbors=51 MISFIT=2.56661e+06 COMPACTNESS=124569 GOAL=2.69118e+06
+    append to seed 4: size=112 neighbors=53 MISFIT=2.56329e+06 COMPACTNESS=126128 GOAL=2.68942e+06
+    time: 0.186313 s
+  it 28:
+    append to seed 1: size=113 neighbors=48 MISFIT=2.55836e+06 COMPACTNESS=127687 GOAL=2.68605e+06
+    append to seed 2: size=114 neighbors=49 MISFIT=2.55398e+06 COMPACTNESS=129245 GOAL=2.68322e+06
+    append to seed 3: size=115 neighbors=53 MISFIT=2.55151e+06 COMPACTNESS=130804 GOAL=2.68231e+06
+    append to seed 4: size=116 neighbors=55 MISFIT=2.54844e+06 COMPACTNESS=132363 GOAL=2.6808e+06
+    time: 0.203238 s
+  it 29:
+    append to seed 1: size=117 neighbors=49 MISFIT=2.54392e+06 COMPACTNESS=133922 GOAL=2.67784e+06
+    append to seed 2: size=118 neighbors=49 MISFIT=2.53797e+06 COMPACTNESS=137122 GOAL=2.67509e+06
+    append to seed 3: size=119 neighbors=55 MISFIT=2.53561e+06 COMPACTNESS=138681 GOAL=2.67429e+06
+    append to seed 4: size=120 neighbors=54 MISFIT=2.53097e+06 COMPACTNESS=141881 GOAL=2.67285e+06
+    time: 0.119048 s
+  it 30:
+    append to seed 1: size=121 neighbors=51 MISFIT=2.52649e+06 COMPACTNESS=143440 GOAL=2.66993e+06
+    append to seed 2: size=122 neighbors=51 MISFIT=2.52264e+06 COMPACTNESS=144998 GOAL=2.66763e+06
+    append to seed 3: size=123 neighbors=55 MISFIT=2.51921e+06 COMPACTNESS=148198 GOAL=2.6674e+06
+    append to seed 4: size=124 neighbors=55 MISFIT=2.51246e+06 COMPACTNESS=153789 GOAL=2.66625e+06
+    time: 0.170713 s
+  it 31:
+    append to seed 1: size=125 neighbors=50 MISFIT=2.50645e+06 COMPACTNESS=156989 GOAL=2.66344e+06
+    append to seed 2: size=126 neighbors=52 MISFIT=2.49868e+06 COMPACTNESS=162579 GOAL=2.66126e+06
+    append to seed 3: size=127 neighbors=56 MISFIT=2.49294e+06 COMPACTNESS=168169 GOAL=2.66111e+06
+    append to seed 4: size=128 neighbors=55 MISFIT=2.4887e+06 COMPACTNESS=171369 GOAL=2.66007e+06
+    time: 0.102904 s
+  it 32:
+    append to seed 1: size=129 neighbors=52 MISFIT=2.4845e+06 COMPACTNESS=172928 GOAL=2.65742e+06
+    append to seed 2: size=130 neighbors=53 MISFIT=2.47681e+06 COMPACTNESS=178518 GOAL=2.65532e+06
+    append to seed 3: size=131 neighbors=57 MISFIT=2.47125e+06 COMPACTNESS=184108 GOAL=2.65536e+06
+    append to seed 4: size=132 neighbors=56 MISFIT=2.46467e+06 COMPACTNESS=189698 GOAL=2.65436e+06
+    time: 0.171421 s
+  it 33:
+    append to seed 1: size=133 neighbors=52 MISFIT=2.45894e+06 COMPACTNESS=192898 GOAL=2.65184e+06
+    append to seed 2: size=134 neighbors=53 MISFIT=2.45162e+06 COMPACTNESS=198489 GOAL=2.65011e+06
+    append to seed 3: size=135 neighbors=57 MISFIT=2.44615e+06 COMPACTNESS=204079 GOAL=2.65023e+06
+    append to seed 4: size=136 neighbors=57 MISFIT=2.43995e+06 COMPACTNESS=209669 GOAL=2.64962e+06
+    time: 0.103748 s
+  it 34:
+    append to seed 1: size=137 neighbors=52 MISFIT=2.43478e+06 COMPACTNESS=212869 GOAL=2.64765e+06
+    append to seed 2: size=138 neighbors=53 MISFIT=2.4302e+06 COMPACTNESS=216069 GOAL=2.64627e+06
+    append to seed 3: size=139 neighbors=57 MISFIT=2.42718e+06 COMPACTNESS=219269 GOAL=2.64645e+06
+    append to seed 4: size=140 neighbors=57 MISFIT=2.42359e+06 COMPACTNESS=222469 GOAL=2.64606e+06
+    time: 0.0871069 s
+  it 35:
+    append to seed 1: size=141 neighbors=51 MISFIT=2.41611e+06 COMPACTNESS=228059 GOAL=2.64417e+06
+    append to seed 2: size=142 neighbors=53 MISFIT=2.41185e+06 COMPACTNESS=231259 GOAL=2.64311e+06
+    append to seed 3: size=143 neighbors=58 MISFIT=2.40709e+06 COMPACTNESS=236849 GOAL=2.64394e+06
+    append to seed 4: size=144 neighbors=57 MISFIT=2.40367e+06 COMPACTNESS=240049 GOAL=2.64372e+06
+    time: 0.086781 s
+  it 36:
+    append to seed 1: size=145 neighbors=51 MISFIT=2.39878e+06 COMPACTNESS=243249 GOAL=2.64203e+06
+    append to seed 2: size=146 neighbors=55 MISFIT=2.38925e+06 COMPACTNESS=252067 GOAL=2.64131e+06
+    append to seed 3: size=147 neighbors=58 MISFIT=2.38694e+06 COMPACTNESS=255267 GOAL=2.64221e+06
+    append to seed 4: size=148 neighbors=56 MISFIT=2.38129e+06 COMPACTNESS=260858 GOAL=2.64215e+06
+    time: 0.103849 s
+  it 37:
+    append to seed 1: size=149 neighbors=51 MISFIT=2.37415e+06 COMPACTNESS=266448 GOAL=2.64059e+06
+    append to seed 2: size=150 neighbors=55 MISFIT=2.36815e+06 COMPACTNESS=272038 GOAL=2.64018e+06
+    append to seed 3: size=151 neighbors=58 MISFIT=2.3659e+06 COMPACTNESS=275238 GOAL=2.64114e+06
+    append to seed 4: size=152 neighbors=56 MISFIT=2.36317e+06 COMPACTNESS=278438 GOAL=2.6416e+06
+    time: 0.0868399 s
+  it 38:
+    append to seed 1: size=153 neighbors=51 MISFIT=2.3566e+06 COMPACTNESS=284028 GOAL=2.64063e+06
+    append to seed 2: size=154 neighbors=55 MISFIT=2.35303e+06 COMPACTNESS=287228 GOAL=2.64026e+06
+    append to seed 3: size=155 neighbors=59 MISFIT=2.34879e+06 COMPACTNESS=292818 GOAL=2.64161e+06
+    append to seed 4: size=156 neighbors=56 MISFIT=2.34389e+06 COMPACTNESS=298408 GOAL=2.6423e+06
+    time: 0.103829 s
+  it 39:
+    append to seed 1: size=157 neighbors=52 MISFIT=2.33419e+06 COMPACTNESS=307227 GOAL=2.64141e+06
+    append to seed 2: size=158 neighbors=55 MISFIT=2.32834e+06 COMPACTNESS=312817 GOAL=2.64116e+06
+    append to seed 3: size=159 neighbors=59 MISFIT=2.3244e+06 COMPACTNESS=318407 GOAL=2.64281e+06
+    append to seed 4: size=160 neighbors=56 MISFIT=2.31993e+06 COMPACTNESS=323997 GOAL=2.64393e+06
+    time: 0.10411 s
+  it 40:
+    append to seed 1: size=161 neighbors=52 MISFIT=2.31387e+06 COMPACTNESS=329587 GOAL=2.64346e+06
+    append to seed 2: size=162 neighbors=56 MISFIT=2.30847e+06 COMPACTNESS=335177 GOAL=2.64365e+06
+    append to seed 3: size=163 neighbors=60 MISFIT=2.30456e+06 COMPACTNESS=340768 GOAL=2.64532e+06
+    append to seed 4: size=164 neighbors=56 MISFIT=2.30012e+06 COMPACTNESS=346358 GOAL=2.64647e+06
+    time: 0.121402 s
+  it 41:
+    append to seed 1: size=165 neighbors=52 MISFIT=2.29654e+06 COMPACTNESS=349558 GOAL=2.6461e+06
+    append to seed 2: size=166 neighbors=56 MISFIT=2.29127e+06 COMPACTNESS=355148 GOAL=2.64642e+06
+    append to seed 3: size=167 neighbors=60 MISFIT=2.28754e+06 COMPACTNESS=360738 GOAL=2.64828e+06
+    append to seed 4: size=168 neighbors=56 MISFIT=2.28327e+06 COMPACTNESS=366328 GOAL=2.6496e+06
+    time: 0.087445 s
+  it 42:
+    append to seed 1: size=169 neighbors=54 MISFIT=2.27429e+06 COMPACTNESS=375146 GOAL=2.64943e+06
+    append to seed 2: size=170 neighbors=56 MISFIT=2.2693e+06 COMPACTNESS=380737 GOAL=2.65003e+06
+    append to seed 3: size=171 neighbors=60 MISFIT=2.26561e+06 COMPACTNESS=386327 GOAL=2.65194e+06
+    append to seed 4: size=172 neighbors=56 MISFIT=2.26146e+06 COMPACTNESS=391917 GOAL=2.65338e+06
+    time: 0.121388 s
+  it 43:
+    append to seed 1: size=173 neighbors=54 MISFIT=2.25577e+06 COMPACTNESS=397507 GOAL=2.65328e+06
+    append to seed 2: size=174 neighbors=56 MISFIT=2.251e+06 COMPACTNESS=403097 GOAL=2.65409e+06
+    append to seed 3: size=175 neighbors=61 MISFIT=2.24775e+06 COMPACTNESS=408687 GOAL=2.65643e+06
+    append to seed 4: size=176 neighbors=56 MISFIT=2.24369e+06 COMPACTNESS=414278 GOAL=2.65797e+06
+    time: 0.104179 s
+  it 44:
+    append to seed 1: size=177 neighbors=56 MISFIT=2.23507e+06 COMPACTNESS=423096 GOAL=2.65817e+06
+    append to seed 2: size=178 neighbors=57 MISFIT=2.22722e+06 COMPACTNESS=431914 GOAL=2.65913e+06
+    append to seed 3: size=179 neighbors=61 MISFIT=2.22403e+06 COMPACTNESS=437504 GOAL=2.66153e+06
+    append to seed 4: size=180 neighbors=57 MISFIT=2.22043e+06 COMPACTNESS=443094 GOAL=2.66353e+06
+    time: 0.155819 s
+  it 45:
+    append to seed 1: size=181 neighbors=56 MISFIT=2.21526e+06 COMPACTNESS=448684 GOAL=2.66394e+06
+    append to seed 2: size=182 neighbors=59 MISFIT=2.20747e+06 COMPACTNESS=457503 GOAL=2.66497e+06
+    append to seed 3: size=183 neighbors=61 MISFIT=2.20474e+06 COMPACTNESS=463093 GOAL=2.66783e+06
+    append to seed 4: size=184 neighbors=57 MISFIT=2.20118e+06 COMPACTNESS=468683 GOAL=2.66986e+06
+    time: 0.12179 s
+  it 46:
+    append to seed 1: size=185 neighbors=58 MISFIT=2.19283e+06 COMPACTNESS=477501 GOAL=2.67033e+06
+    append to seed 2: size=186 neighbors=60 MISFIT=2.18839e+06 COMPACTNESS=483091 GOAL=2.67148e+06
+    append to seed 3: size=187 neighbors=63 MISFIT=2.18247e+06 COMPACTNESS=491909 GOAL=2.67438e+06
+    append to seed 4: size=188 neighbors=57 MISFIT=2.17908e+06 COMPACTNESS=497500 GOAL=2.67658e+06
+    time: 0.172594 s
+  it 47:
+    append to seed 1: size=189 neighbors=59 MISFIT=2.17401e+06 COMPACTNESS=503090 GOAL=2.6771e+06
+    append to seed 2: size=190 neighbors=60 MISFIT=2.1696e+06 COMPACTNESS=508680 GOAL=2.67828e+06
+    append to seed 3: size=191 neighbors=64 MISFIT=2.16701e+06 COMPACTNESS=514270 GOAL=2.68128e+06
+    append to seed 4: size=192 neighbors=59 MISFIT=2.16051e+06 COMPACTNESS=523088 GOAL=2.6836e+06
+    time: 0.15672 s
+  it 48:
+    append to seed 1: size=193 neighbors=59 MISFIT=2.15564e+06 COMPACTNESS=528678 GOAL=2.68432e+06
+    append to seed 2: size=194 neighbors=60 MISFIT=2.15136e+06 COMPACTNESS=534269 GOAL=2.68563e+06
+    append to seed 3: size=195 neighbors=66 MISFIT=2.14558e+06 COMPACTNESS=543087 GOAL=2.68867e+06
+    append to seed 4: size=196 neighbors=60 MISFIT=2.14233e+06 COMPACTNESS=548677 GOAL=2.69101e+06
+    time: 0.139395 s
+  it 49:
+    append to seed 1: size=197 neighbors=60 MISFIT=2.13771e+06 COMPACTNESS=554267 GOAL=2.69198e+06
+    append to seed 2: size=198 neighbors=60 MISFIT=2.13055e+06 COMPACTNESS=563085 GOAL=2.69364e+06
+    append to seed 3: size=199 neighbors=67 MISFIT=2.12806e+06 COMPACTNESS=568675 GOAL=2.69673e+06
+    append to seed 4: size=200 neighbors=60 MISFIT=2.12487e+06 COMPACTNESS=574266 GOAL=2.69914e+06
+    time: 0.12313 s
+  it 50:
+    append to seed 1: size=201 neighbors=60 MISFIT=2.12031e+06 COMPACTNESS=579856 GOAL=2.70016e+06
+    append to seed 2: size=202 neighbors=60 MISFIT=2.11331e+06 COMPACTNESS=588674 GOAL=2.70198e+06
+    append to seed 3: size=203 neighbors=68 MISFIT=2.11096e+06 COMPACTNESS=594264 GOAL=2.70522e+06
+    append to seed 4: size=204 neighbors=61 MISFIT=2.10783e+06 COMPACTNESS=599854 GOAL=2.70768e+06
+    time: 0.122965 s
+  it 51:
+    append to seed 1: size=205 neighbors=60 MISFIT=2.10344e+06 COMPACTNESS=605444 GOAL=2.70888e+06
+    append to seed 2: size=206 neighbors=61 MISFIT=2.09974e+06 COMPACTNESS=611035 GOAL=2.71078e+06
+    append to seed 3: size=207 neighbors=68 MISFIT=2.09741e+06 COMPACTNESS=616625 GOAL=2.71403e+06
+    append to seed 4: size=208 neighbors=61 MISFIT=2.09432e+06 COMPACTNESS=622215 GOAL=2.71654e+06
+    time: 0.106694 s
+  it 52:
+    append to seed 1: size=209 neighbors=61 MISFIT=2.09011e+06 COMPACTNESS=627805 GOAL=2.71792e+06
+    append to seed 2: size=210 neighbors=62 MISFIT=2.08657e+06 COMPACTNESS=633395 GOAL=2.71997e+06
+    append to seed 3: size=211 neighbors=69 MISFIT=2.08438e+06 COMPACTNESS=638985 GOAL=2.72337e+06
+    append to seed 4: size=212 neighbors=63 MISFIT=2.07811e+06 COMPACTNESS=647804 GOAL=2.72592e+06
+    time: 0.174345 s
+  it 53:
+    append to seed 1: size=213 neighbors=62 MISFIT=2.07434e+06 COMPACTNESS=653394 GOAL=2.72773e+06
+    append to seed 2: size=214 neighbors=62 MISFIT=2.07085e+06 COMPACTNESS=658984 GOAL=2.72983e+06
+    append to seed 3: size=215 neighbors=69 MISFIT=2.06873e+06 COMPACTNESS=664574 GOAL=2.7333e+06
+    append to seed 4: size=216 neighbors=64 MISFIT=2.06609e+06 COMPACTNESS=670164 GOAL=2.73625e+06
+    time: 0.12383 s
+  it 54:
+    append to seed 1: size=217 neighbors=62 MISFIT=2.05922e+06 COMPACTNESS=678982 GOAL=2.7382e+06
+    append to seed 2: size=218 neighbors=62 MISFIT=2.05575e+06 COMPACTNESS=684573 GOAL=2.74033e+06
+    append to seed 3: size=219 neighbors=69 MISFIT=2.05372e+06 COMPACTNESS=690163 GOAL=2.74388e+06
+    append to seed 4: size=220 neighbors=64 MISFIT=2.0511e+06 COMPACTNESS=695753 GOAL=2.74685e+06
+    time: 0.0899701 s
+  it 55:
+    append to seed 1: size=221 neighbors=63 MISFIT=2.04752e+06 COMPACTNESS=701343 GOAL=2.74886e+06
+    append to seed 2: size=222 neighbors=62 MISFIT=2.04411e+06 COMPACTNESS=706933 GOAL=2.75104e+06
+    append to seed 3: size=223 neighbors=69 MISFIT=2.04211e+06 COMPACTNESS=712524 GOAL=2.75464e+06
+    append to seed 4: size=224 neighbors=64 MISFIT=2.03951e+06 COMPACTNESS=718114 GOAL=2.75763e+06
+    time: 0.106765 s
+  it 56:
+    append to seed 1: size=225 neighbors=63 MISFIT=2.03607e+06 COMPACTNESS=723704 GOAL=2.75977e+06
+    append to seed 2: size=226 neighbors=63 MISFIT=2.03289e+06 COMPACTNESS=729294 GOAL=2.76218e+06
+    append to seed 3: size=227 neighbors=69 MISFIT=2.03096e+06 COMPACTNESS=734884 GOAL=2.76584e+06
+    append to seed 4: size=228 neighbors=65 MISFIT=2.02841e+06 COMPACTNESS=740474 GOAL=2.76888e+06
+    time: 0.124283 s
+  it 57:
+    append to seed 1: size=229 neighbors=63 MISFIT=2.025e+06 COMPACTNESS=746065 GOAL=2.77106e+06
+    append to seed 2: size=230 neighbors=63 MISFIT=2.02187e+06 COMPACTNESS=751655 GOAL=2.77353e+06
+    append to seed 3: size=231 neighbors=70 MISFIT=2.02013e+06 COMPACTNESS=757245 GOAL=2.77738e+06
+    append to seed 4: size=232 neighbors=65 MISFIT=2.01779e+06 COMPACTNESS=762835 GOAL=2.78062e+06
+    time: 0.107355 s
+  it 58:
+    append to seed 1: size=233 neighbors=63 MISFIT=2.0146e+06 COMPACTNESS=768425 GOAL=2.78302e+06
+    append to seed 2: size=234 neighbors=64 MISFIT=2.00836e+06 COMPACTNESS=777243 GOAL=2.7856e+06
+    append to seed 3: size=235 neighbors=70 MISFIT=2.00667e+06 COMPACTNESS=782834 GOAL=2.78951e+06
+    append to seed 4: size=236 neighbors=65 MISFIT=2.00435e+06 COMPACTNESS=788424 GOAL=2.79277e+06
+    time: 0.106848 s
+  it 59:
+    append to seed 1: size=237 neighbors=63 MISFIT=2.0012e+06 COMPACTNESS=794014 GOAL=2.79522e+06
+    append to seed 2: size=238 neighbors=64 MISFIT=1.99821e+06 COMPACTNESS=799604 GOAL=2.79782e+06
+    append to seed 3: size=239 neighbors=71 MISFIT=1.99341e+06 COMPACTNESS=808422 GOAL=2.80183e+06
+    append to seed 4: size=240 neighbors=67 MISFIT=1.98794e+06 COMPACTNESS=817240 GOAL=2.80518e+06
+    time: 0.141559 s
+  it 60:
+    append to seed 1: size=241 neighbors=64 MISFIT=1.98178e+06 COMPACTNESS=826059 GOAL=2.80784e+06
+    append to seed 2: size=242 neighbors=66 MISFIT=1.97601e+06 COMPACTNESS=834877 GOAL=2.81088e+06
+    append to seed 3: size=243 neighbors=72 MISFIT=1.97149e+06 COMPACTNESS=843695 GOAL=2.81518e+06
+    append to seed 4: size=244 neighbors=69 MISFIT=1.96639e+06 COMPACTNESS=852513 GOAL=2.8189e+06
+    time: 0.19437 s
+  it 61:
+    append to seed 1: size=245 neighbors=64 MISFIT=1.96033e+06 COMPACTNESS=861331 GOAL=2.82166e+06
+    append to seed 2: size=246 neighbors=66 MISFIT=1.95502e+06 COMPACTNESS=870149 GOAL=2.82517e+06
+    append to seed 3: size=247 neighbors=72 MISFIT=1.95088e+06 COMPACTNESS=878968 GOAL=2.82985e+06
+    append to seed 4: size=248 neighbors=69 MISFIT=1.94591e+06 COMPACTNESS=887786 GOAL=2.83369e+06
+    time: 0.091651 s
+  it 62:
+    append to seed 1: size=249 neighbors=64 MISFIT=1.93992e+06 COMPACTNESS=896604 GOAL=2.83652e+06
+    append to seed 2: size=250 neighbors=66 MISFIT=1.93501e+06 COMPACTNESS=905422 GOAL=2.84044e+06
+    append to seed 3: size=251 neighbors=74 MISFIT=1.93096e+06 COMPACTNESS=914240 GOAL=2.8452e+06
+    append to seed 4: size=252 neighbors=69 MISFIT=1.92629e+06 COMPACTNESS=923058 GOAL=2.84935e+06
+    time: 0.126937 s
+  it 63:
+    append to seed 1: size=253 neighbors=65 MISFIT=1.9206e+06 COMPACTNESS=931876 GOAL=2.85248e+06
+    append to seed 2: size=254 neighbors=67 MISFIT=1.91632e+06 COMPACTNESS=940695 GOAL=2.85701e+06
+    append to seed 3: size=255 neighbors=76 MISFIT=1.91264e+06 COMPACTNESS=949513 GOAL=2.86215e+06
+    append to seed 4: size=256 neighbors=69 MISFIT=1.90801e+06 COMPACTNESS=958331 GOAL=2.86634e+06
+    time: 0.159052 s
+  it 64:
+    append to seed 1: size=257 neighbors=65 MISFIT=1.90263e+06 COMPACTNESS=967149 GOAL=2.86978e+06
+    append to seed 2: size=258 neighbors=68 MISFIT=1.89839e+06 COMPACTNESS=975967 GOAL=2.87435e+06
+    append to seed 3: size=259 neighbors=76 MISFIT=1.89476e+06 COMPACTNESS=984785 GOAL=2.87955e+06
+    append to seed 4: size=260 neighbors=69 MISFIT=1.89068e+06 COMPACTNESS=993604 GOAL=2.88429e+06
+    time: 0.110529 s
+  it 65:
+    append to seed 1: size=261 neighbors=65 MISFIT=1.88539e+06 COMPACTNESS=1.00242e+06 GOAL=2.88781e+06
+    append to seed 2: size=262 neighbors=69 MISFIT=1.88139e+06 COMPACTNESS=1.01124e+06 GOAL=2.89263e+06
+    append to seed 3: size=263 neighbors=78 MISFIT=1.87843e+06 COMPACTNESS=1.02006e+06 GOAL=2.89849e+06
+    append to seed 4: size=264 neighbors=70 MISFIT=1.87464e+06 COMPACTNESS=1.02888e+06 GOAL=2.90352e+06
+    time: 0.159839 s
+  it 66:
+    append to seed 1: size=265 neighbors=66 MISFIT=1.87048e+06 COMPACTNESS=1.03769e+06 GOAL=2.90817e+06
+    append to seed 2: size=266 neighbors=71 MISFIT=1.8665e+06 COMPACTNESS=1.04651e+06 GOAL=2.91301e+06
+    append to seed 3: size=267 neighbors=79 MISFIT=1.86379e+06 COMPACTNESS=1.05533e+06 GOAL=2.91912e+06
+    append to seed 4: size=268 neighbors=71 MISFIT=1.86012e+06 COMPACTNESS=1.06415e+06 GOAL=2.92427e+06
+    time: 0.176479 s
+  it 67:
+    append to seed 1: size=269 neighbors=68 MISFIT=1.85635e+06 COMPACTNESS=1.07297e+06 GOAL=2.92932e+06
+    append to seed 2: size=270 neighbors=71 MISFIT=1.85256e+06 COMPACTNESS=1.08179e+06 GOAL=2.93435e+06
+    append to seed 3: size=271 neighbors=80 MISFIT=1.84988e+06 COMPACTNESS=1.0906e+06 GOAL=2.94049e+06
+    append to seed 4: size=272 neighbors=71 MISFIT=1.84626e+06 COMPACTNESS=1.09942e+06 GOAL=2.94568e+06
+    time: 0.143247 s
+  it 68:
+    append to seed 1: size=273 neighbors=69 MISFIT=1.84266e+06 COMPACTNESS=1.10824e+06 GOAL=2.9509e+06
+    append to seed 2: size=274 neighbors=72 MISFIT=1.8389e+06 COMPACTNESS=1.11706e+06 GOAL=2.95596e+06
+    append to seed 3: size=275 neighbors=82 MISFIT=1.83624e+06 COMPACTNESS=1.12588e+06 GOAL=2.96211e+06
+    append to seed 4: size=276 neighbors=71 MISFIT=1.83277e+06 COMPACTNESS=1.13469e+06 GOAL=2.96746e+06
+    time: 0.160062 s
+  it 69:
+    append to seed 1: size=277 neighbors=71 MISFIT=1.82936e+06 COMPACTNESS=1.14351e+06 GOAL=2.97288e+06
+    append to seed 2: size=278 neighbors=73 MISFIT=1.8258e+06 COMPACTNESS=1.15233e+06 GOAL=2.97813e+06
+    append to seed 3: size=279 neighbors=83 MISFIT=1.82318e+06 COMPACTNESS=1.16115e+06 GOAL=2.98433e+06
+    append to seed 4: size=280 neighbors=72 MISFIT=1.82009e+06 COMPACTNESS=1.16997e+06 GOAL=2.99006e+06
+    time: 0.177222 s
+  it 70:
+    append to seed 1: size=281 neighbors=72 MISFIT=1.81671e+06 COMPACTNESS=1.17879e+06 GOAL=2.99549e+06
+    append to seed 2: size=282 neighbors=73 MISFIT=1.81336e+06 COMPACTNESS=1.1876e+06 GOAL=3.00096e+06
+    append to seed 3: size=283 neighbors=83 MISFIT=1.81106e+06 COMPACTNESS=1.19642e+06 GOAL=3.00748e+06
+    append to seed 4: size=284 neighbors=73 MISFIT=1.808e+06 COMPACTNESS=1.20524e+06 GOAL=3.01324e+06
+    time: 0.127269 s
+  it 71:
+    append to seed 1: size=285 neighbors=72 MISFIT=1.80466e+06 COMPACTNESS=1.21406e+06 GOAL=3.01872e+06
+    append to seed 2: size=286 neighbors=74 MISFIT=1.80151e+06 COMPACTNESS=1.22288e+06 GOAL=3.02438e+06
+    append to seed 3: size=287 neighbors=84 MISFIT=1.79932e+06 COMPACTNESS=1.23169e+06 GOAL=3.03101e+06
+    append to seed 4: size=288 neighbors=74 MISFIT=1.79653e+06 COMPACTNESS=1.24051e+06 GOAL=3.03704e+06
+    time: 0.145852 s
+  it 72:
+    append to seed 1: size=289 neighbors=73 MISFIT=1.79328e+06 COMPACTNESS=1.24933e+06 GOAL=3.04261e+06
+    append to seed 2: size=290 neighbors=74 MISFIT=1.79016e+06 COMPACTNESS=1.25815e+06 GOAL=3.04831e+06
+    append to seed 3: size=291 neighbors=84 MISFIT=1.78801e+06 COMPACTNESS=1.26697e+06 GOAL=3.05498e+06
+    append to seed 4: size=292 neighbors=76 MISFIT=1.78537e+06 COMPACTNESS=1.27578e+06 GOAL=3.06116e+06
+    time: 0.144454 s
+  it 73:
+    append to seed 1: size=293 neighbors=73 MISFIT=1.78231e+06 COMPACTNESS=1.2846e+06 GOAL=3.06691e+06
+    append to seed 2: size=294 neighbors=74 MISFIT=1.77938e+06 COMPACTNESS=1.29342e+06 GOAL=3.0728e+06
+    append to seed 3: size=295 neighbors=84 MISFIT=1.77729e+06 COMPACTNESS=1.30224e+06 GOAL=3.07953e+06
+    append to seed 4: size=296 neighbors=77 MISFIT=1.77482e+06 COMPACTNESS=1.31106e+06 GOAL=3.08587e+06
+    time: 0.111319 s
+  it 74:
+    append to seed 1: size=297 neighbors=73 MISFIT=1.7718e+06 COMPACTNESS=1.31988e+06 GOAL=3.09167e+06
+    append to seed 2: size=298 neighbors=76 MISFIT=1.76896e+06 COMPACTNESS=1.32869e+06 GOAL=3.09765e+06
+    append to seed 3: size=299 neighbors=84 MISFIT=1.76702e+06 COMPACTNESS=1.33751e+06 GOAL=3.10453e+06
+    append to seed 4: size=300 neighbors=77 MISFIT=1.76456e+06 COMPACTNESS=1.34633e+06 GOAL=3.11089e+06
+    time: 0.127834 s
+  it 75:
+    append to seed 1: size=301 neighbors=73 MISFIT=1.76171e+06 COMPACTNESS=1.35515e+06 GOAL=3.11686e+06
+    append to seed 2: size=302 neighbors=77 MISFIT=1.75906e+06 COMPACTNESS=1.36397e+06 GOAL=3.12302e+06
+    append to seed 3: size=303 neighbors=86 MISFIT=1.75723e+06 COMPACTNESS=1.37278e+06 GOAL=3.13001e+06
+    append to seed 4: size=304 neighbors=78 MISFIT=1.75489e+06 COMPACTNESS=1.3816e+06 GOAL=3.13649e+06
+    time: 0.162135 s
+  it 76:
+    append to seed 1: size=305 neighbors=74 MISFIT=1.74701e+06 COMPACTNESS=1.3997e+06 GOAL=3.14671e+06
+    append to seed 2: size=306 neighbors=77 MISFIT=1.74441e+06 COMPACTNESS=1.40852e+06 GOAL=3.15293e+06
+    append to seed 3: size=307 neighbors=88 MISFIT=1.74277e+06 COMPACTNESS=1.41734e+06 GOAL=3.16012e+06
+    append to seed 4: size=308 neighbors=80 MISFIT=1.74055e+06 COMPACTNESS=1.42616e+06 GOAL=3.16671e+06
+    time: 0.17904 s
+  it 77:
+    append to seed 1: size=309 neighbors=74 MISFIT=1.73273e+06 COMPACTNESS=1.44426e+06 GOAL=3.17699e+06
+    append to seed 2: size=310 neighbors=78 MISFIT=1.72493e+06 COMPACTNESS=1.46236e+06 GOAL=3.1873e+06
+    append to seed 3: size=311 neighbors=89 MISFIT=1.72336e+06 COMPACTNESS=1.47118e+06 GOAL=3.19454e+06
+    append to seed 4: size=312 neighbors=81 MISFIT=1.72116e+06 COMPACTNESS=1.48e+06 GOAL=3.20116e+06
+    time: 0.146405 s
+  it 78:
+    append to seed 1: size=313 neighbors=75 MISFIT=1.71369e+06 COMPACTNESS=1.4981e+06 GOAL=3.21179e+06
+    append to seed 2: size=314 neighbors=79 MISFIT=1.70851e+06 COMPACTNESS=1.5162e+06 GOAL=3.22471e+06
+    append to seed 3: size=315 neighbors=90 MISFIT=1.70704e+06 COMPACTNESS=1.52502e+06 GOAL=3.23207e+06
+    append to seed 4: size=316 neighbors=81 MISFIT=1.70486e+06 COMPACTNESS=1.53384e+06 GOAL=3.2387e+06
+    time: 0.152239 s
+  it 79:
+    append to seed 1: size=317 neighbors=76 MISFIT=1.6984e+06 COMPACTNESS=1.55194e+06 GOAL=3.25034e+06
+    append to seed 2: size=318 neighbors=79 MISFIT=1.69338e+06 COMPACTNESS=1.57004e+06 GOAL=3.26343e+06
+    append to seed 3: size=319 neighbors=90 MISFIT=1.69193e+06 COMPACTNESS=1.57886e+06 GOAL=3.27079e+06
+    append to seed 4: size=320 neighbors=81 MISFIT=1.68977e+06 COMPACTNESS=1.58768e+06 GOAL=3.27745e+06
+    time: 0.117455 s
+  it 80:
+    append to seed 1: size=321 neighbors=77 MISFIT=1.68561e+06 COMPACTNESS=1.60578e+06 GOAL=3.29139e+06
+    append to seed 2: size=322 neighbors=80 MISFIT=1.68075e+06 COMPACTNESS=1.62388e+06 GOAL=3.30464e+06
+    append to seed 3: size=323 neighbors=90 MISFIT=1.67934e+06 COMPACTNESS=1.6327e+06 GOAL=3.31204e+06
+    append to seed 4: size=324 neighbors=81 MISFIT=1.67737e+06 COMPACTNESS=1.64152e+06 GOAL=3.31889e+06
+    time: 0.13581 s
+  it 81:
+    append to seed 1: size=325 neighbors=77 MISFIT=1.6673e+06 COMPACTNESS=1.66582e+06 GOAL=3.33312e+06
+    append to seed 2: size=326 neighbors=81 MISFIT=1.663e+06 COMPACTNESS=1.68392e+06 GOAL=3.34692e+06
+    append to seed 3: size=327 neighbors=91 MISFIT=1.65751e+06 COMPACTNESS=1.70202e+06 GOAL=3.35953e+06
+    append to seed 4: size=328 neighbors=81 MISFIT=1.65178e+06 COMPACTNESS=1.72013e+06 GOAL=3.37191e+06
+    time: 0.135013 s
+  it 82:
+    append to seed 1: size=329 neighbors=77 MISFIT=1.64799e+06 COMPACTNESS=1.73823e+06 GOAL=3.38622e+06
+    append to seed 2: size=330 neighbors=82 MISFIT=1.64484e+06 COMPACTNESS=1.75633e+06 GOAL=3.40117e+06
+    append to seed 3: size=331 neighbors=92 MISFIT=1.64101e+06 COMPACTNESS=1.77443e+06 GOAL=3.41544e+06
+    append to seed 4: size=332 neighbors=82 MISFIT=1.63632e+06 COMPACTNESS=1.79253e+06 GOAL=3.42886e+06
+    time: 0.149034 s
+  it 83:
+    append to seed 1: size=333 neighbors=78 MISFIT=1.63266e+06 COMPACTNESS=1.81064e+06 GOAL=3.4433e+06
+    append to seed 2: size=334 neighbors=82 MISFIT=1.6296e+06 COMPACTNESS=1.82874e+06 GOAL=3.45834e+06
+    append to seed 3: size=335 neighbors=93 MISFIT=1.62593e+06 COMPACTNESS=1.84684e+06 GOAL=3.47277e+06
+    append to seed 4: size=336 neighbors=83 MISFIT=1.62136e+06 COMPACTNESS=1.86494e+06 GOAL=3.4863e+06
+    time: 0.151634 s
+  it 84:
+    append to seed 1: size=337 neighbors=79 MISFIT=1.61834e+06 COMPACTNESS=1.88304e+06 GOAL=3.50139e+06
+    append to seed 2: size=338 neighbors=83 MISFIT=1.61576e+06 COMPACTNESS=1.90115e+06 GOAL=3.5169e+06
+    append to seed 3: size=339 neighbors=94 MISFIT=1.61247e+06 COMPACTNESS=1.91925e+06 GOAL=3.53172e+06
+    append to seed 4: size=340 neighbors=84 MISFIT=1.60815e+06 COMPACTNESS=1.93735e+06 GOAL=3.5455e+06
+    time: 0.167456 s
+  it 85:
+    append to seed 1: size=341 neighbors=80 MISFIT=1.60547e+06 COMPACTNESS=1.95545e+06 GOAL=3.56092e+06
+    append to seed 2: size=342 neighbors=84 MISFIT=1.60293e+06 COMPACTNESS=1.97355e+06 GOAL=3.57649e+06
+    append to seed 3: size=343 neighbors=95 MISFIT=1.6002e+06 COMPACTNESS=1.99165e+06 GOAL=3.59186e+06
+    append to seed 4: size=344 neighbors=84 MISFIT=1.59671e+06 COMPACTNESS=2.00976e+06 GOAL=3.60647e+06
+    time: 0.151636 s
+  it 86:
+    append to seed 1: size=345 neighbors=81 MISFIT=1.59418e+06 COMPACTNESS=2.02786e+06 GOAL=3.62204e+06
+    append to seed 2: size=346 neighbors=85 MISFIT=1.59188e+06 COMPACTNESS=2.04596e+06 GOAL=3.63785e+06
+    append to seed 3: size=347 neighbors=96 MISFIT=1.5893e+06 COMPACTNESS=2.06406e+06 GOAL=3.65336e+06
+    append to seed 4: size=348 neighbors=84 MISFIT=1.58642e+06 COMPACTNESS=2.08216e+06 GOAL=3.66858e+06
+    time: 0.14977 s
+  it 87:
+    append to seed 1: size=349 neighbors=83 MISFIT=1.57873e+06 COMPACTNESS=2.10646e+06 GOAL=3.68519e+06
+    append to seed 2: size=350 neighbors=85 MISFIT=1.57067e+06 COMPACTNESS=2.13076e+06 GOAL=3.70143e+06
+    append to seed 3: size=351 neighbors=97 MISFIT=1.5686e+06 COMPACTNESS=2.14887e+06 GOAL=3.71746e+06
+    append to seed 4: size=352 neighbors=85 MISFIT=1.5661e+06 COMPACTNESS=2.16697e+06 GOAL=3.73306e+06
+    time: 0.16812 s
+  it 88:
+    append to seed 1: size=353 neighbors=85 MISFIT=1.55902e+06 COMPACTNESS=2.19127e+06 GOAL=3.75029e+06
+    append to seed 2: size=354 neighbors=86 MISFIT=1.55141e+06 COMPACTNESS=2.21557e+06 GOAL=3.76698e+06
+    append to seed 3: size=355 neighbors=98 MISFIT=1.54966e+06 COMPACTNESS=2.23367e+06 GOAL=3.78334e+06
+    append to seed 4: size=356 neighbors=86 MISFIT=1.54729e+06 COMPACTNESS=2.25177e+06 GOAL=3.79906e+06
+    time: 0.185078 s
+  it 89:
+    append to seed 1: size=357 neighbors=86 MISFIT=1.54032e+06 COMPACTNESS=2.27607e+06 GOAL=3.81639e+06
+    append to seed 2: size=358 neighbors=86 MISFIT=1.53281e+06 COMPACTNESS=2.30037e+06 GOAL=3.83318e+06
+    append to seed 3: size=359 neighbors=99 MISFIT=1.53133e+06 COMPACTNESS=2.31847e+06 GOAL=3.8498e+06
+    append to seed 4: size=360 neighbors=87 MISFIT=1.5291e+06 COMPACTNESS=2.33658e+06 GOAL=3.86568e+06
+    time: 0.151462 s
+  it 90:
+    append to seed 1: size=361 neighbors=88 MISFIT=1.52247e+06 COMPACTNESS=2.36088e+06 GOAL=3.88335e+06
+    append to seed 2: size=362 neighbors=88 MISFIT=1.51566e+06 COMPACTNESS=2.38518e+06 GOAL=3.90084e+06
+    append to seed 3: size=363 neighbors=100 MISFIT=1.51422e+06 COMPACTNESS=2.40328e+06 GOAL=3.9175e+06
+    append to seed 4: size=364 neighbors=87 MISFIT=1.51203e+06 COMPACTNESS=2.42138e+06 GOAL=3.93341e+06
+    time: 0.185567 s
+  it 91:
+    append to seed 1: size=365 neighbors=89 MISFIT=1.50566e+06 COMPACTNESS=2.44568e+06 GOAL=3.95134e+06
+    append to seed 2: size=366 neighbors=88 MISFIT=1.49979e+06 COMPACTNESS=2.46998e+06 GOAL=3.96977e+06
+    append to seed 3: size=367 neighbors=101 MISFIT=1.49836e+06 COMPACTNESS=2.48808e+06 GOAL=3.98645e+06
+    append to seed 4: size=368 neighbors=88 MISFIT=1.49657e+06 COMPACTNESS=2.50618e+06 GOAL=4.00276e+06
+    time: 0.155351 s
+  it 92:
+    append to seed 1: size=369 neighbors=90 MISFIT=1.49063e+06 COMPACTNESS=2.53048e+06 GOAL=4.02112e+06
+    append to seed 2: size=370 neighbors=89 MISFIT=1.48517e+06 COMPACTNESS=2.55478e+06 GOAL=4.03995e+06
+    append to seed 3: size=371 neighbors=102 MISFIT=1.48403e+06 COMPACTNESS=2.57289e+06 GOAL=4.05691e+06
+    append to seed 4: size=372 neighbors=89 MISFIT=1.48226e+06 COMPACTNESS=2.59099e+06 GOAL=4.07324e+06
+    time: 0.169444 s
+  it 93:
+    append to seed 1: size=373 neighbors=91 MISFIT=1.47661e+06 COMPACTNESS=2.61529e+06 GOAL=4.0919e+06
+    append to seed 2: size=374 neighbors=90 MISFIT=1.47169e+06 COMPACTNESS=2.63959e+06 GOAL=4.11128e+06
+    append to seed 3: size=375 neighbors=102 MISFIT=1.4665e+06 COMPACTNESS=2.66389e+06 GOAL=4.13039e+06
+    append to seed 4: size=376 neighbors=89 MISFIT=1.4602e+06 COMPACTNESS=2.68819e+06 GOAL=4.14839e+06
+    time: 0.135133 s
+  it 94:
+    append to seed 1: size=377 neighbors=92 MISFIT=1.45527e+06 COMPACTNESS=2.71249e+06 GOAL=4.16776e+06
+    append to seed 2: size=378 neighbors=91 MISFIT=1.45043e+06 COMPACTNESS=2.73679e+06 GOAL=4.18721e+06
+    append to seed 3: size=379 neighbors=104 MISFIT=1.44552e+06 COMPACTNESS=2.76109e+06 GOAL=4.20661e+06
+    append to seed 4: size=380 neighbors=90 MISFIT=1.44038e+06 COMPACTNESS=2.78539e+06 GOAL=4.22577e+06
+    time: 0.187347 s
+  it 95:
+    append to seed 1: size=381 neighbors=93 MISFIT=1.436e+06 COMPACTNESS=2.80969e+06 GOAL=4.24569e+06
+    append to seed 2: size=382 neighbors=91 MISFIT=1.43156e+06 COMPACTNESS=2.83399e+06 GOAL=4.26555e+06
+    append to seed 3: size=383 neighbors=106 MISFIT=1.42688e+06 COMPACTNESS=2.85829e+06 GOAL=4.28517e+06
+    append to seed 4: size=384 neighbors=91 MISFIT=1.42196e+06 COMPACTNESS=2.88259e+06 GOAL=4.30455e+06
+    time: 0.169886 s
+  it 96:
+    append to seed 1: size=385 neighbors=93 MISFIT=1.41776e+06 COMPACTNESS=2.90689e+06 GOAL=4.32465e+06
+    append to seed 2: size=386 neighbors=93 MISFIT=1.41406e+06 COMPACTNESS=2.93119e+06 GOAL=4.34525e+06
+    append to seed 3: size=387 neighbors=107 MISFIT=1.41005e+06 COMPACTNESS=2.95549e+06 GOAL=4.36554e+06
+    append to seed 4: size=388 neighbors=92 MISFIT=1.40551e+06 COMPACTNESS=2.97979e+06 GOAL=4.3853e+06
+    time: 0.170811 s
+  it 97:
+    append to seed 1: size=389 neighbors=93 MISFIT=1.40143e+06 COMPACTNESS=3.00409e+06 GOAL=4.40552e+06
+    append to seed 2: size=390 neighbors=94 MISFIT=1.3978e+06 COMPACTNESS=3.02839e+06 GOAL=4.42619e+06
+    append to seed 3: size=391 neighbors=108 MISFIT=1.39403e+06 COMPACTNESS=3.05269e+06 GOAL=4.44671e+06
+    append to seed 4: size=392 neighbors=93 MISFIT=1.38974e+06 COMPACTNESS=3.07699e+06 GOAL=4.46672e+06
+    time: 0.153916 s
+  it 98:
+    append to seed 1: size=393 neighbors=93 MISFIT=1.38609e+06 COMPACTNESS=3.10129e+06 GOAL=4.48737e+06
+    append to seed 2: size=394 neighbors=95 MISFIT=1.38258e+06 COMPACTNESS=3.12559e+06 GOAL=4.50817e+06
+    append to seed 3: size=395 neighbors=109 MISFIT=1.37897e+06 COMPACTNESS=3.14989e+06 GOAL=4.52886e+06
+    append to seed 4: size=396 neighbors=95 MISFIT=1.37488e+06 COMPACTNESS=3.17419e+06 GOAL=4.54907e+06
+    time: 0.171497 s
+  it 99:
+    append to seed 1: size=397 neighbors=95 MISFIT=1.37185e+06 COMPACTNESS=3.19849e+06 GOAL=4.57034e+06
+    append to seed 2: size=398 neighbors=97 MISFIT=1.36861e+06 COMPACTNESS=3.22279e+06 GOAL=4.5914e+06
+    append to seed 3: size=399 neighbors=110 MISFIT=1.36555e+06 COMPACTNESS=3.24709e+06 GOAL=4.61264e+06
+    append to seed 4: size=400 neighbors=96 MISFIT=1.36157e+06 COMPACTNESS=3.27139e+06 GOAL=4.63296e+06
+    time: 0.205143 s
+  it 100:
+    append to seed 1: size=401 neighbors=95 MISFIT=1.3586e+06 COMPACTNESS=3.29569e+06 GOAL=4.65429e+06
+    append to seed 2: size=402 neighbors=98 MISFIT=1.35568e+06 COMPACTNESS=3.31999e+06 GOAL=4.67567e+06
+    append to seed 3: size=403 neighbors=109 MISFIT=1.35271e+06 COMPACTNESS=3.34429e+06 GOAL=4.69699e+06
+    append to seed 4: size=404 neighbors=96 MISFIT=1.34893e+06 COMPACTNESS=3.36859e+06 GOAL=4.71752e+06
+    time: 0.10225 s
+  it 101:
+    append to seed 1: size=405 neighbors=96 MISFIT=1.34606e+06 COMPACTNESS=3.39289e+06 GOAL=4.73895e+06
+    append to seed 2: size=406 neighbors=98 MISFIT=1.34318e+06 COMPACTNESS=3.41719e+06 GOAL=4.76037e+06
+    append to seed 3: size=407 neighbors=111 MISFIT=1.34042e+06 COMPACTNESS=3.44149e+06 GOAL=4.78191e+06
+    append to seed 4: size=408 neighbors=98 MISFIT=1.33697e+06 COMPACTNESS=3.46579e+06 GOAL=4.80276e+06
+    time: 0.18929 s
+  it 102:
+    append to seed 1: size=409 neighbors=98 MISFIT=1.33432e+06 COMPACTNESS=3.49009e+06 GOAL=4.82441e+06
+    append to seed 2: size=410 neighbors=98 MISFIT=1.33147e+06 COMPACTNESS=3.51439e+06 GOAL=4.84585e+06
+    append to seed 3: size=411 neighbors=113 MISFIT=1.3291e+06 COMPACTNESS=3.53869e+06 GOAL=4.86779e+06
+    append to seed 4: size=412 neighbors=99 MISFIT=1.32577e+06 COMPACTNESS=3.56299e+06 GOAL=4.88875e+06
+    time: 0.193305 s
+  it 103:
+    append to seed 1: size=413 neighbors=99 MISFIT=1.32316e+06 COMPACTNESS=3.58729e+06 GOAL=4.91044e+06
+    append to seed 2: size=414 neighbors=99 MISFIT=1.3204e+06 COMPACTNESS=3.61159e+06 GOAL=4.93198e+06
+    append to seed 3: size=415 neighbors=114 MISFIT=1.3181e+06 COMPACTNESS=3.63589e+06 GOAL=4.95398e+06
+    append to seed 4: size=416 neighbors=99 MISFIT=1.31495e+06 COMPACTNESS=3.66019e+06 GOAL=4.97514e+06
+    time: 0.156466 s
+  it 104:
+    append to seed 1: size=417 neighbors=100 MISFIT=1.31247e+06 COMPACTNESS=3.68449e+06 GOAL=4.99695e+06
+    append to seed 2: size=418 neighbors=100 MISFIT=1.30976e+06 COMPACTNESS=3.70879e+06 GOAL=5.01854e+06
+    append to seed 3: size=419 neighbors=116 MISFIT=1.30754e+06 COMPACTNESS=3.73309e+06 GOAL=5.04062e+06
+    append to seed 4: size=420 neighbors=100 MISFIT=1.3048e+06 COMPACTNESS=3.75739e+06 GOAL=5.06219e+06
+    time: 0.188792 s
+  it 105:
+    append to seed 1: size=421 neighbors=101 MISFIT=1.30247e+06 COMPACTNESS=3.78169e+06 GOAL=5.08416e+06
+    append to seed 2: size=422 neighbors=100 MISFIT=1.29996e+06 COMPACTNESS=3.80599e+06 GOAL=5.10595e+06
+    append to seed 3: size=423 neighbors=116 MISFIT=1.2979e+06 COMPACTNESS=3.83029e+06 GOAL=5.12819e+06
+    append to seed 4: size=424 neighbors=100 MISFIT=1.2952e+06 COMPACTNESS=3.85459e+06 GOAL=5.14978e+06
+    time: 0.122581 s
+  it 106:
+    append to seed 1: size=425 neighbors=102 MISFIT=1.29292e+06 COMPACTNESS=3.87889e+06 GOAL=5.17181e+06
+    append to seed 2: size=426 neighbors=101 MISFIT=1.29044e+06 COMPACTNESS=3.90319e+06 GOAL=5.19362e+06
+    append to seed 3: size=427 neighbors=117 MISFIT=1.28858e+06 COMPACTNESS=3.92749e+06 GOAL=5.21607e+06
+    append to seed 4: size=428 neighbors=101 MISFIT=1.28611e+06 COMPACTNESS=3.95179e+06 GOAL=5.2379e+06
+    time: 0.172966 s
+  it 107:
+    append to seed 1: size=429 neighbors=103 MISFIT=1.2839e+06 COMPACTNESS=3.97609e+06 GOAL=5.25999e+06
+    append to seed 2: size=430 neighbors=102 MISFIT=1.28151e+06 COMPACTNESS=4.00039e+06 GOAL=5.2819e+06
+    append to seed 3: size=431 neighbors=119 MISFIT=1.27968e+06 COMPACTNESS=4.02469e+06 GOAL=5.30437e+06
+    append to seed 4: size=432 neighbors=102 MISFIT=1.27725e+06 COMPACTNESS=4.04899e+06 GOAL=5.32624e+06
+    time: 0.190786 s
+  it 108:
+    append to seed 1: size=433 neighbors=103 MISFIT=1.27508e+06 COMPACTNESS=4.07329e+06 GOAL=5.34837e+06
+    append to seed 2: size=434 neighbors=102 MISFIT=1.27287e+06 COMPACTNESS=4.09759e+06 GOAL=5.37046e+06
+    append to seed 3: size=435 neighbors=120 MISFIT=1.27113e+06 COMPACTNESS=4.12189e+06 GOAL=5.39301e+06
+    append to seed 4: size=436 neighbors=102 MISFIT=1.2691e+06 COMPACTNESS=4.14619e+06 GOAL=5.41529e+06
+    time: 0.124735 s
+  it 109:
+    append to seed 1: size=437 neighbors=103 MISFIT=1.26035e+06 COMPACTNESS=4.17781e+06 GOAL=5.43816e+06
+    append to seed 2: size=438 neighbors=102 MISFIT=1.25825e+06 COMPACTNESS=4.20211e+06 GOAL=5.46036e+06
+    append to seed 3: size=439 neighbors=121 MISFIT=1.25655e+06 COMPACTNESS=4.22641e+06 GOAL=5.48296e+06
+    append to seed 4: size=440 neighbors=103 MISFIT=1.25455e+06 COMPACTNESS=4.25071e+06 GOAL=5.50526e+06
+    time: 0.14092 s
+  it 110:
+    append to seed 1: size=441 neighbors=103 MISFIT=1.24599e+06 COMPACTNESS=4.28233e+06 GOAL=5.52832e+06
+    append to seed 2: size=442 neighbors=103 MISFIT=1.2439e+06 COMPACTNESS=4.30663e+06 GOAL=5.55054e+06
+    append to seed 3: size=443 neighbors=122 MISFIT=1.24228e+06 COMPACTNESS=4.33093e+06 GOAL=5.57321e+06
+    append to seed 4: size=444 neighbors=103 MISFIT=1.24029e+06 COMPACTNESS=4.35523e+06 GOAL=5.59552e+06
+    time: 0.141326 s
+  it 111:
+    append to seed 1: size=445 neighbors=103 MISFIT=1.23224e+06 COMPACTNESS=4.38686e+06 GOAL=5.61909e+06
+    append to seed 2: size=446 neighbors=105 MISFIT=1.23029e+06 COMPACTNESS=4.41116e+06 GOAL=5.64145e+06
+    append to seed 3: size=447 neighbors=122 MISFIT=1.22875e+06 COMPACTNESS=4.43546e+06 GOAL=5.66421e+06
+    append to seed 4: size=448 neighbors=103 MISFIT=1.22681e+06 COMPACTNESS=4.45976e+06 GOAL=5.68656e+06
+    time: 0.139469 s
+  it 112:
+    append to seed 1: size=449 neighbors=103 MISFIT=1.21929e+06 COMPACTNESS=4.49138e+06 GOAL=5.71067e+06
+    append to seed 2: size=450 neighbors=106 MISFIT=1.21744e+06 COMPACTNESS=4.51568e+06 GOAL=5.73312e+06
+    append to seed 3: size=451 neighbors=123 MISFIT=1.21593e+06 COMPACTNESS=4.53998e+06 GOAL=5.75591e+06
+    append to seed 4: size=452 neighbors=104 MISFIT=1.21402e+06 COMPACTNESS=4.56428e+06 GOAL=5.77829e+06
+    time: 0.156771 s
+  it 113:
+    append to seed 1: size=453 neighbors=103 MISFIT=1.20926e+06 COMPACTNESS=4.5959e+06 GOAL=5.80516e+06
+    append to seed 2: size=454 neighbors=107 MISFIT=1.20748e+06 COMPACTNESS=4.6202e+06 GOAL=5.82768e+06
+    append to seed 3: size=455 neighbors=124 MISFIT=1.20615e+06 COMPACTNESS=4.6445e+06 GOAL=5.85065e+06
+    append to seed 4: size=456 neighbors=106 MISFIT=1.20435e+06 COMPACTNESS=4.6688e+06 GOAL=5.87315e+06
+    time: 0.174522 s
+  it 114:
+    append to seed 1: size=457 neighbors=103 MISFIT=1.19992e+06 COMPACTNESS=4.70042e+06 GOAL=5.90035e+06
+    append to seed 2: size=458 neighbors=107 MISFIT=1.1924e+06 COMPACTNESS=4.73205e+06 GOAL=5.92445e+06
+    append to seed 3: size=459 neighbors=125 MISFIT=1.19118e+06 COMPACTNESS=4.75635e+06 GOAL=5.94753e+06
+    append to seed 4: size=460 neighbors=107 MISFIT=1.18944e+06 COMPACTNESS=4.78065e+06 GOAL=5.97009e+06
+    time: 0.145892 s
+  it 115:
+    append to seed 1: size=461 neighbors=103 MISFIT=1.18549e+06 COMPACTNESS=4.81227e+06 GOAL=5.99776e+06
+    append to seed 2: size=462 neighbors=107 MISFIT=1.17852e+06 COMPACTNESS=4.84389e+06 GOAL=6.02241e+06
+    append to seed 3: size=463 neighbors=127 MISFIT=1.17733e+06 COMPACTNESS=4.86819e+06 GOAL=6.04553e+06
+    append to seed 4: size=464 neighbors=107 MISFIT=1.17562e+06 COMPACTNESS=4.89249e+06 GOAL=6.06812e+06
+    time: 0.142352 s
+  it 116:
+    append to seed 1: size=465 neighbors=103 MISFIT=1.17212e+06 COMPACTNESS=4.92412e+06 GOAL=6.09623e+06
+    append to seed 2: size=466 neighbors=107 MISFIT=1.1666e+06 COMPACTNESS=4.95574e+06 GOAL=6.12234e+06
+    append to seed 3: size=467 neighbors=127 MISFIT=1.16546e+06 COMPACTNESS=4.98004e+06 GOAL=6.1455e+06
+    append to seed 4: size=468 neighbors=109 MISFIT=1.16384e+06 COMPACTNESS=5.00434e+06 GOAL=6.16818e+06
+    time: 0.141539 s
+  it 117:
+    append to seed 1: size=469 neighbors=103 MISFIT=1.16048e+06 COMPACTNESS=5.03596e+06 GOAL=6.19644e+06
+    append to seed 2: size=470 neighbors=107 MISFIT=1.15531e+06 COMPACTNESS=5.06758e+06 GOAL=6.2229e+06
+    append to seed 3: size=471 neighbors=128 MISFIT=1.1543e+06 COMPACTNESS=5.09188e+06 GOAL=6.24618e+06
+    append to seed 4: size=472 neighbors=110 MISFIT=1.15276e+06 COMPACTNESS=5.11618e+06 GOAL=6.26895e+06
+    time: 0.13932 s
+  it 118:
+    append to seed 1: size=473 neighbors=103 MISFIT=1.14951e+06 COMPACTNESS=5.14781e+06 GOAL=6.29732e+06
+    append to seed 2: size=474 neighbors=107 MISFIT=1.14446e+06 COMPACTNESS=5.17943e+06 GOAL=6.32389e+06
+    append to seed 3: size=475 neighbors=130 MISFIT=1.14348e+06 COMPACTNESS=5.20373e+06 GOAL=6.34721e+06
+    append to seed 4: size=476 neighbors=111 MISFIT=1.14195e+06 COMPACTNESS=5.22803e+06 GOAL=6.36998e+06
+    time: 0.160709 s
+  it 119:
+    append to seed 1: size=477 neighbors=103 MISFIT=1.13878e+06 COMPACTNESS=5.25965e+06 GOAL=6.39844e+06
+    append to seed 2: size=478 neighbors=107 MISFIT=1.13478e+06 COMPACTNESS=5.29127e+06 GOAL=6.42605e+06
+    append to seed 3: size=479 neighbors=131 MISFIT=1.13384e+06 COMPACTNESS=5.31557e+06 GOAL=6.44941e+06
+    append to seed 4: size=480 neighbors=111 MISFIT=1.13239e+06 COMPACTNESS=5.33987e+06 GOAL=6.47227e+06
+    time: 0.126472 s
+  it 120:
+    append to seed 1: size=481 neighbors=103 MISFIT=1.12944e+06 COMPACTNESS=5.3715e+06 GOAL=6.50094e+06
+    append to seed 2: size=482 neighbors=107 MISFIT=1.12558e+06 COMPACTNESS=5.40312e+06 GOAL=6.5287e+06
+    append to seed 3: size=483 neighbors=132 MISFIT=1.12467e+06 COMPACTNESS=5.42742e+06 GOAL=6.55209e+06
+    append to seed 4: size=484 neighbors=112 MISFIT=1.12325e+06 COMPACTNESS=5.45172e+06 GOAL=6.57497e+06
+    time: 0.141285 s
+  it 121:
+    append to seed 1: size=485 neighbors=103 MISFIT=1.12063e+06 COMPACTNESS=5.48334e+06 GOAL=6.60397e+06
+    append to seed 2: size=486 neighbors=107 MISFIT=1.11745e+06 COMPACTNESS=5.51497e+06 GOAL=6.63242e+06
+    append to seed 3: size=487 neighbors=133 MISFIT=1.1166e+06 COMPACTNESS=5.53927e+06 GOAL=6.65586e+06
+    append to seed 4: size=488 neighbors=113 MISFIT=1.11519e+06 COMPACTNESS=5.56357e+06 GOAL=6.67876e+06
+    time: 0.142802 s
+  it 122:
+    append to seed 1: size=489 neighbors=103 MISFIT=1.1126e+06 COMPACTNESS=5.59519e+06 GOAL=6.70779e+06
+    append to seed 2: size=490 neighbors=107 MISFIT=1.10971e+06 COMPACTNESS=5.62681e+06 GOAL=6.73652e+06
+    append to seed 3: size=491 neighbors=133 MISFIT=1.10886e+06 COMPACTNESS=5.65111e+06 GOAL=6.75998e+06
+    append to seed 4: size=492 neighbors=113 MISFIT=1.10359e+06 COMPACTNESS=5.68273e+06 GOAL=6.78633e+06
+    time: 0.107229 s
+  it 123:
+    append to seed 1: size=493 neighbors=103 MISFIT=1.10111e+06 COMPACTNESS=5.71436e+06 GOAL=6.81547e+06
+    append to seed 2: size=494 neighbors=107 MISFIT=1.09834e+06 COMPACTNESS=5.74598e+06 GOAL=6.84432e+06
+    append to seed 3: size=495 neighbors=133 MISFIT=1.09375e+06 COMPACTNESS=5.7776e+06 GOAL=6.87135e+06
+    append to seed 4: size=496 neighbors=113 MISFIT=1.08871e+06 COMPACTNESS=5.80923e+06 GOAL=6.89794e+06
+    time: 0.10796 s
+  it 124:
+    append to seed 1: size=497 neighbors=103 MISFIT=1.08661e+06 COMPACTNESS=5.84085e+06 GOAL=6.92745e+06
+    append to seed 2: size=498 neighbors=107 MISFIT=1.08446e+06 COMPACTNESS=5.87247e+06 GOAL=6.95693e+06
+    append to seed 3: size=499 neighbors=133 MISFIT=1.08054e+06 COMPACTNESS=5.90409e+06 GOAL=6.98463e+06
+    append to seed 4: size=500 neighbors=113 MISFIT=1.07603e+06 COMPACTNESS=5.93572e+06 GOAL=7.01174e+06
+    time: 0.109255 s
+  it 125:
+    append to seed 1: size=501 neighbors=103 MISFIT=1.07401e+06 COMPACTNESS=5.96734e+06 GOAL=7.04134e+06
+    append to seed 2: size=502 neighbors=107 MISFIT=1.07187e+06 COMPACTNESS=5.99896e+06 GOAL=7.07083e+06
+    append to seed 3: size=503 neighbors=133 MISFIT=1.06862e+06 COMPACTNESS=6.03058e+06 GOAL=7.0992e+06
+    append to seed 4: size=504 neighbors=113 MISFIT=1.06453e+06 COMPACTNESS=6.06221e+06 GOAL=7.12674e+06
+    time: 0.110004 s
+  it 126:
+    append to seed 1: size=505 neighbors=103 MISFIT=1.06255e+06 COMPACTNESS=6.09383e+06 GOAL=7.15638e+06
+    append to seed 2: size=506 neighbors=107 MISFIT=1.06046e+06 COMPACTNESS=6.12545e+06 GOAL=7.18591e+06
+    append to seed 3: size=507 neighbors=132 MISFIT=1.05742e+06 COMPACTNESS=6.15708e+06 GOAL=7.2145e+06
+    append to seed 4: size=508 neighbors=113 MISFIT=1.05477e+06 COMPACTNESS=6.1887e+06 GOAL=7.24347e+06
+    time: 0.0914869 s
+  it 127:
+    append to seed 1: size=509 neighbors=103 MISFIT=1.05289e+06 COMPACTNESS=6.22032e+06 GOAL=7.27321e+06
+    append to seed 2: size=510 neighbors=107 MISFIT=1.05089e+06 COMPACTNESS=6.25194e+06 GOAL=7.30284e+06
+    append to seed 3: size=511 neighbors=132 MISFIT=1.04814e+06 COMPACTNESS=6.28357e+06 GOAL=7.33171e+06
+    append to seed 4: size=512 neighbors=113 MISFIT=1.04563e+06 COMPACTNESS=6.31519e+06 GOAL=7.36082e+06
+    time: 0.107486 s
+  it 128:
+    append to seed 1: size=513 neighbors=103 MISFIT=1.04381e+06 COMPACTNESS=6.34681e+06 GOAL=7.39063e+06
+    append to seed 2: size=514 neighbors=107 MISFIT=1.04187e+06 COMPACTNESS=6.37844e+06 GOAL=7.42031e+06
+    append to seed 3: size=515 neighbors=131 MISFIT=1.03943e+06 COMPACTNESS=6.41006e+06 GOAL=7.44948e+06
+    append to seed 4: size=516 neighbors=113 MISFIT=1.03721e+06 COMPACTNESS=6.44168e+06 GOAL=7.47889e+06
+    time: 0.090755 s
+  it 129:
+    append to seed 1: size=517 neighbors=103 MISFIT=1.0295e+06 COMPACTNESS=6.48181e+06 GOAL=7.51131e+06
+    append to seed 2: size=518 neighbors=107 MISFIT=1.02759e+06 COMPACTNESS=6.51343e+06 GOAL=7.54102e+06
+    append to seed 3: size=519 neighbors=130 MISFIT=1.02537e+06 COMPACTNESS=6.54506e+06 GOAL=7.57043e+06
+    append to seed 4: size=520 neighbors=113 MISFIT=1.02319e+06 COMPACTNESS=6.57668e+06 GOAL=7.59987e+06
+    time: 0.09179 s
+  it 130:
+    append to seed 1: size=521 neighbors=103 MISFIT=1.01588e+06 COMPACTNESS=6.61681e+06 GOAL=7.63269e+06
+    append to seed 2: size=522 neighbors=107 MISFIT=1.01412e+06 COMPACTNESS=6.64843e+06 GOAL=7.66256e+06
+    append to seed 3: size=523 neighbors=130 MISFIT=1.01204e+06 COMPACTNESS=6.68006e+06 GOAL=7.6921e+06
+    append to seed 4: size=524 neighbors=113 MISFIT=1.01006e+06 COMPACTNESS=6.71168e+06 GOAL=7.72174e+06
+    time: 0.110144 s
+  it 131:
+    append to seed 1: size=525 neighbors=103 MISFIT=1.00313e+06 COMPACTNESS=6.75181e+06 GOAL=7.75494e+06
+    append to seed 2: size=526 neighbors=107 MISFIT=1.00148e+06 COMPACTNESS=6.78343e+06 GOAL=7.78492e+06
+    append to seed 3: size=527 neighbors=130 MISFIT=999563 COMPACTNESS=6.81506e+06 GOAL=7.81462e+06
+    append to seed 4: size=528 neighbors=113 MISFIT=997629 COMPACTNESS=6.84668e+06 GOAL=7.84431e+06
+    time: 0.11083 s
+  it 132:
+    append to seed 1: size=529 neighbors=103 MISFIT=991657 COMPACTNESS=6.88681e+06 GOAL=7.87847e+06
+    append to seed 2: size=530 neighbors=107 MISFIT=990112 COMPACTNESS=6.91843e+06 GOAL=7.90855e+06
+    append to seed 3: size=531 neighbors=129 MISFIT=988245 COMPACTNESS=6.95006e+06 GOAL=7.9383e+06
+    append to seed 4: size=532 neighbors=113 MISFIT=986507 COMPACTNESS=6.98168e+06 GOAL=7.96819e+06
+    time: 0.0896192 s
+  it 133:
+    append to seed 1: size=533 neighbors=103 MISFIT=982003 COMPACTNESS=7.02181e+06 GOAL=8.00381e+06
+    append to seed 2: size=534 neighbors=107 MISFIT=980509 COMPACTNESS=7.05343e+06 GOAL=8.03394e+06
+    append to seed 3: size=535 neighbors=129 MISFIT=978926 COMPACTNESS=7.08506e+06 GOAL=8.06398e+06
+    append to seed 4: size=536 neighbors=113 MISFIT=977206 COMPACTNESS=7.11668e+06 GOAL=8.09388e+06
+    time: 0.109306 s
+  it 134:
+    append to seed 1: size=537 neighbors=103 MISFIT=973163 COMPACTNESS=7.15681e+06 GOAL=8.12997e+06
+    append to seed 2: size=538 neighbors=107 MISFIT=966508 COMPACTNESS=7.19694e+06 GOAL=8.16345e+06
+    append to seed 3: size=539 neighbors=129 MISFIT=965067 COMPACTNESS=7.22856e+06 GOAL=8.19363e+06
+    append to seed 4: size=540 neighbors=113 MISFIT=963423 COMPACTNESS=7.26019e+06 GOAL=8.22361e+06
+    time: 0.10953 s
+  it 135:
+    append to seed 1: size=541 neighbors=103 MISFIT=959444 COMPACTNESS=7.30032e+06 GOAL=8.25976e+06
+    append to seed 2: size=542 neighbors=107 MISFIT=953744 COMPACTNESS=7.34045e+06 GOAL=8.29419e+06
+    append to seed 3: size=543 neighbors=129 MISFIT=952331 COMPACTNESS=7.37207e+06 GOAL=8.3244e+06
+    append to seed 4: size=544 neighbors=113 MISFIT=950744 COMPACTNESS=7.40369e+06 GOAL=8.35444e+06
+    time: 0.108274 s
+  it 136:
+    append to seed 1: size=545 neighbors=103 MISFIT=946938 COMPACTNESS=7.44383e+06 GOAL=8.39076e+06
+    append to seed 2: size=546 neighbors=107 MISFIT=942218 COMPACTNESS=7.48396e+06 GOAL=8.42617e+06
+    append to seed 3: size=547 neighbors=129 MISFIT=940989 COMPACTNESS=7.51558e+06 GOAL=8.45657e+06
+    append to seed 4: size=548 neighbors=113 MISFIT=939623 COMPACTNESS=7.5472e+06 GOAL=8.48682e+06
+    time: 0.10699 s
+  it 137:
+    append to seed 1: size=549 neighbors=103 MISFIT=936705 COMPACTNESS=7.58733e+06 GOAL=8.52404e+06
+    append to seed 2: size=550 neighbors=107 MISFIT=932108 COMPACTNESS=7.62746e+06 GOAL=8.55957e+06
+    append to seed 3: size=551 neighbors=129 MISFIT=931026 COMPACTNESS=7.65909e+06 GOAL=8.59011e+06
+    append to seed 4: size=552 neighbors=113 MISFIT=929670 COMPACTNESS=7.69071e+06 GOAL=8.62038e+06
+    time: 0.107097 s
+  it 138:
+    append to seed 1: size=553 neighbors=103 MISFIT=926864 COMPACTNESS=7.73084e+06 GOAL=8.6577e+06
+    append to seed 2: size=554 neighbors=107 MISFIT=922400 COMPACTNESS=7.77097e+06 GOAL=8.69337e+06
+    append to seed 3: size=555 neighbors=129 MISFIT=921373 COMPACTNESS=7.80259e+06 GOAL=8.72397e+06
+    append to seed 4: size=556 neighbors=113 MISFIT=920087 COMPACTNESS=7.83422e+06 GOAL=8.7543e+06
+    time: 0.107605 s
+  it 139:
+    append to seed 1: size=557 neighbors=103 MISFIT=917506 COMPACTNESS=7.87435e+06 GOAL=8.79185e+06
+    append to seed 2: size=558 neighbors=107 MISFIT=914199 COMPACTNESS=7.91448e+06 GOAL=8.82868e+06
+    append to seed 3: size=559 neighbors=129 MISFIT=913204 COMPACTNESS=7.9461e+06 GOAL=8.85931e+06
+    append to seed 4: size=560 neighbors=113 MISFIT=911946 COMPACTNESS=7.97773e+06 GOAL=8.88967e+06
+    time: 0.107193 s
+  it 140:
+    append to seed 1: size=561 neighbors=103 MISFIT=909426 COMPACTNESS=8.01786e+06 GOAL=8.92728e+06
+    append to seed 2: size=562 neighbors=107 MISFIT=906482 COMPACTNESS=8.05799e+06 GOAL=8.96447e+06
+    append to seed 3: size=563 neighbors=129 MISFIT=905496 COMPACTNESS=8.08961e+06 GOAL=8.99511e+06
+    append to seed 4: size=564 neighbors=113 MISFIT=904348 COMPACTNESS=8.12123e+06 GOAL=9.02558e+06
+    time: 0.107013 s
+  it 141:
+    append to seed 1: size=565 neighbors=103 MISFIT=901968 COMPACTNESS=8.16136e+06 GOAL=9.06333e+06
+    append to seed 2: size=566 neighbors=107 MISFIT=899109 COMPACTNESS=8.2015e+06 GOAL=9.1006e+06
+    append to seed 3: size=567 neighbors=129 MISFIT=898236 COMPACTNESS=8.23312e+06 GOAL=9.13135e+06
+    append to seed 4: size=568 neighbors=113 MISFIT=897101 COMPACTNESS=8.26474e+06 GOAL=9.16184e+06
+    time: 0.108344 s
+  it 142:
+    append to seed 1: size=569 neighbors=103 MISFIT=894869 COMPACTNESS=8.30487e+06 GOAL=9.19974e+06
+    append to seed 2: size=570 neighbors=107 MISFIT=892092 COMPACTNESS=8.345e+06 GOAL=9.2371e+06
+    append to seed 3: size=571 neighbors=129 MISFIT=891304 COMPACTNESS=8.37663e+06 GOAL=9.26793e+06
+    append to seed 4: size=572 neighbors=113 MISFIT=887027 COMPACTNESS=8.41676e+06 GOAL=9.30378e+06
+    time: 0.106996 s
+  it 143:
+    append to seed 1: size=573 neighbors=103 MISFIT=885174 COMPACTNESS=8.45689e+06 GOAL=9.34206e+06
+    append to seed 2: size=574 neighbors=107 MISFIT=883038 COMPACTNESS=8.49702e+06 GOAL=9.38006e+06
+    append to seed 3: size=575 neighbors=129 MISFIT=882309 COMPACTNESS=8.52864e+06 GOAL=9.41095e+06
+    append to seed 4: size=576 neighbors=113 MISFIT=878239 COMPACTNESS=8.56877e+06 GOAL=9.44701e+06
+    time: 0.108003 s
+  it 144:
+    append to seed 1: size=577 neighbors=103 MISFIT=876406 COMPACTNESS=8.60891e+06 GOAL=9.48531e+06
+    append to seed 2: size=578 neighbors=107 MISFIT=874419 COMPACTNESS=8.64904e+06 GOAL=9.52346e+06
+    append to seed 3: size=579 neighbors=129 MISFIT=873764 COMPACTNESS=8.68066e+06 GOAL=9.55442e+06
+    append to seed 4: size=580 neighbors=113 MISFIT=870077 COMPACTNESS=8.72079e+06 GOAL=9.59087e+06
+    time: 0.108262 s
+  it 145:
+    append to seed 1: size=581 neighbors=103 MISFIT=868342 COMPACTNESS=8.76092e+06 GOAL=9.62926e+06
+    append to seed 2: size=582 neighbors=107 MISFIT=866535 COMPACTNESS=8.80105e+06 GOAL=9.66759e+06
+    append to seed 3: size=583 neighbors=129 MISFIT=865979 COMPACTNESS=8.83268e+06 GOAL=9.69865e+06
+    append to seed 4: size=584 neighbors=113 MISFIT=863151 COMPACTNESS=8.87281e+06 GOAL=9.73596e+06
+    time: 0.106821 s
+  it 146:
+    append to seed 1: size=585 neighbors=103 MISFIT=861424 COMPACTNESS=8.91294e+06 GOAL=9.77436e+06
+    append to seed 2: size=586 neighbors=107 MISFIT=859721 COMPACTNESS=8.95307e+06 GOAL=9.81279e+06
+    append to seed 3: size=587 neighbors=129 MISFIT=859180 COMPACTNESS=8.98469e+06 GOAL=9.84387e+06
+    append to seed 4: size=588 neighbors=113 MISFIT=856660 COMPACTNESS=9.02482e+06 GOAL=9.88148e+06
+    time: 0.107792 s
+  it 147:
+    append to seed 1: size=589 neighbors=103 MISFIT=855063 COMPACTNESS=9.06495e+06 GOAL=9.92002e+06
+    append to seed 2: size=590 neighbors=107 MISFIT=853378 COMPACTNESS=9.10508e+06 GOAL=9.95846e+06
+    append to seed 3: size=591 neighbors=129 MISFIT=849820 COMPACTNESS=9.14522e+06 GOAL=9.99504e+06
+    append to seed 4: size=592 neighbors=113 MISFIT=847814 COMPACTNESS=9.18535e+06 GOAL=1.00332e+07
+    time: 0.108419 s
+  it 148:
+    append to seed 1: size=593 neighbors=103 MISFIT=846246 COMPACTNESS=9.22548e+06 GOAL=1.00717e+07
+    append to seed 2: size=594 neighbors=107 MISFIT=844735 COMPACTNESS=9.26561e+06 GOAL=1.01103e+07
+    append to seed 3: size=595 neighbors=129 MISFIT=841609 COMPACTNESS=9.30574e+06 GOAL=1.01474e+07
+    append to seed 4: size=596 neighbors=113 MISFIT=839754 COMPACTNESS=9.34587e+06 GOAL=1.01856e+07
+    time: 0.106805 s
+  it 149:
+    append to seed 1: size=597 neighbors=104 MISFIT=834449 COMPACTNESS=9.39576e+06 GOAL=1.02302e+07
+    append to seed 2: size=598 neighbors=107 MISFIT=832992 COMPACTNESS=9.43589e+06 GOAL=1.02689e+07
+    append to seed 3: size=599 neighbors=128 MISFIT=830516 COMPACTNESS=9.47602e+06 GOAL=1.03065e+07
+    append to seed 4: size=600 neighbors=113 MISFIT=828702 COMPACTNESS=9.51615e+06 GOAL=1.03449e+07
+    time: 0.107351 s
+  it 150:
+    append to seed 1: size=601 neighbors=106 MISFIT=823740 COMPACTNESS=9.56603e+06 GOAL=1.03898e+07
+    append to seed 2: size=602 neighbors=107 MISFIT=822293 COMPACTNESS=9.60616e+06 GOAL=1.04285e+07
+    append to seed 3: size=603 neighbors=128 MISFIT=819958 COMPACTNESS=9.64629e+06 GOAL=1.04663e+07
+    append to seed 4: size=604 neighbors=113 MISFIT=818182 COMPACTNESS=9.68643e+06 GOAL=1.05046e+07
+    time: 0.14166 s
+  it 151:
+    append to seed 1: size=605 neighbors=108 MISFIT=813871 COMPACTNESS=9.73631e+06 GOAL=1.05502e+07
+    append to seed 2: size=606 neighbors=107 MISFIT=812536 COMPACTNESS=9.77644e+06 GOAL=1.0589e+07
+    append to seed 3: size=607 neighbors=127 MISFIT=810311 COMPACTNESS=9.81657e+06 GOAL=1.06269e+07
+    append to seed 4: size=608 neighbors=113 MISFIT=808576 COMPACTNESS=9.8567e+06 GOAL=1.06653e+07
+    time: 0.123789 s
+  it 152:
+    append to seed 1: size=609 neighbors=109 MISFIT=805428 COMPACTNESS=9.90658e+06 GOAL=1.0712e+07
+    append to seed 2: size=610 neighbors=107 MISFIT=804190 COMPACTNESS=9.94672e+06 GOAL=1.07509e+07
+    append to seed 3: size=611 neighbors=127 MISFIT=802127 COMPACTNESS=9.98685e+06 GOAL=1.0789e+07
+    append to seed 4: size=612 neighbors=113 MISFIT=800541 COMPACTNESS=1.0027e+07 GOAL=1.08275e+07
+    time: 0.125713 s
+  it 153:
+    append to seed 1: size=613 neighbors=111 MISFIT=798617 COMPACTNESS=1.00769e+07 GOAL=1.08755e+07
+    append to seed 2: size=614 neighbors=107 MISFIT=797529 COMPACTNESS=1.0117e+07 GOAL=1.09145e+07
+    append to seed 3: size=615 neighbors=126 MISFIT=795930 COMPACTNESS=1.01571e+07 GOAL=1.09531e+07
+    append to seed 4: size=616 neighbors=113 MISFIT=794512 COMPACTNESS=1.01973e+07 GOAL=1.09918e+07
+    time: 0.124576 s
+  it 154:
+    append to seed 1: size=617 neighbors=113 MISFIT=792887 COMPACTNESS=1.02471e+07 GOAL=1.104e+07
+    append to seed 2: size=618 neighbors=109 MISFIT=788449 COMPACTNESS=1.0297e+07 GOAL=1.10855e+07
+    append to seed 3: size=619 neighbors=126 MISFIT=786993 COMPACTNESS=1.03372e+07 GOAL=1.11241e+07
+    append to seed 4: size=620 neighbors=113 MISFIT=785837 COMPACTNESS=1.03773e+07 GOAL=1.11631e+07
+    time: 0.17584 s
+  it 155:
+    append to seed 1: size=621 neighbors=114 MISFIT=779144 COMPACTNESS=1.04382e+07 GOAL=1.12174e+07
+    append to seed 2: size=622 neighbors=110 MISFIT=776980 COMPACTNESS=1.04881e+07 GOAL=1.12651e+07
+    append to seed 3: size=623 neighbors=126 MISFIT=775549 COMPACTNESS=1.05282e+07 GOAL=1.13038e+07
+    append to seed 4: size=624 neighbors=113 MISFIT=774407 COMPACTNESS=1.05684e+07 GOAL=1.13428e+07
+    time: 0.142534 s
+  it 156:
+    append to seed 1: size=625 neighbors=115 MISFIT=768272 COMPACTNESS=1.06293e+07 GOAL=1.13976e+07
+    append to seed 2: size=626 neighbors=112 MISFIT=766328 COMPACTNESS=1.06792e+07 GOAL=1.14455e+07
+    append to seed 3: size=627 neighbors=125 MISFIT=764947 COMPACTNESS=1.07193e+07 GOAL=1.14843e+07
+    append to seed 4: size=628 neighbors=113 MISFIT=763834 COMPACTNESS=1.07594e+07 GOAL=1.15233e+07
+    time: 0.144543 s
+  it 157:
+    append to seed 1: size=629 neighbors=115 MISFIT=758982 COMPACTNESS=1.08204e+07 GOAL=1.15794e+07
+    append to seed 2: size=630 neighbors=113 MISFIT=757483 COMPACTNESS=1.08703e+07 GOAL=1.16277e+07
+    append to seed 3: size=631 neighbors=125 MISFIT=756181 COMPACTNESS=1.09104e+07 GOAL=1.16666e+07
+    append to seed 4: size=632 neighbors=113 MISFIT=755087 COMPACTNESS=1.09505e+07 GOAL=1.17056e+07
+    time: 0.127085 s
+  it 158:
+    append to seed 1: size=633 neighbors=115 MISFIT=750281 COMPACTNESS=1.10115e+07 GOAL=1.17617e+07
+    append to seed 2: size=634 neighbors=115 MISFIT=748999 COMPACTNESS=1.10613e+07 GOAL=1.18103e+07
+    append to seed 3: size=635 neighbors=125 MISFIT=747999 COMPACTNESS=1.11015e+07 GOAL=1.18495e+07
+    append to seed 4: size=636 neighbors=113 MISFIT=746915 COMPACTNESS=1.11416e+07 GOAL=1.18885e+07
+    time: 0.142123 s
+  it 159:
+    append to seed 1: size=637 neighbors=115 MISFIT=742324 COMPACTNESS=1.12025e+07 GOAL=1.19449e+07
+    append to seed 2: size=638 neighbors=117 MISFIT=741259 COMPACTNESS=1.12524e+07 GOAL=1.19937e+07
+    append to seed 3: size=639 neighbors=125 MISFIT=740281 COMPACTNESS=1.12925e+07 GOAL=1.20328e+07
+    append to seed 4: size=640 neighbors=113 MISFIT=739292 COMPACTNESS=1.13327e+07 GOAL=1.2072e+07
+    time: 0.143523 s
+  it 160:
+    append to seed 1: size=641 neighbors=116 MISFIT=734993 COMPACTNESS=1.13936e+07 GOAL=1.21286e+07
+    append to seed 2: size=642 neighbors=118 MISFIT=728915 COMPACTNESS=1.14545e+07 GOAL=1.21835e+07
+    append to seed 3: size=643 neighbors=125 MISFIT=728004 COMPACTNESS=1.14947e+07 GOAL=1.22227e+07
+    append to seed 4: size=644 neighbors=113 MISFIT=727049 COMPACTNESS=1.15348e+07 GOAL=1.22619e+07
+    time: 0.143855 s
+  it 161:
+    append to seed 1: size=645 neighbors=116 MISFIT=724290 COMPACTNESS=1.15957e+07 GOAL=1.232e+07
+    append to seed 2: size=646 neighbors=118 MISFIT=719062 COMPACTNESS=1.16567e+07 GOAL=1.23757e+07
+    append to seed 3: size=647 neighbors=125 MISFIT=718179 COMPACTNESS=1.16968e+07 GOAL=1.2415e+07
+    append to seed 4: size=648 neighbors=113 MISFIT=717288 COMPACTNESS=1.17369e+07 GOAL=1.24542e+07
+    time: 0.108793 s
+  it 162:
+    append to seed 1: size=649 neighbors=117 MISFIT=714682 COMPACTNESS=1.17979e+07 GOAL=1.25126e+07
+    append to seed 2: size=650 neighbors=118 MISFIT=711578 COMPACTNESS=1.18588e+07 GOAL=1.25704e+07
+    append to seed 3: size=651 neighbors=125 MISFIT=710710 COMPACTNESS=1.18989e+07 GOAL=1.26096e+07
+    append to seed 4: size=652 neighbors=115 MISFIT=708007 COMPACTNESS=1.19488e+07 GOAL=1.26568e+07
+    time: 0.160629 s
+  it 163:
+    append to seed 1: size=653 neighbors=117 MISFIT=705436 COMPACTNESS=1.20098e+07 GOAL=1.27152e+07
+    append to seed 2: size=654 neighbors=119 MISFIT=702472 COMPACTNESS=1.20707e+07 GOAL=1.27732e+07
+    append to seed 3: size=655 neighbors=125 MISFIT=701701 COMPACTNESS=1.21108e+07 GOAL=1.28125e+07
+    append to seed 4: size=656 neighbors=117 MISFIT=699184 COMPACTNESS=1.21607e+07 GOAL=1.28599e+07
+    time: 0.159425 s
+  it 164:
+    append to seed 1: size=657 neighbors=118 MISFIT=696914 COMPACTNESS=1.22216e+07 GOAL=1.29186e+07
+    append to seed 2: size=658 neighbors=120 MISFIT=694311 COMPACTNESS=1.22826e+07 GOAL=1.29769e+07
+    append to seed 3: size=659 neighbors=125 MISFIT=693673 COMPACTNESS=1.23227e+07 GOAL=1.30164e+07
+    append to seed 4: size=660 neighbors=119 MISFIT=691301 COMPACTNESS=1.23726e+07 GOAL=1.30639e+07
+    time: 0.177219 s
+  it 165:
+    append to seed 1: size=661 neighbors=118 MISFIT=689343 COMPACTNESS=1.24335e+07 GOAL=1.31229e+07
+    append to seed 2: size=662 neighbors=120 MISFIT=686888 COMPACTNESS=1.24945e+07 GOAL=1.31813e+07
+    append to seed 3: size=663 neighbors=125 MISFIT=686275 COMPACTNESS=1.25346e+07 GOAL=1.32209e+07
+    append to seed 4: size=664 neighbors=121 MISFIT=684874 COMPACTNESS=1.25845e+07 GOAL=1.32693e+07
+    time: 0.14443 s
+  it 166:
+    append to seed 1: size=665 neighbors=119 MISFIT=682991 COMPACTNESS=1.26454e+07 GOAL=1.33284e+07
+    append to seed 2: size=666 neighbors=121 MISFIT=680975 COMPACTNESS=1.27063e+07 GOAL=1.33873e+07
+    append to seed 3: size=667 neighbors=125 MISFIT=680421 COMPACTNESS=1.27465e+07 GOAL=1.34269e+07
+    append to seed 4: size=668 neighbors=123 MISFIT=679137 COMPACTNESS=1.27963e+07 GOAL=1.34755e+07
+    time: 0.177539 s
+  it 167:
+    append to seed 1: size=669 neighbors=120 MISFIT=677499 COMPACTNESS=1.28573e+07 GOAL=1.35348e+07
+    append to seed 2: size=670 neighbors=122 MISFIT=675510 COMPACTNESS=1.29182e+07 GOAL=1.35937e+07
+    append to seed 3: size=671 neighbors=125 MISFIT=674985 COMPACTNESS=1.29583e+07 GOAL=1.36333e+07
+    append to seed 4: size=672 neighbors=125 MISFIT=674012 COMPACTNESS=1.30082e+07 GOAL=1.36822e+07
+    time: 0.178159 s
+  it 168:
+    append to seed 1: size=673 neighbors=120 MISFIT=672452 COMPACTNESS=1.30692e+07 GOAL=1.37416e+07
+    append to seed 2: size=674 neighbors=122 MISFIT=670653 COMPACTNESS=1.31301e+07 GOAL=1.38008e+07
+    append to seed 3: size=675 neighbors=125 MISFIT=670272 COMPACTNESS=1.31702e+07 GOAL=1.38405e+07
+    append to seed 4: size=676 neighbors=127 MISFIT=669312 COMPACTNESS=1.32201e+07 GOAL=1.38894e+07
+    time: 0.14369 s
+  it 169:
+    append to seed 1: size=677 neighbors=120 MISFIT=667846 COMPACTNESS=1.3281e+07 GOAL=1.39489e+07
+    append to seed 2: size=678 neighbors=122 MISFIT=666282 COMPACTNESS=1.3342e+07 GOAL=1.40083e+07
+    append to seed 3: size=679 neighbors=125 MISFIT=665937 COMPACTNESS=1.33821e+07 GOAL=1.4048e+07
+    append to seed 4: size=680 neighbors=129 MISFIT=665063 COMPACTNESS=1.3432e+07 GOAL=1.40971e+07
+    time: 0.143167 s
+  it 170:
+    append to seed 1: size=681 neighbors=120 MISFIT=663676 COMPACTNESS=1.34929e+07 GOAL=1.41566e+07
+    append to seed 2: size=682 neighbors=122 MISFIT=662246 COMPACTNESS=1.35539e+07 GOAL=1.42161e+07
+    append to seed 3: size=683 neighbors=126 MISFIT=659866 COMPACTNESS=1.36037e+07 GOAL=1.42636e+07
+    append to seed 4: size=684 neighbors=130 MISFIT=656865 COMPACTNESS=1.36647e+07 GOAL=1.43215e+07
+    time: 0.143604 s
+  it 171:
+    append to seed 1: size=685 neighbors=121 MISFIT=655639 COMPACTNESS=1.37256e+07 GOAL=1.43813e+07
+    append to seed 2: size=686 neighbors=123 MISFIT=654383 COMPACTNESS=1.37865e+07 GOAL=1.44409e+07
+    append to seed 3: size=687 neighbors=127 MISFIT=652391 COMPACTNESS=1.38364e+07 GOAL=1.44888e+07
+    append to seed 4: size=688 neighbors=131 MISFIT=649514 COMPACTNESS=1.38974e+07 GOAL=1.45469e+07
+    time: 0.178093 s
+  it 172:
+    append to seed 1: size=689 neighbors=121 MISFIT=648318 COMPACTNESS=1.39583e+07 GOAL=1.46066e+07
+    append to seed 2: size=690 neighbors=123 MISFIT=647139 COMPACTNESS=1.40192e+07 GOAL=1.46664e+07
+    append to seed 3: size=691 neighbors=128 MISFIT=646033 COMPACTNESS=1.40691e+07 GOAL=1.47151e+07
+    append to seed 4: size=692 neighbors=132 MISFIT=643406 COMPACTNESS=1.413e+07 GOAL=1.47735e+07
+    time: 0.144533 s
+  it 173:
+    append to seed 1: size=693 neighbors=122 MISFIT=637445 COMPACTNESS=1.42034e+07 GOAL=1.48408e+07
+    append to seed 2: size=694 neighbors=123 MISFIT=636313 COMPACTNESS=1.42643e+07 GOAL=1.49006e+07
+    append to seed 3: size=695 neighbors=130 MISFIT=635334 COMPACTNESS=1.43142e+07 GOAL=1.49495e+07
+    append to seed 4: size=696 neighbors=132 MISFIT=633379 COMPACTNESS=1.43751e+07 GOAL=1.50085e+07
+    time: 0.161871 s
+  it 174:
+    append to seed 1: size=697 neighbors=123 MISFIT=627905 COMPACTNESS=1.44485e+07 GOAL=1.50764e+07
+    append to seed 2: size=698 neighbors=124 MISFIT=626938 COMPACTNESS=1.45094e+07 GOAL=1.51363e+07
+    append to seed 3: size=699 neighbors=131 MISFIT=626153 COMPACTNESS=1.45593e+07 GOAL=1.51854e+07
+    append to seed 4: size=700 neighbors=132 MISFIT=624378 COMPACTNESS=1.46202e+07 GOAL=1.52446e+07
+    time: 0.161397 s
+  it 175:
+    append to seed 1: size=701 neighbors=124 MISFIT=619063 COMPACTNESS=1.46936e+07 GOAL=1.53126e+07
+    append to seed 2: size=702 neighbors=124 MISFIT=618201 COMPACTNESS=1.47545e+07 GOAL=1.53727e+07
+    append to seed 3: size=703 neighbors=133 MISFIT=617717 COMPACTNESS=1.48044e+07 GOAL=1.54221e+07
+    append to seed 4: size=704 neighbors=133 MISFIT=615971 COMPACTNESS=1.48653e+07 GOAL=1.54813e+07
+    time: 0.179241 s
+  it 176:
+    append to seed 1: size=705 neighbors=125 MISFIT=610819 COMPACTNESS=1.49386e+07 GOAL=1.55495e+07
+    append to seed 2: size=706 neighbors=125 MISFIT=610053 COMPACTNESS=1.49996e+07 GOAL=1.56096e+07
+    append to seed 3: size=707 neighbors=135 MISFIT=609661 COMPACTNESS=1.50495e+07 GOAL=1.56591e+07
+    append to seed 4: size=708 neighbors=134 MISFIT=608069 COMPACTNESS=1.51104e+07 GOAL=1.57185e+07
+    time: 0.195383 s
+  it 177:
+    append to seed 1: size=709 neighbors=125 MISFIT=603817 COMPACTNESS=1.51837e+07 GOAL=1.57876e+07
+    append to seed 2: size=710 neighbors=125 MISFIT=603216 COMPACTNESS=1.52447e+07 GOAL=1.58479e+07
+    append to seed 3: size=711 neighbors=135 MISFIT=600728 COMPACTNESS=1.53056e+07 GOAL=1.59063e+07
+    append to seed 4: size=712 neighbors=134 MISFIT=599378 COMPACTNESS=1.53665e+07 GOAL=1.59659e+07
+    time: 0.11196 s
+  it 178:
+    append to seed 1: size=713 neighbors=125 MISFIT=595154 COMPACTNESS=1.54399e+07 GOAL=1.6035e+07
+    append to seed 2: size=714 neighbors=126 MISFIT=589907 COMPACTNESS=1.55132e+07 GOAL=1.61031e+07
+    append to seed 3: size=715 neighbors=134 MISFIT=587918 COMPACTNESS=1.55741e+07 GOAL=1.61621e+07
+    append to seed 4: size=716 neighbors=135 MISFIT=586791 COMPACTNESS=1.56351e+07 GOAL=1.62219e+07
+    time: 0.129144 s
+  it 179:
+    append to seed 1: size=717 neighbors=126 MISFIT=582736 COMPACTNESS=1.57084e+07 GOAL=1.62911e+07
+    append to seed 2: size=718 neighbors=127 MISFIT=577711 COMPACTNESS=1.57817e+07 GOAL=1.63595e+07
+    append to seed 3: size=719 neighbors=135 MISFIT=575851 COMPACTNESS=1.58427e+07 GOAL=1.64185e+07
+    append to seed 4: size=720 neighbors=135 MISFIT=574801 COMPACTNESS=1.59036e+07 GOAL=1.64784e+07
+    time: 0.162365 s
+  it 180:
+    append to seed 1: size=721 neighbors=126 MISFIT=570863 COMPACTNESS=1.5977e+07 GOAL=1.65478e+07
+    append to seed 2: size=722 neighbors=127 MISFIT=566243 COMPACTNESS=1.60503e+07 GOAL=1.66165e+07
+    append to seed 3: size=723 neighbors=135 MISFIT=564708 COMPACTNESS=1.61112e+07 GOAL=1.66759e+07
+    append to seed 4: size=724 neighbors=136 MISFIT=563679 COMPACTNESS=1.61722e+07 GOAL=1.67358e+07
+    time: 0.129693 s
+  it 181:
+    append to seed 1: size=725 neighbors=126 MISFIT=559997 COMPACTNESS=1.62455e+07 GOAL=1.68055e+07
+    append to seed 2: size=726 neighbors=127 MISFIT=555556 COMPACTNESS=1.63188e+07 GOAL=1.68744e+07
+    append to seed 3: size=727 neighbors=134 MISFIT=554095 COMPACTNESS=1.63798e+07 GOAL=1.69339e+07
+    append to seed 4: size=728 neighbors=137 MISFIT=553125 COMPACTNESS=1.64407e+07 GOAL=1.69938e+07
+    time: 0.111874 s
+  it 182:
+    append to seed 1: size=729 neighbors=127 MISFIT=550214 COMPACTNESS=1.6514e+07 GOAL=1.70642e+07
+    append to seed 2: size=730 neighbors=127 MISFIT=546282 COMPACTNESS=1.65874e+07 GOAL=1.71337e+07
+    append to seed 3: size=731 neighbors=135 MISFIT=545083 COMPACTNESS=1.66483e+07 GOAL=1.71934e+07
+    append to seed 4: size=732 neighbors=138 MISFIT=544212 COMPACTNESS=1.67092e+07 GOAL=1.72534e+07
+    time: 0.162375 s
+  it 183:
+    append to seed 1: size=733 neighbors=127 MISFIT=541462 COMPACTNESS=1.67826e+07 GOAL=1.7324e+07
+    append to seed 2: size=734 neighbors=128 MISFIT=538172 COMPACTNESS=1.68559e+07 GOAL=1.73941e+07
+    append to seed 3: size=735 neighbors=135 MISFIT=537079 COMPACTNESS=1.69168e+07 GOAL=1.74539e+07
+    append to seed 4: size=736 neighbors=138 MISFIT=536257 COMPACTNESS=1.69778e+07 GOAL=1.7514e+07
+    time: 0.129429 s
+  it 184:
+    append to seed 1: size=737 neighbors=128 MISFIT=533619 COMPACTNESS=1.70511e+07 GOAL=1.75847e+07
+    append to seed 2: size=738 neighbors=128 MISFIT=530398 COMPACTNESS=1.71245e+07 GOAL=1.76548e+07
+    append to seed 3: size=739 neighbors=134 MISFIT=529365 COMPACTNESS=1.71854e+07 GOAL=1.77147e+07
+    append to seed 4: size=740 neighbors=138 MISFIT=528585 COMPACTNESS=1.72463e+07 GOAL=1.77749e+07
+    time: 0.111858 s
+  it 185:
+    append to seed 1: size=741 neighbors=129 MISFIT=526046 COMPACTNESS=1.73197e+07 GOAL=1.78457e+07
+    append to seed 2: size=742 neighbors=129 MISFIT=523168 COMPACTNESS=1.7393e+07 GOAL=1.79162e+07
+    append to seed 3: size=743 neighbors=134 MISFIT=522288 COMPACTNESS=1.74539e+07 GOAL=1.79762e+07
+    append to seed 4: size=744 neighbors=139 MISFIT=521551 COMPACTNESS=1.75149e+07 GOAL=1.80364e+07
+    time: 0.163403 s
+  it 186:
+    append to seed 1: size=745 neighbors=129 MISFIT=519121 COMPACTNESS=1.75882e+07 GOAL=1.81073e+07
+    append to seed 2: size=746 neighbors=129 MISFIT=516664 COMPACTNESS=1.76615e+07 GOAL=1.81782e+07
+    append to seed 3: size=747 neighbors=133 MISFIT=515832 COMPACTNESS=1.77225e+07 GOAL=1.82383e+07
+    append to seed 4: size=748 neighbors=140 MISFIT=515148 COMPACTNESS=1.77834e+07 GOAL=1.82985e+07
+    time: 0.112606 s
+  it 187:
+    append to seed 1: size=749 neighbors=129 MISFIT=512799 COMPACTNESS=1.78567e+07 GOAL=1.83695e+07
+    append to seed 2: size=750 neighbors=129 MISFIT=510745 COMPACTNESS=1.79301e+07 GOAL=1.84408e+07
+    append to seed 3: size=751 neighbors=133 MISFIT=509949 COMPACTNESS=1.7991e+07 GOAL=1.8501e+07
+    append to seed 4: size=752 neighbors=141 MISFIT=509296 COMPACTNESS=1.80519e+07 GOAL=1.85612e+07
+    time: 0.130057 s
+  it 188:
+    append to seed 1: size=753 neighbors=129 MISFIT=507280 COMPACTNESS=1.81253e+07 GOAL=1.86326e+07
+    append to seed 2: size=754 neighbors=129 MISFIT=505254 COMPACTNESS=1.81986e+07 GOAL=1.87039e+07
+    append to seed 3: size=755 neighbors=134 MISFIT=504516 COMPACTNESS=1.82595e+07 GOAL=1.87641e+07
+    append to seed 4: size=756 neighbors=141 MISFIT=503891 COMPACTNESS=1.83205e+07 GOAL=1.88244e+07
+    time: 0.12886 s
+  it 189:
+    append to seed 1: size=757 neighbors=130 MISFIT=502162 COMPACTNESS=1.83938e+07 GOAL=1.8896e+07
+    append to seed 2: size=758 neighbors=130 MISFIT=500228 COMPACTNESS=1.84672e+07 GOAL=1.89674e+07
+    append to seed 3: size=759 neighbors=134 MISFIT=499584 COMPACTNESS=1.85281e+07 GOAL=1.90277e+07
+    append to seed 4: size=760 neighbors=141 MISFIT=498982 COMPACTNESS=1.8589e+07 GOAL=1.9088e+07
+    time: 0.14632 s
+  it 190:
+    append to seed 1: size=761 neighbors=130 MISFIT=497272 COMPACTNESS=1.86624e+07 GOAL=1.91596e+07
+    append to seed 2: size=762 neighbors=131 MISFIT=495625 COMPACTNESS=1.87357e+07 GOAL=1.92313e+07
+    append to seed 3: size=763 neighbors=134 MISFIT=495038 COMPACTNESS=1.87966e+07 GOAL=1.92917e+07
+    append to seed 4: size=764 neighbors=142 MISFIT=492440 COMPACTNESS=1.887e+07 GOAL=1.93624e+07
+    time: 0.149512 s
+  it 191:
+    append to seed 1: size=765 neighbors=131 MISFIT=490850 COMPACTNESS=1.89433e+07 GOAL=1.94342e+07
+    append to seed 2: size=766 neighbors=132 MISFIT=489249 COMPACTNESS=1.90166e+07 GOAL=1.95059e+07
+    append to seed 3: size=767 neighbors=135 MISFIT=488802 COMPACTNESS=1.90776e+07 GOAL=1.95664e+07
+    append to seed 4: size=768 neighbors=143 MISFIT=486482 COMPACTNESS=1.91509e+07 GOAL=1.96374e+07
+    time: 0.182694 s
+  it 192:
+    append to seed 1: size=769 neighbors=131 MISFIT=484925 COMPACTNESS=1.92242e+07 GOAL=1.97092e+07
+    append to seed 2: size=770 neighbors=132 MISFIT=483332 COMPACTNESS=1.92976e+07 GOAL=1.97809e+07
+    append to seed 3: size=771 neighbors=136 MISFIT=482936 COMPACTNESS=1.93585e+07 GOAL=1.98415e+07
+    append to seed 4: size=772 neighbors=144 MISFIT=481011 COMPACTNESS=1.94319e+07 GOAL=1.99129e+07
+    time: 0.147746 s
+  it 193:
+    append to seed 1: size=773 neighbors=132 MISFIT=479548 COMPACTNESS=1.95052e+07 GOAL=1.99847e+07
+    append to seed 2: size=774 neighbors=133 MISFIT=478253 COMPACTNESS=1.95785e+07 GOAL=2.00568e+07
+    append to seed 3: size=775 neighbors=136 MISFIT=477873 COMPACTNESS=1.96395e+07 GOAL=2.01173e+07
+    append to seed 4: size=776 neighbors=144 MISFIT=476060 COMPACTNESS=1.97128e+07 GOAL=2.01889e+07
+    time: 0.147166 s
+  it 194:
+    append to seed 1: size=777 neighbors=133 MISFIT=474622 COMPACTNESS=1.97861e+07 GOAL=2.02608e+07
+    append to seed 2: size=778 neighbors=133 MISFIT=473353 COMPACTNESS=1.98595e+07 GOAL=2.03328e+07
+    append to seed 3: size=779 neighbors=137 MISFIT=473022 COMPACTNESS=1.99204e+07 GOAL=2.03934e+07
+    append to seed 4: size=780 neighbors=145 MISFIT=471297 COMPACTNESS=1.99937e+07 GOAL=2.0465e+07
+    time: 0.164666 s
+  it 195:
+    append to seed 1: size=781 neighbors=134 MISFIT=469931 COMPACTNESS=2.00671e+07 GOAL=2.0537e+07
+    append to seed 2: size=782 neighbors=133 MISFIT=468724 COMPACTNESS=2.01404e+07 GOAL=2.06091e+07
+    append to seed 3: size=783 neighbors=138 MISFIT=468416 COMPACTNESS=2.02013e+07 GOAL=2.06698e+07
+    append to seed 4: size=784 neighbors=146 MISFIT=466829 COMPACTNESS=2.02747e+07 GOAL=2.07415e+07
+    time: 0.164373 s
+  it 196:
+    append to seed 1: size=785 neighbors=134 MISFIT=465567 COMPACTNESS=2.0348e+07 GOAL=2.08136e+07
+    append to seed 2: size=786 neighbors=133 MISFIT=464373 COMPACTNESS=2.04214e+07 GOAL=2.08857e+07
+    append to seed 3: size=787 neighbors=139 MISFIT=464099 COMPACTNESS=2.04823e+07 GOAL=2.09464e+07
+    append to seed 4: size=788 neighbors=147 MISFIT=462591 COMPACTNESS=2.05556e+07 GOAL=2.10182e+07
+    time: 0.147719 s
+  it 197:
+    append to seed 1: size=789 neighbors=135 MISFIT=461340 COMPACTNESS=2.0629e+07 GOAL=2.10903e+07
+    append to seed 2: size=790 neighbors=134 MISFIT=460228 COMPACTNESS=2.07023e+07 GOAL=2.11625e+07
+    append to seed 3: size=791 neighbors=139 MISFIT=458719 COMPACTNESS=2.07756e+07 GOAL=2.12344e+07
+    append to seed 4: size=792 neighbors=148 MISFIT=457336 COMPACTNESS=2.0849e+07 GOAL=2.13063e+07
+    time: 0.165338 s
+  it 198:
+    append to seed 1: size=793 neighbors=135 MISFIT=456128 COMPACTNESS=2.09223e+07 GOAL=2.13784e+07
+    append to seed 2: size=794 neighbors=134 MISFIT=455116 COMPACTNESS=2.09956e+07 GOAL=2.14508e+07
+    append to seed 3: size=795 neighbors=139 MISFIT=453704 COMPACTNESS=2.1069e+07 GOAL=2.15227e+07
+    append to seed 4: size=796 neighbors=148 MISFIT=452389 COMPACTNESS=2.11423e+07 GOAL=2.15947e+07
+    time: 0.114093 s
+  it 199:
+    append to seed 1: size=797 neighbors=135 MISFIT=451195 COMPACTNESS=2.12157e+07 GOAL=2.16668e+07
+    append to seed 2: size=798 neighbors=134 MISFIT=450237 COMPACTNESS=2.1289e+07 GOAL=2.17392e+07
+    append to seed 3: size=799 neighbors=140 MISFIT=448942 COMPACTNESS=2.13623e+07 GOAL=2.18113e+07
+    append to seed 4: size=800 neighbors=149 MISFIT=447733 COMPACTNESS=2.14357e+07 GOAL=2.18834e+07
+    time: 0.148072 s
+  it 200:
+    append to seed 1: size=801 neighbors=135 MISFIT=446594 COMPACTNESS=2.1509e+07 GOAL=2.19556e+07
+    append to seed 2: size=802 neighbors=134 MISFIT=445743 COMPACTNESS=2.15823e+07 GOAL=2.20281e+07
+    append to seed 3: size=803 neighbors=141 MISFIT=444482 COMPACTNESS=2.16557e+07 GOAL=2.21002e+07
+    append to seed 4: size=804 neighbors=149 MISFIT=443450 COMPACTNESS=2.1729e+07 GOAL=2.21725e+07
+    time: 0.131235 s
+  it 201:
+    append to seed 1: size=805 neighbors=135 MISFIT=442427 COMPACTNESS=2.18023e+07 GOAL=2.22448e+07
+    append to seed 2: size=806 neighbors=134 MISFIT=441665 COMPACTNESS=2.18757e+07 GOAL=2.23173e+07
+    append to seed 3: size=807 neighbors=140 MISFIT=440499 COMPACTNESS=2.1949e+07 GOAL=2.23895e+07
+    append to seed 4: size=808 neighbors=150 MISFIT=439515 COMPACTNESS=2.20224e+07 GOAL=2.24619e+07
+    time: 0.114198 s
+  it 202:
+    append to seed 1: size=809 neighbors=135 MISFIT=438563 COMPACTNESS=2.20957e+07 GOAL=2.25343e+07
+    append to seed 2: size=810 neighbors=135 MISFIT=437826 COMPACTNESS=2.2169e+07 GOAL=2.26069e+07
+    append to seed 3: size=811 neighbors=139 MISFIT=436764 COMPACTNESS=2.22424e+07 GOAL=2.26791e+07
+    append to seed 4: size=812 neighbors=150 MISFIT=435861 COMPACTNESS=2.23157e+07 GOAL=2.27516e+07
+    time: 0.114372 s
+  it 203:
+    append to seed 1: size=813 neighbors=136 MISFIT=434941 COMPACTNESS=2.2389e+07 GOAL=2.2824e+07
+    append to seed 2: size=814 neighbors=136 MISFIT=434247 COMPACTNESS=2.24624e+07 GOAL=2.28966e+07
+    append to seed 3: size=815 neighbors=139 MISFIT=433343 COMPACTNESS=2.25357e+07 GOAL=2.29691e+07
+    append to seed 4: size=816 neighbors=151 MISFIT=432459 COMPACTNESS=2.2609e+07 GOAL=2.30415e+07
+    time: 0.165397 s
+  it 204:
+    append to seed 1: size=817 neighbors=136 MISFIT=431562 COMPACTNESS=2.26824e+07 GOAL=2.31139e+07
+    append to seed 2: size=818 neighbors=136 MISFIT=430892 COMPACTNESS=2.27557e+07 GOAL=2.31866e+07
+    append to seed 3: size=819 neighbors=139 MISFIT=430023 COMPACTNESS=2.28291e+07 GOAL=2.32591e+07
+    append to seed 4: size=820 neighbors=152 MISFIT=429272 COMPACTNESS=2.29024e+07 GOAL=2.33317e+07
+    time: 0.132003 s
+  it 205:
+    append to seed 1: size=821 neighbors=137 MISFIT=428445 COMPACTNESS=2.29757e+07 GOAL=2.34042e+07
+    append to seed 2: size=822 neighbors=136 MISFIT=427817 COMPACTNESS=2.30491e+07 GOAL=2.34769e+07
+    append to seed 3: size=823 neighbors=140 MISFIT=426965 COMPACTNESS=2.31224e+07 GOAL=2.35494e+07
+    append to seed 4: size=824 neighbors=153 MISFIT=426353 COMPACTNESS=2.31957e+07 GOAL=2.36221e+07
+    time: 0.165439 s
+  it 206:
+    append to seed 1: size=825 neighbors=137 MISFIT=425572 COMPACTNESS=2.32691e+07 GOAL=2.36946e+07
+    append to seed 2: size=826 neighbors=137 MISFIT=424982 COMPACTNESS=2.33424e+07 GOAL=2.37674e+07
+    append to seed 3: size=827 neighbors=139 MISFIT=424229 COMPACTNESS=2.34157e+07 GOAL=2.384e+07
+    append to seed 4: size=828 neighbors=154 MISFIT=423637 COMPACTNESS=2.34891e+07 GOAL=2.39127e+07
+    time: 0.130697 s
+  it 207:
+    append to seed 1: size=829 neighbors=137 MISFIT=420572 COMPACTNESS=2.35915e+07 GOAL=2.40121e+07
+    append to seed 2: size=830 neighbors=137 MISFIT=420126 COMPACTNESS=2.36648e+07 GOAL=2.40849e+07
+    append to seed 3: size=831 neighbors=138 MISFIT=419405 COMPACTNESS=2.37382e+07 GOAL=2.41576e+07
+    append to seed 4: size=832 neighbors=155 MISFIT=418826 COMPACTNESS=2.38115e+07 GOAL=2.42303e+07
+    time: 0.114949 s
+  it 208:
+    append to seed 1: size=833 neighbors=137 MISFIT=416768 COMPACTNESS=2.39139e+07 GOAL=2.43307e+07
+    append to seed 2: size=834 neighbors=138 MISFIT=416334 COMPACTNESS=2.39872e+07 GOAL=2.44036e+07
+    append to seed 3: size=835 neighbors=139 MISFIT=415713 COMPACTNESS=2.40606e+07 GOAL=2.44763e+07
+    append to seed 4: size=836 neighbors=155 MISFIT=415161 COMPACTNESS=2.41339e+07 GOAL=2.45491e+07
+    time: 0.149735 s
+  it 209:
+    append to seed 1: size=837 neighbors=137 MISFIT=413217 COMPACTNESS=2.42363e+07 GOAL=2.46495e+07
+    append to seed 2: size=838 neighbors=139 MISFIT=412885 COMPACTNESS=2.43096e+07 GOAL=2.47225e+07
+    append to seed 3: size=839 neighbors=138 MISFIT=412329 COMPACTNESS=2.4383e+07 GOAL=2.47953e+07
+    append to seed 4: size=840 neighbors=155 MISFIT=411812 COMPACTNESS=2.44563e+07 GOAL=2.48681e+07
+    time: 0.115331 s
+  it 210:
+    append to seed 1: size=841 neighbors=136 MISFIT=410949 COMPACTNESS=2.45587e+07 GOAL=2.49697e+07
+    append to seed 2: size=842 neighbors=139 MISFIT=410650 COMPACTNESS=2.4632e+07 GOAL=2.50427e+07
+    append to seed 3: size=843 neighbors=138 MISFIT=410124 COMPACTNESS=2.47054e+07 GOAL=2.51155e+07
+    append to seed 4: size=844 neighbors=155 MISFIT=409646 COMPACTNESS=2.47787e+07 GOAL=2.51884e+07
+    time: 0.098618 s
+  it 211:
+    append to seed 1: size=845 neighbors=136 MISFIT=408837 COMPACTNESS=2.48811e+07 GOAL=2.529e+07
+    append to seed 2: size=846 neighbors=139 MISFIT=406364 COMPACTNESS=2.49835e+07 GOAL=2.53899e+07
+    append to seed 3: size=847 neighbors=138 MISFIT=405864 COMPACTNESS=2.50569e+07 GOAL=2.54627e+07
+    append to seed 4: size=848 neighbors=155 MISFIT=405395 COMPACTNESS=2.51302e+07 GOAL=2.55356e+07
+    time: 0.115299 s
+  it 212:
+    append to seed 1: size=849 neighbors=138 MISFIT=401195 COMPACTNESS=2.52494e+07 GOAL=2.56505e+07
+    append to seed 2: size=850 neighbors=139 MISFIT=400126 COMPACTNESS=2.53518e+07 GOAL=2.57519e+07
+    append to seed 3: size=851 neighbors=138 MISFIT=399688 COMPACTNESS=2.54251e+07 GOAL=2.58248e+07
+    append to seed 4: size=852 neighbors=155 MISFIT=399249 COMPACTNESS=2.54984e+07 GOAL=2.58977e+07
+    time: 0.148972 s
+  it 213:
+    append to seed 1: size=853 neighbors=138 MISFIT=395570 COMPACTNESS=2.56176e+07 GOAL=2.60132e+07
+    append to seed 2: size=854 neighbors=138 MISFIT=394849 COMPACTNESS=2.572e+07 GOAL=2.61148e+07
+    append to seed 3: size=855 neighbors=138 MISFIT=394435 COMPACTNESS=2.57933e+07 GOAL=2.61878e+07
+    append to seed 4: size=856 neighbors=156 MISFIT=394015 COMPACTNESS=2.58667e+07 GOAL=2.62607e+07
+    time: 0.115627 s
+  it 214:
+    append to seed 1: size=857 neighbors=139 MISFIT=390644 COMPACTNESS=2.59858e+07 GOAL=2.63765e+07
+    append to seed 2: size=858 neighbors=138 MISFIT=389956 COMPACTNESS=2.60882e+07 GOAL=2.64782e+07
+    append to seed 3: size=859 neighbors=138 MISFIT=389556 COMPACTNESS=2.61616e+07 GOAL=2.65511e+07
+    append to seed 4: size=860 neighbors=157 MISFIT=389146 COMPACTNESS=2.62349e+07 GOAL=2.6624e+07
+    time: 0.149291 s
+  it 215:
+    append to seed 1: size=861 neighbors=141 MISFIT=385857 COMPACTNESS=2.6354e+07 GOAL=2.67399e+07
+    append to seed 2: size=862 neighbors=140 MISFIT=382220 COMPACTNESS=2.64732e+07 GOAL=2.68554e+07
+    append to seed 3: size=863 neighbors=138 MISFIT=381852 COMPACTNESS=2.65465e+07 GOAL=2.69284e+07
+    append to seed 4: size=864 neighbors=158 MISFIT=381489 COMPACTNESS=2.66199e+07 GOAL=2.70014e+07
+    time: 0.200324 s
+  it 216:
+    append to seed 1: size=865 neighbors=141 MISFIT=378248 COMPACTNESS=2.6739e+07 GOAL=2.71173e+07
+    append to seed 2: size=866 neighbors=141 MISFIT=374952 COMPACTNESS=2.68582e+07 GOAL=2.72331e+07
+    append to seed 3: size=867 neighbors=138 MISFIT=374609 COMPACTNESS=2.69315e+07 GOAL=2.73061e+07
+    append to seed 4: size=868 neighbors=159 MISFIT=374253 COMPACTNESS=2.70049e+07 GOAL=2.73791e+07
+    time: 0.150086 s
+  it 217:
+    append to seed 1: size=869 neighbors=142 MISFIT=371130 COMPACTNESS=2.7124e+07 GOAL=2.74952e+07
+    append to seed 2: size=870 neighbors=141 MISFIT=368106 COMPACTNESS=2.72432e+07 GOAL=2.76113e+07
+    append to seed 3: size=871 neighbors=138 MISFIT=367775 COMPACTNESS=2.73165e+07 GOAL=2.76843e+07
+    append to seed 4: size=872 neighbors=159 MISFIT=367431 COMPACTNESS=2.73899e+07 GOAL=2.77573e+07
+    time: 0.133932 s
+  it 218:
+    append to seed 1: size=873 neighbors=142 MISFIT=364678 COMPACTNESS=2.7509e+07 GOAL=2.78737e+07
+    append to seed 2: size=874 neighbors=141 MISFIT=362402 COMPACTNESS=2.76282e+07 GOAL=2.79906e+07
+    append to seed 3: size=875 neighbors=139 MISFIT=362077 COMPACTNESS=2.77015e+07 GOAL=2.80636e+07
+    append to seed 4: size=876 neighbors=159 MISFIT=361746 COMPACTNESS=2.77748e+07 GOAL=2.81366e+07
+    time: 0.134544 s
+  it 219:
+    append to seed 1: size=877 neighbors=143 MISFIT=359046 COMPACTNESS=2.7894e+07 GOAL=2.8253e+07
+    append to seed 2: size=878 neighbors=141 MISFIT=356813 COMPACTNESS=2.80132e+07 GOAL=2.837e+07
+    append to seed 3: size=879 neighbors=139 MISFIT=356506 COMPACTNESS=2.80865e+07 GOAL=2.8443e+07
+    append to seed 4: size=880 neighbors=159 MISFIT=356194 COMPACTNESS=2.81598e+07 GOAL=2.8516e+07
+    time: 0.134043 s
+  it 220:
+    append to seed 1: size=881 neighbors=143 MISFIT=353854 COMPACTNESS=2.8279e+07 GOAL=2.86328e+07
+    append to seed 2: size=882 neighbors=141 MISFIT=351693 COMPACTNESS=2.83981e+07 GOAL=2.87498e+07
+    append to seed 3: size=883 neighbors=139 MISFIT=351435 COMPACTNESS=2.84715e+07 GOAL=2.88229e+07
+    append to seed 4: size=884 neighbors=159 MISFIT=351133 COMPACTNESS=2.85448e+07 GOAL=2.88959e+07
+    time: 0.117599 s
+  it 221:
+    append to seed 1: size=885 neighbors=143 MISFIT=348946 COMPACTNESS=2.8664e+07 GOAL=2.90129e+07
+    append to seed 2: size=886 neighbors=141 MISFIT=347243 COMPACTNESS=2.87831e+07 GOAL=2.91304e+07
+    append to seed 3: size=887 neighbors=139 MISFIT=347001 COMPACTNESS=2.88565e+07 GOAL=2.92035e+07
+    append to seed 4: size=888 neighbors=159 MISFIT=346707 COMPACTNESS=2.89298e+07 GOAL=2.92765e+07
+    time: 0.116044 s
+  it 222:
+    append to seed 1: size=889 neighbors=143 MISFIT=344764 COMPACTNESS=2.9049e+07 GOAL=2.93937e+07
+    append to seed 2: size=890 neighbors=141 MISFIT=343329 COMPACTNESS=2.91681e+07 GOAL=2.95115e+07
+    append to seed 3: size=891 neighbors=139 MISFIT=343113 COMPACTNESS=2.92415e+07 GOAL=2.95846e+07
+    append to seed 4: size=892 neighbors=159 MISFIT=342838 COMPACTNESS=2.93148e+07 GOAL=2.96576e+07
+    time: 0.115706 s
+  it 223:
+    append to seed 1: size=893 neighbors=143 MISFIT=340952 COMPACTNESS=2.9434e+07 GOAL=2.97749e+07
+    append to seed 2: size=894 neighbors=142 MISFIT=339738 COMPACTNESS=2.95531e+07 GOAL=2.98928e+07
+    append to seed 3: size=895 neighbors=140 MISFIT=339558 COMPACTNESS=2.96264e+07 GOAL=2.9966e+07
+    append to seed 4: size=896 neighbors=160 MISFIT=339292 COMPACTNESS=2.96998e+07 GOAL=3.00391e+07
+    time: 0.166599 s
+  it 224:
+    append to seed 1: size=897 neighbors=143 MISFIT=337481 COMPACTNESS=2.98189e+07 GOAL=3.01564e+07
+    append to seed 2: size=898 neighbors=144 MISFIT=336342 COMPACTNESS=2.99381e+07 GOAL=3.02744e+07
+    append to seed 3: size=899 neighbors=140 MISFIT=335692 COMPACTNESS=3.00405e+07 GOAL=3.03762e+07
+    append to seed 4: size=900 neighbors=160 MISFIT=335433 COMPACTNESS=3.01138e+07 GOAL=3.04493e+07
+    time: 0.152738 s
+  it 225:
+    append to seed 1: size=901 neighbors=143 MISFIT=333747 COMPACTNESS=3.0233e+07 GOAL=3.05667e+07
+    append to seed 2: size=902 neighbors=144 MISFIT=332821 COMPACTNESS=3.03522e+07 GOAL=3.0685e+07
+    append to seed 3: size=903 neighbors=139 MISFIT=332634 COMPACTNESS=3.04546e+07 GOAL=3.07872e+07
+    append to seed 4: size=904 neighbors=161 MISFIT=332420 COMPACTNESS=3.05279e+07 GOAL=3.08603e+07
+    time: 0.1174 s
+  it 226:
+    append to seed 1: size=905 neighbors=143 MISFIT=330840 COMPACTNESS=3.0647e+07 GOAL=3.09779e+07
+    append to seed 2: size=906 neighbors=145 MISFIT=329936 COMPACTNESS=3.07662e+07 GOAL=3.10961e+07
+    append to seed 3: size=907 neighbors=141 MISFIT=328925 COMPACTNESS=3.08854e+07 GOAL=3.12143e+07
+    append to seed 4: size=908 neighbors=161 MISFIT=328332 COMPACTNESS=3.09878e+07 GOAL=3.13161e+07
+    time: 0.167855 s
+  it 227:
+    append to seed 1: size=909 neighbors=143 MISFIT=326774 COMPACTNESS=3.11069e+07 GOAL=3.14337e+07
+    append to seed 2: size=910 neighbors=145 MISFIT=325979 COMPACTNESS=3.12261e+07 GOAL=3.15521e+07
+    append to seed 3: size=911 neighbors=141 MISFIT=325180 COMPACTNESS=3.13452e+07 GOAL=3.16704e+07
+    append to seed 4: size=912 neighbors=161 MISFIT=324675 COMPACTNESS=3.14476e+07 GOAL=3.17723e+07
+    time: 0.118635 s
+  it 228:
+    append to seed 1: size=913 neighbors=143 MISFIT=323330 COMPACTNESS=3.15668e+07 GOAL=3.18901e+07
+    append to seed 2: size=914 neighbors=145 MISFIT=322559 COMPACTNESS=3.16859e+07 GOAL=3.20085e+07
+    append to seed 3: size=915 neighbors=141 MISFIT=321936 COMPACTNESS=3.18051e+07 GOAL=3.2127e+07
+    append to seed 4: size=916 neighbors=161 MISFIT=321608 COMPACTNESS=3.19075e+07 GOAL=3.22291e+07
+    time: 0.119073 s
+  it 229:
+    append to seed 1: size=917 neighbors=143 MISFIT=320350 COMPACTNESS=3.20267e+07 GOAL=3.2347e+07
+    append to seed 2: size=918 neighbors=144 MISFIT=319708 COMPACTNESS=3.21458e+07 GOAL=3.24655e+07
+    append to seed 3: size=919 neighbors=141 MISFIT=319210 COMPACTNESS=3.2265e+07 GOAL=3.25842e+07
+    append to seed 4: size=920 neighbors=160 MISFIT=318961 COMPACTNESS=3.23674e+07 GOAL=3.26863e+07
+    time: 0.082618 s
+  it 230:
+    append to seed 1: size=921 neighbors=145 MISFIT=317924 COMPACTNESS=3.24865e+07 GOAL=3.28045e+07
+    append to seed 2: size=922 neighbors=143 MISFIT=317338 COMPACTNESS=3.26057e+07 GOAL=3.2923e+07
+    append to seed 3: size=923 neighbors=143 MISFIT=316867 COMPACTNESS=3.27249e+07 GOAL=3.30417e+07
+    append to seed 4: size=924 neighbors=162 MISFIT=315253 COMPACTNESS=3.2844e+07 GOAL=3.31593e+07
+    time: 0.202481 s
+  it 231:
+    append to seed 1: size=925 neighbors=146 MISFIT=314229 COMPACTNESS=3.29632e+07 GOAL=3.32774e+07
+    append to seed 2: size=926 neighbors=142 MISFIT=313719 COMPACTNESS=3.30823e+07 GOAL=3.3396e+07
+    append to seed 3: size=927 neighbors=145 MISFIT=313322 COMPACTNESS=3.32015e+07 GOAL=3.35148e+07
+    append to seed 4: size=928 neighbors=163 MISFIT=312068 COMPACTNESS=3.33206e+07 GOAL=3.36327e+07
+    time: 0.167578 s
+  it 232:
+    append to seed 1: size=929 neighbors=146 MISFIT=311210 COMPACTNESS=3.34398e+07 GOAL=3.3751e+07
+    append to seed 2: size=930 neighbors=143 MISFIT=310704 COMPACTNESS=3.3559e+07 GOAL=3.38697e+07
+    append to seed 3: size=931 neighbors=146 MISFIT=310387 COMPACTNESS=3.36781e+07 GOAL=3.39885e+07
+    append to seed 4: size=932 neighbors=163 MISFIT=309467 COMPACTNESS=3.37973e+07 GOAL=3.41067e+07
+    time: 0.150637 s
+  it 233:
+    append to seed 1: size=933 neighbors=148 MISFIT=308625 COMPACTNESS=3.39164e+07 GOAL=3.42251e+07
+    append to seed 2: size=934 neighbors=142 MISFIT=308172 COMPACTNESS=3.40356e+07 GOAL=3.43438e+07
+    append to seed 3: size=935 neighbors=146 MISFIT=307870 COMPACTNESS=3.41547e+07 GOAL=3.44626e+07
+    append to seed 4: size=936 neighbors=164 MISFIT=307115 COMPACTNESS=3.42739e+07 GOAL=3.4581e+07
+    time: 0.151008 s
+  it 234:
+    append to seed 1: size=937 neighbors=148 MISFIT=306397 COMPACTNESS=3.43931e+07 GOAL=3.46995e+07
+    append to seed 2: size=938 neighbors=142 MISFIT=305971 COMPACTNESS=3.45122e+07 GOAL=3.48182e+07
+    append to seed 3: size=939 neighbors=148 MISFIT=305775 COMPACTNESS=3.46314e+07 GOAL=3.49372e+07
+    append to seed 4: size=940 neighbors=164 MISFIT=305129 COMPACTNESS=3.47505e+07 GOAL=3.50557e+07
+    time: 0.151564 s
+  it 235:
+    append to seed 1: size=941 neighbors=147 MISFIT=304439 COMPACTNESS=3.48697e+07 GOAL=3.51741e+07
+    append to seed 2: size=942 neighbors=142 MISFIT=304024 COMPACTNESS=3.49889e+07 GOAL=3.52929e+07
+    append to seed 3: size=943 neighbors=148 MISFIT=303218 COMPACTNESS=3.51263e+07 GOAL=3.54295e+07
+    append to seed 4: size=944 neighbors=164 MISFIT=302638 COMPACTNESS=3.52455e+07 GOAL=3.55481e+07
+    time: 0.0994742 s
+  it 236:
+    append to seed 1: size=945 neighbors=148 MISFIT=301954 COMPACTNESS=3.53646e+07 GOAL=3.56666e+07
+    append to seed 2: size=946 neighbors=144 MISFIT=301687 COMPACTNESS=3.54838e+07 GOAL=3.57855e+07
+    append to seed 3: size=947 neighbors=148 MISFIT=301138 COMPACTNESS=3.56212e+07 GOAL=3.59224e+07
+    append to seed 4: size=948 neighbors=164 MISFIT=300659 COMPACTNESS=3.57404e+07 GOAL=3.60411e+07
+    time: 0.168072 s
+  it 237:
+    append to seed 1: size=949 neighbors=148 MISFIT=300008 COMPACTNESS=3.58596e+07 GOAL=3.61596e+07
+    append to seed 2: size=950 neighbors=144 MISFIT=299775 COMPACTNESS=3.59787e+07 GOAL=3.62785e+07
+    append to seed 3: size=951 neighbors=149 MISFIT=299625 COMPACTNESS=3.60979e+07 GOAL=3.63975e+07
+    append to seed 4: size=952 neighbors=164 MISFIT=299228 COMPACTNESS=3.6217e+07 GOAL=3.65163e+07
+    time: 0.134655 s
+  it 238:
+    append to seed 1: size=953 neighbors=147 MISFIT=298588 COMPACTNESS=3.63362e+07 GOAL=3.66348e+07
+    append to seed 2: size=954 neighbors=145 MISFIT=298421 COMPACTNESS=3.64554e+07 GOAL=3.67538e+07
+    append to seed 3: size=955 neighbors=150 MISFIT=298163 COMPACTNESS=3.65928e+07 GOAL=3.6891e+07
+    append to seed 4: size=956 neighbors=165 MISFIT=297784 COMPACTNESS=3.6712e+07 GOAL=3.70098e+07
+    time: 0.151496 s
+  it 239:
+    append to seed 1: size=957 neighbors=146 MISFIT=297185 COMPACTNESS=3.68311e+07 GOAL=3.71283e+07
+    append to seed 2: size=958 neighbors=146 MISFIT=293190 COMPACTNESS=3.69686e+07 GOAL=3.72618e+07
+    append to seed 3: size=959 neighbors=151 MISFIT=292960 COMPACTNESS=3.71061e+07 GOAL=3.7399e+07
+    append to seed 4: size=960 neighbors=165 MISFIT=292665 COMPACTNESS=3.72252e+07 GOAL=3.75179e+07
+    time: 0.133668 s
+  it 240:
+    append to seed 1: size=961 neighbors=146 MISFIT=292086 COMPACTNESS=3.73444e+07 GOAL=3.76365e+07
+    append to seed 2: size=962 neighbors=146 MISFIT=289487 COMPACTNESS=3.74818e+07 GOAL=3.77713e+07
+    append to seed 3: size=963 neighbors=152 MISFIT=289216 COMPACTNESS=3.76392e+07 GOAL=3.79284e+07
+    append to seed 4: size=964 neighbors=165 MISFIT=288936 COMPACTNESS=3.77583e+07 GOAL=3.80473e+07
+    time: 0.134427 s
+  it 241:
+    append to seed 1: size=965 neighbors=145 MISFIT=288394 COMPACTNESS=3.78775e+07 GOAL=3.81659e+07
+    append to seed 2: size=966 neighbors=146 MISFIT=286001 COMPACTNESS=3.8015e+07 GOAL=3.8301e+07
+    append to seed 3: size=967 neighbors=153 MISFIT=285792 COMPACTNESS=3.81723e+07 GOAL=3.84581e+07
+    append to seed 4: size=968 neighbors=164 MISFIT=285539 COMPACTNESS=3.82915e+07 GOAL=3.8577e+07
+    time: 0.0993762 s
+  it 242:
+    append to seed 1: size=969 neighbors=145 MISFIT=285073 COMPACTNESS=3.84106e+07 GOAL=3.86957e+07
+    append to seed 2: size=970 neighbors=146 MISFIT=283665 COMPACTNESS=3.85481e+07 GOAL=3.88318e+07
+    append to seed 3: size=971 neighbors=153 MISFIT=283493 COMPACTNESS=3.87055e+07 GOAL=3.89889e+07
+    append to seed 4: size=972 neighbors=164 MISFIT=283252 COMPACTNESS=3.88246e+07 GOAL=3.91079e+07
+    time: 0.117572 s
+  it 243:
+    append to seed 1: size=973 neighbors=145 MISFIT=282829 COMPACTNESS=3.89438e+07 GOAL=3.92266e+07
+    append to seed 2: size=974 neighbors=147 MISFIT=281437 COMPACTNESS=3.90812e+07 GOAL=3.93627e+07
+    append to seed 3: size=975 neighbors=155 MISFIT=281294 COMPACTNESS=3.92386e+07 GOAL=3.95199e+07
+    append to seed 4: size=976 neighbors=164 MISFIT=281064 COMPACTNESS=3.93577e+07 GOAL=3.96388e+07
+    time: 0.168552 s
+  it 244:
+    append to seed 1: size=977 neighbors=145 MISFIT=280761 COMPACTNESS=3.94769e+07 GOAL=3.97577e+07
+    append to seed 2: size=978 neighbors=147 MISFIT=279387 COMPACTNESS=3.96144e+07 GOAL=3.98937e+07
+    append to seed 3: size=979 neighbors=156 MISFIT=278721 COMPACTNESS=3.97932e+07 GOAL=4.0072e+07
+    append to seed 4: size=980 neighbors=166 MISFIT=278504 COMPACTNESS=3.99124e+07 GOAL=4.01909e+07
+    time: 0.170444 s
+  it 245:
+    append to seed 1: size=981 neighbors=146 MISFIT=274853 COMPACTNESS=4.00499e+07 GOAL=4.03247e+07
+    append to seed 2: size=982 neighbors=148 MISFIT=274059 COMPACTNESS=4.01873e+07 GOAL=4.04614e+07
+    append to seed 3: size=983 neighbors=158 MISFIT=273749 COMPACTNESS=4.03662e+07 GOAL=4.064e+07
+    append to seed 4: size=984 neighbors=166 MISFIT=273548 COMPACTNESS=4.04854e+07 GOAL=4.07589e+07
+    time: 0.186811 s
+  it 246:
+    append to seed 1: size=985 neighbors=147 MISFIT=271186 COMPACTNESS=4.06228e+07 GOAL=4.0894e+07
+    append to seed 2: size=986 neighbors=147 MISFIT=270653 COMPACTNESS=4.07603e+07 GOAL=4.10309e+07
+    append to seed 3: size=987 neighbors=158 MISFIT=270373 COMPACTNESS=4.09392e+07 GOAL=4.12096e+07
+    append to seed 4: size=988 neighbors=167 MISFIT=270184 COMPACTNESS=4.10583e+07 GOAL=4.13285e+07
+    time: 0.134578 s
+  it 247:
+    append to seed 1: size=989 neighbors=147 MISFIT=268204 COMPACTNESS=4.11958e+07 GOAL=4.1464e+07
+    append to seed 2: size=990 neighbors=147 MISFIT=267720 COMPACTNESS=4.13333e+07 GOAL=4.1601e+07
+    append to seed 3: size=991 neighbors=159 MISFIT=266950 COMPACTNESS=4.15354e+07 GOAL=4.18023e+07
+    append to seed 4: size=992 neighbors=167 MISFIT=266796 COMPACTNESS=4.16545e+07 GOAL=4.19213e+07
+    time: 0.134875 s
+  it 248:
+    append to seed 1: size=993 neighbors=147 MISFIT=264933 COMPACTNESS=4.1792e+07 GOAL=4.20569e+07
+    append to seed 2: size=994 neighbors=146 MISFIT=264480 COMPACTNESS=4.19294e+07 GOAL=4.21939e+07
+    append to seed 3: size=995 neighbors=160 MISFIT=263833 COMPACTNESS=4.21315e+07 GOAL=4.23954e+07
+    append to seed 4: size=996 neighbors=167 MISFIT=263697 COMPACTNESS=4.22507e+07 GOAL=4.25144e+07
+    time: 0.118536 s
+  it 249:
+    append to seed 1: size=997 neighbors=147 MISFIT=261842 COMPACTNESS=4.23881e+07 GOAL=4.265e+07
+    append to seed 2: size=998 neighbors=146 MISFIT=261421 COMPACTNESS=4.25256e+07 GOAL=4.2787e+07
+    append to seed 3: size=999 neighbors=161 MISFIT=260981 COMPACTNESS=4.27277e+07 GOAL=4.29887e+07
+    append to seed 4: size=1000 neighbors=168 MISFIT=260173 COMPACTNESS=4.28652e+07 GOAL=4.31253e+07
+    time: 0.153972 s
+  it 250:
+    append to seed 1: size=1001 neighbors=147 MISFIT=258599 COMPACTNESS=4.30026e+07 GOAL=4.32612e+07
+    append to seed 2: size=1002 neighbors=145 MISFIT=258244 COMPACTNESS=4.31401e+07 GOAL=4.33983e+07
+    append to seed 3: size=1003 neighbors=161 MISFIT=257937 COMPACTNESS=4.33422e+07 GOAL=4.36001e+07
+    append to seed 4: size=1004 neighbors=168 MISFIT=257358 COMPACTNESS=4.34796e+07 GOAL=4.3737e+07
+    time: 0.101568 s
+  it 251:
+    append to seed 1: size=1005 neighbors=148 MISFIT=256051 COMPACTNESS=4.36171e+07 GOAL=4.38731e+07
+    append to seed 2: size=1006 neighbors=146 MISFIT=255767 COMPACTNESS=4.37546e+07 GOAL=4.40103e+07
+    append to seed 3: size=1007 neighbors=162 MISFIT=255623 COMPACTNESS=4.39566e+07 GOAL=4.42123e+07
+    append to seed 4: size=1008 neighbors=169 MISFIT=255255 COMPACTNESS=4.40941e+07 GOAL=4.43494e+07
+    time: 0.185965 s
+  it 252:
+    append to seed 1: size=1009 neighbors=148 MISFIT=254003 COMPACTNESS=4.42316e+07 GOAL=4.44856e+07
+    append to seed 2: size=1010 neighbors=145 MISFIT=253742 COMPACTNESS=4.4369e+07 GOAL=4.46228e+07
+    append to seed 3: size=1011 neighbors=163 MISFIT=253386 COMPACTNESS=4.45961e+07 GOAL=4.48494e+07
+    append to seed 4: size=1012 neighbors=169 MISFIT=253077 COMPACTNESS=4.47335e+07 GOAL=4.49866e+07
+    time: 0.118127 s
+  it 253:
+    append to seed 1: size=1013 neighbors=148 MISFIT=251949 COMPACTNESS=4.4871e+07 GOAL=4.51229e+07
+    append to seed 2: size=1014 neighbors=146 MISFIT=251803 COMPACTNESS=4.50084e+07 GOAL=4.52602e+07
+    append to seed 3: size=1015 neighbors=164 MISFIT=251598 COMPACTNESS=4.52355e+07 GOAL=4.5487e+07
+    append to seed 4: size=1016 neighbors=169 MISFIT=251337 COMPACTNESS=4.53729e+07 GOAL=4.56242e+07
+    time: 0.153076 s
+  it 254:
+    append to seed 1: size=1017 neighbors=148 MISFIT=250282 COMPACTNESS=4.55104e+07 GOAL=4.57607e+07
+    append to seed 2: size=1018 neighbors=147 MISFIT=246686 COMPACTNESS=4.56677e+07 GOAL=4.59144e+07
+    append to seed 3: size=1019 neighbors=166 MISFIT=246493 COMPACTNESS=4.58947e+07 GOAL=4.61412e+07
+    append to seed 4: size=1020 neighbors=170 MISFIT=246231 COMPACTNESS=4.60322e+07 GOAL=4.62784e+07
+    time: 0.186788 s
+  it 255:
+    append to seed 1: size=1021 neighbors=148 MISFIT=245237 COMPACTNESS=4.61697e+07 GOAL=4.64149e+07
+    append to seed 2: size=1022 neighbors=148 MISFIT=242315 COMPACTNESS=4.6327e+07 GOAL=4.65693e+07
+    append to seed 3: size=1023 neighbors=167 MISFIT=242156 COMPACTNESS=4.6554e+07 GOAL=4.67962e+07
+    append to seed 4: size=1024 neighbors=170 MISFIT=241943 COMPACTNESS=4.66915e+07 GOAL=4.69334e+07
+    time: 0.157899 s
+  it 256:
+    append to seed 1: size=1025 neighbors=148 MISFIT=240964 COMPACTNESS=4.6829e+07 GOAL=4.70699e+07
+    append to seed 2: size=1026 neighbors=149 MISFIT=239418 COMPACTNESS=4.69863e+07 GOAL=4.72257e+07
+    append to seed 3: size=1027 neighbors=168 MISFIT=238670 COMPACTNESS=4.72685e+07 GOAL=4.75072e+07
+    append to seed 4: size=1028 neighbors=170 MISFIT=238486 COMPACTNESS=4.7406e+07 GOAL=4.76445e+07
+    time: 0.153136 s
+  it 257:
+    append to seed 1: size=1029 neighbors=149 MISFIT=237538 COMPACTNESS=4.75434e+07 GOAL=4.7781e+07
+    append to seed 2: size=1030 neighbors=150 MISFIT=236706 COMPACTNESS=4.77008e+07 GOAL=4.79375e+07
+    append to seed 3: size=1031 neighbors=168 MISFIT=236443 COMPACTNESS=4.7983e+07 GOAL=4.82194e+07
+    append to seed 4: size=1032 neighbors=169 MISFIT=236293 COMPACTNESS=4.81204e+07 GOAL=4.83567e+07
+    time: 0.135675 s
+  it 258:
+    append to seed 1: size=1033 neighbors=150 MISFIT=235624 COMPACTNESS=4.82579e+07 GOAL=4.84935e+07
+    append to seed 2: size=1034 neighbors=151 MISFIT=234967 COMPACTNESS=4.84152e+07 GOAL=4.86502e+07
+    append to seed 3: size=1035 neighbors=168 MISFIT=234585 COMPACTNESS=4.87277e+07 GOAL=4.89623e+07
+    append to seed 4: size=1036 neighbors=170 MISFIT=233515 COMPACTNESS=4.88851e+07 GOAL=4.91186e+07
+    time: 0.170405 s
+  it 259:
+    append to seed 1: size=1037 neighbors=150 MISFIT=232888 COMPACTNESS=4.90226e+07 GOAL=4.92554e+07
+    append to seed 2: size=1038 neighbors=152 MISFIT=232294 COMPACTNESS=4.91799e+07 GOAL=4.94122e+07
+    append to seed 3: size=1039 neighbors=168 MISFIT=231924 COMPACTNESS=4.94924e+07 GOAL=4.97243e+07
+    append to seed 4: size=1040 neighbors=171 MISFIT=231474 COMPACTNESS=4.96498e+07 GOAL=4.98812e+07
+    time: 0.15431 s
+  it 260:
+    append to seed 1: size=1041 neighbors=151 MISFIT=230870 COMPACTNESS=4.97872e+07 GOAL=5.00181e+07
+    append to seed 2: size=1042 neighbors=153 MISFIT=230583 COMPACTNESS=4.99446e+07 GOAL=5.01752e+07
+    append to seed 3: size=1043 neighbors=169 MISFIT=230455 COMPACTNESS=5.02571e+07 GOAL=5.04875e+07
+    append to seed 4: size=1044 neighbors=172 MISFIT=230167 COMPACTNESS=5.04144e+07 GOAL=5.06446e+07
+    time: 0.187186 s
+  it 261:
+    append to seed 1: size=1045 neighbors=151 MISFIT=229637 COMPACTNESS=5.05519e+07 GOAL=5.07815e+07
+    append to seed 2: size=1046 neighbors=154 MISFIT=229496 COMPACTNESS=5.07093e+07 GOAL=5.09388e+07
+    append to seed 3: size=1047 neighbors=169 MISFIT=228974 COMPACTNESS=5.1054e+07 GOAL=5.12829e+07
+    append to seed 4: size=1048 neighbors=173 MISFIT=228835 COMPACTNESS=5.12113e+07 GOAL=5.14401e+07
+    time: 0.154731 s
+  it 262:
+    append to seed 1: size=1049 neighbors=150 MISFIT=228346 COMPACTNESS=5.13488e+07 GOAL=5.15771e+07
+    append to seed 2: size=1050 neighbors=154 MISFIT=225448 COMPACTNESS=5.15277e+07 GOAL=5.17531e+07
+    append to seed 3: size=1051 neighbors=171 MISFIT=225327 COMPACTNESS=5.18098e+07 GOAL=5.20352e+07
+    append to seed 4: size=1052 neighbors=173 MISFIT=224915 COMPACTNESS=5.19887e+07 GOAL=5.22136e+07
+    time: 0.135713 s
+  it 263:
+    append to seed 1: size=1053 neighbors=149 MISFIT=224472 COMPACTNESS=5.21262e+07 GOAL=5.23507e+07
+    append to seed 2: size=1054 neighbors=154 MISFIT=222943 COMPACTNESS=5.23051e+07 GOAL=5.2528e+07
+    append to seed 3: size=1055 neighbors=171 MISFIT=222506 COMPACTNESS=5.26498e+07 GOAL=5.28723e+07
+    append to seed 4: size=1056 neighbors=173 MISFIT=222251 COMPACTNESS=5.28287e+07 GOAL=5.30509e+07
+    time: 0.102905 s
+  it 264:
+    append to seed 1: size=1057 neighbors=148 MISFIT=221856 COMPACTNESS=5.29661e+07 GOAL=5.3188e+07
+    append to seed 2: size=1058 neighbors=154 MISFIT=220492 COMPACTNESS=5.3145e+07 GOAL=5.33655e+07
+    append to seed 3: size=1059 neighbors=172 MISFIT=220128 COMPACTNESS=5.34897e+07 GOAL=5.37098e+07
+    append to seed 4: size=1060 neighbors=173 MISFIT=219924 COMPACTNESS=5.36686e+07 GOAL=5.38885e+07
+    time: 0.118672 s
+  it 265:
+    append to seed 1: size=1061 neighbors=148 MISFIT=219555 COMPACTNESS=5.3806e+07 GOAL=5.40256e+07
+    append to seed 2: size=1062 neighbors=154 MISFIT=218289 COMPACTNESS=5.39849e+07 GOAL=5.42032e+07
+    append to seed 3: size=1063 neighbors=172 MISFIT=218052 COMPACTNESS=5.43296e+07 GOAL=5.45477e+07
+    append to seed 4: size=1064 neighbors=173 MISFIT=217933 COMPACTNESS=5.45085e+07 GOAL=5.47264e+07
+    time: 0.120564 s
+  it 266:
+    append to seed 1: size=1065 neighbors=147 MISFIT=217624 COMPACTNESS=5.4646e+07 GOAL=5.48636e+07
+    append to seed 2: size=1066 neighbors=154 MISFIT=216840 COMPACTNESS=5.48249e+07 GOAL=5.50417e+07
+    append to seed 3: size=1067 neighbors=172 MISFIT=216650 COMPACTNESS=5.51695e+07 GOAL=5.53862e+07
+    append to seed 4: size=1068 neighbors=173 MISFIT=216027 COMPACTNESS=5.53716e+07 GOAL=5.55877e+07
+    time: 0.102875 s
+  it 267:
+    append to seed 1: size=1069 neighbors=148 MISFIT=215753 COMPACTNESS=5.55091e+07 GOAL=5.57249e+07
+    append to seed 2: size=1070 neighbors=154 MISFIT=215333 COMPACTNESS=5.5688e+07 GOAL=5.59033e+07
+    append to seed 3: size=1071 neighbors=172 MISFIT=214777 COMPACTNESS=5.60668e+07 GOAL=5.62816e+07
+    append to seed 4: size=1072 neighbors=173 MISFIT=214385 COMPACTNESS=5.62689e+07 GOAL=5.64833e+07
+    time: 0.136226 s
+  it 268:
+    append to seed 1: size=1073 neighbors=149 MISFIT=214202 COMPACTNESS=5.64063e+07 GOAL=5.66205e+07
+    append to seed 2: size=1074 neighbors=153 MISFIT=213837 COMPACTNESS=5.65852e+07 GOAL=5.67991e+07
+    append to seed 3: size=1075 neighbors=172 MISFIT=213540 COMPACTNESS=5.6964e+07 GOAL=5.71776e+07
+    append to seed 4: size=1076 neighbors=173 MISFIT=213382 COMPACTNESS=5.71661e+07 GOAL=5.73795e+07
+    time: 0.119357 s
+  it 269:
+    append to seed 1: size=1077 neighbors=149 MISFIT=213269 COMPACTNESS=5.73036e+07 GOAL=5.75168e+07
+    append to seed 2: size=1078 neighbors=152 MISFIT=212969 COMPACTNESS=5.74825e+07 GOAL=5.76954e+07
+    append to seed 3: size=1079 neighbors=174 MISFIT=212471 COMPACTNESS=5.79354e+07 GOAL=5.81478e+07
+    append to seed 4: size=1080 neighbors=173 MISFIT=212323 COMPACTNESS=5.81374e+07 GOAL=5.83498e+07
+    time: 0.135979 s
+  it 270:
+    append to seed 1: size=1081 neighbors=150 MISFIT=209484 COMPACTNESS=5.82948e+07 GOAL=5.85043e+07
+    append to seed 2: size=1082 neighbors=151 MISFIT=209347 COMPACTNESS=5.84737e+07 GOAL=5.8683e+07
+    append to seed 3: size=1083 neighbors=174 MISFIT=208928 COMPACTNESS=5.89266e+07 GOAL=5.91355e+07
+    append to seed 4: size=1084 neighbors=175 MISFIT=208106 COMPACTNESS=5.91536e+07 GOAL=5.93617e+07
+    time: 0.154823 s
+  it 271:
+    append to seed 1: size=1085 neighbors=151 MISFIT=205520 COMPACTNESS=5.9311e+07 GOAL=5.95165e+07
+    append to seed 2: size=1086 neighbors=151 MISFIT=202819 COMPACTNESS=5.9513e+07 GOAL=5.97159e+07
+    append to seed 3: size=1087 neighbors=174 MISFIT=202547 COMPACTNESS=5.99659e+07 GOAL=6.01685e+07
+    append to seed 4: size=1088 neighbors=176 MISFIT=202142 COMPACTNESS=6.0193e+07 GOAL=6.03951e+07
+    time: 0.154035 s
+  it 272:
+    append to seed 1: size=1089 neighbors=152 MISFIT=200621 COMPACTNESS=6.03503e+07 GOAL=6.05509e+07
+    append to seed 2: size=1090 neighbors=151 MISFIT=198343 COMPACTNESS=6.05524e+07 GOAL=6.07507e+07
+    append to seed 3: size=1091 neighbors=176 MISFIT=198230 COMPACTNESS=6.10053e+07 GOAL=6.12035e+07
+    append to seed 4: size=1092 neighbors=177 MISFIT=198014 COMPACTNESS=6.12323e+07 GOAL=6.14303e+07
+    time: 0.188432 s
+  it 273:
+    append to seed 1: size=1093 neighbors=153 MISFIT=196681 COMPACTNESS=6.13897e+07 GOAL=6.15863e+07
+    append to seed 2: size=1094 neighbors=151 MISFIT=195006 COMPACTNESS=6.15918e+07 GOAL=6.17868e+07
+    append to seed 3: size=1095 neighbors=179 MISFIT=194907 COMPACTNESS=6.20446e+07 GOAL=6.22396e+07
+    append to seed 4: size=1096 neighbors=177 MISFIT=194401 COMPACTNESS=6.23268e+07 GOAL=6.25212e+07
+    time: 0.188547 s
+  it 274:
+    append to seed 1: size=1097 neighbors=154 MISFIT=193112 COMPACTNESS=6.24842e+07 GOAL=6.26773e+07
+    append to seed 2: size=1098 neighbors=151 MISFIT=191739 COMPACTNESS=6.26863e+07 GOAL=6.2878e+07
+    append to seed 3: size=1099 neighbors=179 MISFIT=191228 COMPACTNESS=6.31792e+07 GOAL=6.33705e+07
+    append to seed 4: size=1100 neighbors=179 MISFIT=190874 COMPACTNESS=6.34917e+07 GOAL=6.36826e+07
+    time: 0.172526 s
+  it 275:
+    append to seed 1: size=1101 neighbors=155 MISFIT=189868 COMPACTNESS=6.36491e+07 GOAL=6.3839e+07
+    append to seed 2: size=1102 neighbors=151 MISFIT=189000 COMPACTNESS=6.38512e+07 GOAL=6.40402e+07
+    append to seed 3: size=1103 neighbors=180 MISFIT=188537 COMPACTNESS=6.43441e+07 GOAL=6.45327e+07
+    append to seed 4: size=1104 neighbors=180 MISFIT=187913 COMPACTNESS=6.46888e+07 GOAL=6.48767e+07
+    time: 0.172236 s
+  it 276:
+    append to seed 1: size=1105 neighbors=156 MISFIT=187133 COMPACTNESS=6.48462e+07 GOAL=6.50333e+07
+    append to seed 2: size=1106 neighbors=151 MISFIT=186348 COMPACTNESS=6.50483e+07 GOAL=6.52346e+07
+    append to seed 3: size=1107 neighbors=180 MISFIT=186156 COMPACTNESS=6.55412e+07 GOAL=6.57274e+07
+    append to seed 4: size=1108 neighbors=181 MISFIT=185990 COMPACTNESS=6.58859e+07 GOAL=6.60719e+07
+    time: 0.154647 s
+  it 277:
+    append to seed 1: size=1109 neighbors=157 MISFIT=185426 COMPACTNESS=6.60433e+07 GOAL=6.62287e+07
+    append to seed 2: size=1110 neighbors=151 MISFIT=184701 COMPACTNESS=6.62454e+07 GOAL=6.64301e+07
+    append to seed 3: size=1111 neighbors=181 MISFIT=184602 COMPACTNESS=6.67383e+07 GOAL=6.69229e+07
+    append to seed 4: size=1112 neighbors=183 MISFIT=184316 COMPACTNESS=6.71171e+07 GOAL=6.73014e+07
+    time: 0.188548 s
+  it 278:
+    append to seed 1: size=1113 neighbors=158 MISFIT=183820 COMPACTNESS=6.72745e+07 GOAL=6.74583e+07
+    append to seed 2: size=1114 neighbors=151 MISFIT=183214 COMPACTNESS=6.74766e+07 GOAL=6.76598e+07
+    append to seed 3: size=1115 neighbors=181 MISFIT=182544 COMPACTNESS=6.81021e+07 GOAL=6.82847e+07
+    append to seed 4: size=1116 neighbors=184 MISFIT=182009 COMPACTNESS=6.8555e+07 GOAL=6.8737e+07
+    time: 0.155127 s
+  it 279:
+    append to seed 1: size=1117 neighbors=159 MISFIT=181537 COMPACTNESS=6.87124e+07 GOAL=6.88939e+07
+    append to seed 2: size=1118 neighbors=151 MISFIT=180986 COMPACTNESS=6.89145e+07 GOAL=6.90955e+07
+    append to seed 3: size=1119 neighbors=183 MISFIT=180890 COMPACTNESS=6.95401e+07 GOAL=6.9721e+07
+    append to seed 4: size=1120 neighbors=185 MISFIT=180714 COMPACTNESS=6.9993e+07 GOAL=7.01737e+07
+    time: 0.18938 s
+  it 280:
+    append to seed 1: size=1121 neighbors=160 MISFIT=180262 COMPACTNESS=7.01503e+07 GOAL=7.03306e+07
+    append to seed 2: size=1122 neighbors=150 MISFIT=179994 COMPACTNESS=7.03524e+07 GOAL=7.05324e+07
+    append to seed 3: size=1123 neighbors=183 MISFIT=179773 COMPACTNESS=7.10265e+07 GOAL=7.12062e+07
+    append to seed 4: size=1124 neighbors=186 MISFIT=179656 COMPACTNESS=7.14794e+07 GOAL=7.1659e+07
+    time: 0.139674 s
+  it 281:
+    append to seed 1: size=1125 neighbors=161 MISFIT=179232 COMPACTNESS=7.16367e+07 GOAL=7.18159e+07
+    append to seed 2: size=1126 neighbors=149 MISFIT=178994 COMPACTNESS=7.18388e+07 GOAL=7.20178e+07
+    append to seed 3: size=1127 neighbors=184 MISFIT=178657 COMPACTNESS=7.25635e+07 GOAL=7.27422e+07
+    append to seed 4: size=1128 neighbors=186 MISFIT=178470 COMPACTNESS=7.30565e+07 GOAL=7.32349e+07
+    time: 0.139531 s
+  it 282:
+    append to seed 1: size=1129 neighbors=162 MISFIT=178050 COMPACTNESS=7.32138e+07 GOAL=7.33919e+07
+    append to seed 2: size=1130 neighbors=148 MISFIT=177865 COMPACTNESS=7.34159e+07 GOAL=7.35938e+07
+    append to seed 3: size=1131 neighbors=184 MISFIT=177582 COMPACTNESS=7.41406e+07 GOAL=7.43182e+07
+    append to seed 4: size=1132 neighbors=187 MISFIT=177452 COMPACTNESS=7.46336e+07 GOAL=7.4811e+07
+    time: 0.138434 s
+  it 283:
+    append to seed 1: size=1133 neighbors=163 MISFIT=177231 COMPACTNESS=7.47909e+07 GOAL=7.49682e+07
+    append to seed 2: size=1134 neighbors=147 MISFIT=177099 COMPACTNESS=7.4993e+07 GOAL=7.51701e+07
+    append to seed 3: size=1135 neighbors=185 MISFIT=176910 COMPACTNESS=7.57706e+07 GOAL=7.59475e+07
+    append to seed 4: size=1136 neighbors=188 MISFIT=176440 COMPACTNESS=7.63962e+07 GOAL=7.65727e+07
+    time: 0.156412 s
+  it 284:
+    append to seed 1: size=1137 neighbors=164 MISFIT=176344 COMPACTNESS=7.65536e+07 GOAL=7.67299e+07
+    append to seed 2: size=1138 neighbors=147 MISFIT=176242 COMPACTNESS=7.67557e+07 GOAL=7.69319e+07
+    append to seed 3: size=1139 neighbors=185 MISFIT=175935 COMPACTNESS=7.75884e+07 GOAL=7.77643e+07
+    append to seed 4: size=1140 neighbors=190 MISFIT=175734 COMPACTNESS=7.8214e+07 GOAL=7.83897e+07
+    time: 0.172971 s
+  it 285:
+    append to seed 1: size=1141 neighbors=164 MISFIT=173670 COMPACTNESS=7.83929e+07 GOAL=7.85665e+07
+    append to seed 2: size=1142 neighbors=149 MISFIT=171723 COMPACTNESS=7.86199e+07 GOAL=7.87916e+07
+    append to seed 3: size=1143 neighbors=186 MISFIT=171540 COMPACTNESS=7.94526e+07 GOAL=7.96242e+07
+    append to seed 4: size=1144 neighbors=190 MISFIT=171408 COMPACTNESS=8.00782e+07 GOAL=8.02496e+07
+    time: 0.173941 s
+  it 286:
+    append to seed 1: size=1145 neighbors=164 MISFIT=170273 COMPACTNESS=8.02571e+07 GOAL=8.04274e+07
+    append to seed 2: size=1146 neighbors=150 MISFIT=169276 COMPACTNESS=8.04841e+07 GOAL=8.06534e+07
+    append to seed 3: size=1147 neighbors=188 MISFIT=168829 COMPACTNESS=8.13742e+07 GOAL=8.15431e+07
+    append to seed 4: size=1148 neighbors=192 MISFIT=168733 COMPACTNESS=8.20483e+07 GOAL=8.2217e+07
+    time: 0.206839 s
+  it 287:
+    append to seed 1: size=1149 neighbors=164 MISFIT=167729 COMPACTNESS=8.22272e+07 GOAL=8.23949e+07
+    append to seed 2: size=1150 neighbors=151 MISFIT=167391 COMPACTNESS=8.24542e+07 GOAL=8.26216e+07
+    append to seed 3: size=1151 neighbors=188 MISFIT=167074 COMPACTNESS=8.33443e+07 GOAL=8.35114e+07
+    append to seed 4: size=1152 neighbors=192 MISFIT=166962 COMPACTNESS=8.40691e+07 GOAL=8.4236e+07
+    time: 0.142964 s
+  it 288:
+    append to seed 1: size=1153 neighbors=164 MISFIT=166081 COMPACTNESS=8.42479e+07 GOAL=8.4414e+07
+    append to seed 2: size=1154 neighbors=153 MISFIT=165919 COMPACTNESS=8.4475e+07 GOAL=8.46409e+07
+    append to seed 3: size=1155 neighbors=190 MISFIT=165833 COMPACTNESS=8.49279e+07 GOAL=8.50937e+07
+    append to seed 4: size=1156 neighbors=195 MISFIT=165650 COMPACTNESS=8.5818e+07 GOAL=8.59836e+07
+    time: 0.242529 s
+  it 289:
+    append to seed 1: size=1157 neighbors=164 MISFIT=164846 COMPACTNESS=8.59969e+07 GOAL=8.61617e+07
+    append to seed 2: size=1158 neighbors=154 MISFIT=164722 COMPACTNESS=8.62239e+07 GOAL=8.63886e+07
+    append to seed 3: size=1159 neighbors=190 MISFIT=164526 COMPACTNESS=8.72358e+07 GOAL=8.74004e+07
+    append to seed 4: size=1160 neighbors=196 MISFIT=164421 COMPACTNESS=8.8126e+07 GOAL=8.82904e+07
+    time: 0.158049 s
+  it 290:
+    append to seed 1: size=1161 neighbors=164 MISFIT=163680 COMPACTNESS=8.83049e+07 GOAL=8.84685e+07
+    append to seed 2: size=1162 neighbors=154 MISFIT=161919 COMPACTNESS=8.8587e+07 GOAL=8.8749e+07
+    append to seed 3: size=1163 neighbors=190 MISFIT=161539 COMPACTNESS=8.96634e+07 GOAL=8.98249e+07
+    append to seed 4: size=1164 neighbors=197 MISFIT=161408 COMPACTNESS=9.07398e+07 GOAL=9.09012e+07
+    time: 0.141418 s
+  it 291:
+    append to seed 1: size=1165 neighbors=164 MISFIT=160867 COMPACTNESS=9.09186e+07 GOAL=9.10795e+07
+    append to seed 2: size=1166 neighbors=154 MISFIT=160427 COMPACTNESS=9.12008e+07 GOAL=9.13613e+07
+    append to seed 3: size=1167 neighbors=190 MISFIT=160160 COMPACTNESS=9.22772e+07 GOAL=9.24374e+07
+    append to seed 4: size=1168 neighbors=199 MISFIT=159874 COMPACTNESS=9.35614e+07 GOAL=9.37213e+07
+    time: 0.158074 s
+  it 292:
+    append to seed 1: size=1169 neighbors=164 MISFIT=159425 COMPACTNESS=9.37403e+07 GOAL=9.38997e+07
+    append to seed 2: size=1170 neighbors=154 MISFIT=159189 COMPACTNESS=9.40225e+07 GOAL=9.41816e+07
+    append to seed 3: size=1171 neighbors=190 MISFIT=158754 COMPACTNESS=9.53067e+07 GOAL=9.54654e+07
+    append to seed 4: size=1172 neighbors=201 MISFIT=158602 COMPACTNESS=9.66651e+07 GOAL=9.68237e+07
+    time: 0.158958 s
+  it 293:
+    append to seed 1: size=1173 neighbors=164 MISFIT=158251 COMPACTNESS=9.6844e+07 GOAL=9.70022e+07
+    append to seed 2: size=1174 neighbors=153 MISFIT=158077 COMPACTNESS=9.71261e+07 GOAL=9.72842e+07
+    append to seed 3: size=1175 neighbors=193 MISFIT=157997 COMPACTNESS=9.80163e+07 GOAL=9.81743e+07
+    append to seed 4: size=1176 neighbors=204 MISFIT=157455 COMPACTNESS=9.9697e+07 GOAL=9.98544e+07
+    time: 0.207904 s
+  it 294:
+    append to seed 1: size=1177 neighbors=163 MISFIT=157191 COMPACTNESS=9.98759e+07 GOAL=1.00033e+08
+    append to seed 2: size=1178 neighbors=154 MISFIT=154605 COMPACTNESS=1.00188e+08 GOAL=1.00343e+08
+    append to seed 3: size=1179 neighbors=195 MISFIT=154395 COMPACTNESS=1.01624e+08 GOAL=1.01778e+08
+    append to seed 4: size=1180 neighbors=204 MISFIT=154167 COMPACTNESS=1.03304e+08 GOAL=1.03458e+08
+    time: 0.156606 s
+  it 295:
+    append to seed 1: size=1181 neighbors=162 MISFIT=153939 COMPACTNESS=1.03483e+08 GOAL=1.03637e+08
+    append to seed 2: size=1182 neighbors=154 MISFIT=152380 COMPACTNESS=1.03796e+08 GOAL=1.03948e+08
+    append to seed 3: size=1183 neighbors=196 MISFIT=151934 COMPACTNESS=1.05476e+08 GOAL=1.05628e+08
+    append to seed 4: size=1184 neighbors=205 MISFIT=151525 COMPACTNESS=1.07619e+08 GOAL=1.07771e+08
+    time: 0.141223 s
+  it 296:
+    append to seed 1: size=1185 neighbors=161 MISFIT=151418 COMPACTNESS=1.07798e+08 GOAL=1.07949e+08
+    append to seed 2: size=1186 neighbors=154 MISFIT=150669 COMPACTNESS=1.0811e+08 GOAL=1.08261e+08
+    append to seed 3: size=1187 neighbors=196 MISFIT=150463 COMPACTNESS=1.09968e+08 GOAL=1.10118e+08
+    append to seed 4: size=1188 neighbors=207 MISFIT=150210 COMPACTNESS=1.12315e+08 GOAL=1.12465e+08
+    time: 0.14136 s
+  it 297:
+    append to seed 1: size=1189 neighbors=161 MISFIT=148382 COMPACTNESS=1.12517e+08 GOAL=1.12665e+08
+    append to seed 2: size=1190 neighbors=155 MISFIT=148231 COMPACTNESS=1.12829e+08 GOAL=1.12978e+08
+    append to seed 3: size=1191 neighbors=198 MISFIT=148138 COMPACTNESS=1.13056e+08 GOAL=1.13204e+08
+    append to seed 4: size=1192 neighbors=210 MISFIT=147983 COMPACTNESS=1.15403e+08 GOAL=1.15551e+08
+    time: 0.225734 s
+  it 298:
+    append to seed 1: size=1193 neighbors=161 MISFIT=146251 COMPACTNESS=1.15605e+08 GOAL=1.15751e+08
+    append to seed 2: size=1194 neighbors=156 MISFIT=146152 COMPACTNESS=1.15918e+08 GOAL=1.16064e+08
+    append to seed 3: size=1195 neighbors=201 MISFIT=145867 COMPACTNESS=1.16371e+08 GOAL=1.16516e+08
+    append to seed 4: size=1196 neighbors=209 MISFIT=145753 COMPACTNESS=1.18824e+08 GOAL=1.18969e+08
+    time: 0.175311 s
+  it 299:
+    append to seed 1: size=1197 neighbors=161 MISFIT=144574 COMPACTNESS=1.19026e+08 GOAL=1.1917e+08
+    append to seed 2: size=1198 neighbors=157 MISFIT=142597 COMPACTNESS=1.1937e+08 GOAL=1.19513e+08
+    append to seed 3: size=1199 neighbors=205 MISFIT=142471 COMPACTNESS=1.20148e+08 GOAL=1.2029e+08
+    append to seed 4: size=1200 neighbors=211 MISFIT=142324 COMPACTNESS=1.23054e+08 GOAL=1.23196e+08
+    time: 0.243093 s
+  it 300:
+    append to seed 1: size=1201 neighbors=161 MISFIT=141251 COMPACTNESS=1.23256e+08 GOAL=1.23397e+08
+    append to seed 2: size=1202 neighbors=159 MISFIT=139507 COMPACTNESS=1.23601e+08 GOAL=1.2374e+08
+    append to seed 3: size=1203 neighbors=206 MISFIT=139358 COMPACTNESS=1.25744e+08 GOAL=1.25883e+08
+    append to seed 4: size=1204 neighbors=212 MISFIT=139255 COMPACTNESS=1.2877e+08 GOAL=1.2891e+08
+    time: 0.193536 s
+  it 301:
+    append to seed 1: size=1205 neighbors=161 MISFIT=138453 COMPACTNESS=1.28973e+08 GOAL=1.29111e+08
+    append to seed 2: size=1206 neighbors=159 MISFIT=137567 COMPACTNESS=1.29317e+08 GOAL=1.29455e+08
+    append to seed 3: size=1207 neighbors=206 MISFIT=137462 COMPACTNESS=1.3177e+08 GOAL=1.31908e+08
+    append to seed 4: size=1208 neighbors=212 MISFIT=137176 COMPACTNESS=1.35445e+08 GOAL=1.35582e+08
+    time: 0.126059 s
+  it 302:
+    append to seed 1: size=1209 neighbors=161 MISFIT=136445 COMPACTNESS=1.35647e+08 GOAL=1.35783e+08
+    append to seed 2: size=1210 neighbors=159 MISFIT=135928 COMPACTNESS=1.35991e+08 GOAL=1.36127e+08
+    append to seed 3: size=1211 neighbors=209 MISFIT=135847 COMPACTNESS=1.36769e+08 GOAL=1.36905e+08
+    append to seed 4: size=1212 neighbors=214 MISFIT=135202 COMPACTNESS=1.4148e+08 GOAL=1.41615e+08
+    time: 0.209644 s
+  it 303:
+    append to seed 1: size=1213 neighbors=161 MISFIT=134519 COMPACTNESS=1.41682e+08 GOAL=1.41816e+08
+    append to seed 2: size=1214 neighbors=159 MISFIT=134220 COMPACTNESS=1.42026e+08 GOAL=1.42161e+08
+    append to seed 3: size=1215 neighbors=212 MISFIT=134091 COMPACTNESS=1.45565e+08 GOAL=1.45699e+08
+    append to seed 4: size=1216 neighbors=214 MISFIT=133856 COMPACTNESS=1.50768e+08 GOAL=1.50902e+08
+    time: 0.176589 s
+  it 304:
+    append to seed 1: size=1217 neighbors=161 MISFIT=133260 COMPACTNESS=1.5097e+08 GOAL=1.51103e+08
+    append to seed 2: size=1218 neighbors=159 MISFIT=133068 COMPACTNESS=1.51315e+08 GOAL=1.51448e+08
+    append to seed 3: size=1219 neighbors=214 MISFIT=132785 COMPACTNESS=1.55269e+08 GOAL=1.55402e+08
+    append to seed 4: size=1220 neighbors=216 MISFIT=132227 COMPACTNESS=1.61358e+08 GOAL=1.61491e+08
+    time: 0.196426 s
+  it 305:
+    append to seed 1: size=1221 neighbors=161 MISFIT=131682 COMPACTNESS=1.6156e+08 GOAL=1.61692e+08
+    append to seed 2: size=1222 neighbors=159 MISFIT=131030 COMPACTNESS=1.61939e+08 GOAL=1.6207e+08
+    append to seed 3: size=1223 neighbors=214 MISFIT=130884 COMPACTNESS=1.66338e+08 GOAL=1.66469e+08
+    append to seed 4: size=1224 neighbors=219 MISFIT=129900 COMPACTNESS=1.73811e+08 GOAL=1.73941e+08
+    time: 0.176967 s
+  it 306:
+    append to seed 1: size=1225 neighbors=161 MISFIT=129451 COMPACTNESS=1.74013e+08 GOAL=1.74142e+08
+    append to seed 2: size=1226 neighbors=159 MISFIT=129162 COMPACTNESS=1.74392e+08 GOAL=1.74521e+08
+    append to seed 3: size=1227 neighbors=216 MISFIT=128996 COMPACTNESS=1.79102e+08 GOAL=1.79231e+08
+    append to seed 4: size=1228 neighbors=223 MISFIT=128921 COMPACTNESS=1.83057e+08 GOAL=1.83186e+08
+    time: 0.227739 s
+  it 307:
+    append to seed 1: size=1229 neighbors=161 MISFIT=128494 COMPACTNESS=1.83259e+08 GOAL=1.83388e+08
+    append to seed 2: size=1230 neighbors=159 MISFIT=128351 COMPACTNESS=1.83638e+08 GOAL=1.83766e+08
+    append to seed 3: size=1231 neighbors=219 MISFIT=128102 COMPACTNESS=1.89543e+08 GOAL=1.89671e+08
+    append to seed 4: size=1232 neighbors=223 MISFIT=127573 COMPACTNESS=1.99295e+08 GOAL=1.99422e+08
+    time: 0.177816 s
+  it 308:
+    append to seed 1: size=1233 neighbors=161 MISFIT=127165 COMPACTNESS=1.99497e+08 GOAL=1.99624e+08
+    append to seed 2: size=1234 neighbors=160 MISFIT=126409 COMPACTNESS=1.9995e+08 GOAL=2.00076e+08
+    append to seed 3: size=1235 neighbors=220 MISFIT=126246 COMPACTNESS=2.06808e+08 GOAL=2.06935e+08
+    append to seed 4: size=1236 neighbors=226 MISFIT=125248 COMPACTNESS=2.18377e+08 GOAL=2.18502e+08
+    time: 0.213301 s
+  it 309:
+    append to seed 1: size=1237 neighbors=161 MISFIT=124891 COMPACTNESS=2.18579e+08 GOAL=2.18704e+08
+    append to seed 2: size=1238 neighbors=160 MISFIT=124409 COMPACTNESS=2.19032e+08 GOAL=2.19156e+08
+    append to seed 3: size=1239 neighbors=222 MISFIT=124343 COMPACTNESS=2.20244e+08 GOAL=2.20368e+08
+    append to seed 4: size=1240 neighbors=226 MISFIT=124145 COMPACTNESS=2.31812e+08 GOAL=2.31936e+08
+    time: 0.160641 s
+  it 310:
+    append to seed 1: size=1241 neighbors=161 MISFIT=123906 COMPACTNESS=2.32014e+08 GOAL=2.32138e+08
+    append to seed 2: size=1242 neighbors=160 MISFIT=123753 COMPACTNESS=2.32467e+08 GOAL=2.32591e+08
+    append to seed 3: size=1243 neighbors=223 MISFIT=123677 COMPACTNESS=2.40367e+08 GOAL=2.4049e+08
+    append to seed 4: size=1244 neighbors=227 MISFIT=123427 COMPACTNESS=2.5394e+08 GOAL=2.54064e+08
+    time: 0.161533 s
+  it 311:
+    append to seed 1: size=1245 neighbors=161 MISFIT=123219 COMPACTNESS=2.54142e+08 GOAL=2.54266e+08
+    append to seed 2: size=1246 neighbors=161 MISFIT=122820 COMPACTNESS=2.54635e+08 GOAL=2.54758e+08
+    append to seed 3: size=1247 neighbors=226 MISFIT=122751 COMPACTNESS=2.65933e+08 GOAL=2.66055e+08
+    append to seed 4: size=1248 neighbors=228 MISFIT=122203 COMPACTNESS=2.83402e+08 GOAL=2.83524e+08
+    time: 0.212952 s
+  it 312:
+    append to seed 1: size=1249 neighbors=161 MISFIT=122059 COMPACTNESS=2.83604e+08 GOAL=2.83726e+08
+    append to seed 2: size=1250 neighbors=161 MISFIT=121955 COMPACTNESS=2.84097e+08 GOAL=2.84219e+08
+    append to seed 3: size=1251 neighbors=230 MISFIT=121893 COMPACTNESS=2.85455e+08 GOAL=2.85577e+08
+    append to seed 4: size=1252 neighbors=230 MISFIT=121449 COMPACTNESS=3.05474e+08 GOAL=3.05596e+08
+    time: 0.230007 s
+  it 313:
+    append to seed 1: size=1253 neighbors=161 MISFIT=121311 COMPACTNESS=3.05676e+08 GOAL=3.05797e+08
+    append to seed 2: size=1254 neighbors=161 MISFIT=121108 COMPACTNESS=3.06302e+08 GOAL=3.06423e+08
+    append to seed 3: size=1255 neighbors=233 MISFIT=121025 COMPACTNESS=3.24122e+08 GOAL=3.24244e+08
+    append to seed 4: size=1256 neighbors=231 MISFIT=120674 COMPACTNESS=3.49879e+08 GOAL=3.49999e+08
+    time: 0.196302 s
+  it 314:
+    append to seed 1: size=1257 neighbors=160 MISFIT=120577 COMPACTNESS=3.50081e+08 GOAL=3.50201e+08
+    append to seed 2: size=1258 neighbors=163 MISFIT=120344 COMPACTNESS=3.50971e+08 GOAL=3.51091e+08
+    append to seed 3: size=1259 neighbors=236 MISFIT=120240 COMPACTNESS=3.70613e+08 GOAL=3.70733e+08
+    append to seed 4: size=1260 neighbors=232 MISFIT=120112 COMPACTNESS=4.07742e+08 GOAL=4.07862e+08
+    time: 0.216134 s
+  it 315:
+    append to seed 1: size=1261 neighbors=159 MISFIT=120027 COMPACTNESS=4.07944e+08 GOAL=4.08064e+08
+    append to seed 2: size=1262 neighbors=166 MISFIT=119911 COMPACTNESS=4.09625e+08 GOAL=4.09745e+08
+    time: 0.125109 s
+  it 316:
+    append to seed 1: size=1263 neighbors=161 MISFIT=118425 COMPACTNESS=4.09852e+08 GOAL=4.0997e+08
+    append to seed 2: size=1264 neighbors=169 MISFIT=118365 COMPACTNESS=4.11995e+08 GOAL=4.12113e+08
+    time: 0.175876 s
+  it 317:
+    append to seed 1: size=1265 neighbors=163 MISFIT=117003 COMPACTNESS=4.12222e+08 GOAL=4.12339e+08
+    append to seed 2: size=1266 neighbors=171 MISFIT=116918 COMPACTNESS=4.15248e+08 GOAL=4.15365e+08
+    time: 0.160323 s
+  it 318:
+    append to seed 1: size=1267 neighbors=164 MISFIT=116082 COMPACTNESS=4.15475e+08 GOAL=4.15591e+08
+    append to seed 2: size=1268 neighbors=174 MISFIT=115981 COMPACTNESS=4.1943e+08 GOAL=4.19546e+08
+    time: 0.160059 s
+  it 319:
+    append to seed 1: size=1269 neighbors=165 MISFIT=115175 COMPACTNESS=4.19657e+08 GOAL=4.19772e+08
+    time: 0.0898108 s
+  it 320:
+    append to seed 1: size=1270 neighbors=166 MISFIT=114806 COMPACTNESS=4.19884e+08 GOAL=4.19999e+08
+    time: 0.0895278 s
+  it 321:
+    append to seed 1: size=1271 neighbors=167 MISFIT=114455 COMPACTNESS=4.20111e+08 GOAL=4.20226e+08
+    time: 0.0899041 s
+  it 322:
+    append to seed 1: size=1272 neighbors=169 MISFIT=114290 COMPACTNESS=4.20338e+08 GOAL=4.20452e+08
+    time: 0.10697 s
+  it 323:
+    append to seed 1: size=1273 neighbors=171 MISFIT=114149 COMPACTNESS=4.20565e+08 GOAL=4.20679e+08
+    time: 0.107265 s
+  it 324:
+    append to seed 1: size=1274 neighbors=172 MISFIT=114035 COMPACTNESS=4.20792e+08 GOAL=4.20906e+08
+    time: 0.0898061 s
+  it 325:
+    append to seed 1: size=1275 neighbors=173 MISFIT=113940 COMPACTNESS=4.21019e+08 GOAL=4.21133e+08
+    time: 0.089747 s
+  it 326:
+    append to seed 1: size=1276 neighbors=173 MISFIT=112780 COMPACTNESS=4.21301e+08 GOAL=4.21414e+08
+    time: 0.07288 s
+  it 327:
+    append to seed 1: size=1277 neighbors=173 MISFIT=111681 COMPACTNESS=4.21584e+08 GOAL=4.21695e+08
+    time: 0.0732939 s
+  it 328:
+    append to seed 1: size=1278 neighbors=173 MISFIT=111458 COMPACTNESS=4.21866e+08 GOAL=4.21977e+08
+    time: 0.073189 s
+  it 329:
+    append to seed 1: size=1279 neighbors=173 MISFIT=111247 COMPACTNESS=4.22148e+08 GOAL=4.22259e+08
+    time: 0.0734942 s
+  it 330:
+    append to seed 1: size=1280 neighbors=173 MISFIT=111129 COMPACTNESS=4.2243e+08 GOAL=4.22541e+08
+    time: 0.073154 s
+  it 331:
+    append to seed 1: size=1281 neighbors=173 MISFIT=111033 COMPACTNESS=4.22712e+08 GOAL=4.22823e+08
+    time: 0.0736082 s
+  it 332:
+    append to seed 1: size=1282 neighbors=174 MISFIT=109360 COMPACTNESS=4.23025e+08 GOAL=4.23134e+08
+    time: 0.0898631 s
+  it 333:
+    append to seed 1: size=1283 neighbors=174 MISFIT=108766 COMPACTNESS=4.23337e+08 GOAL=4.23446e+08
+    time: 0.0731652 s
+  it 334:
+    append to seed 1: size=1284 neighbors=174 MISFIT=108242 COMPACTNESS=4.2365e+08 GOAL=4.23758e+08
+    time: 0.0735998 s
+  it 335:
+    append to seed 1: size=1285 neighbors=175 MISFIT=107932 COMPACTNESS=4.23962e+08 GOAL=4.2407e+08
+    time: 0.089936 s
+  it 336:
+    append to seed 1: size=1286 neighbors=176 MISFIT=107629 COMPACTNESS=4.24275e+08 GOAL=4.24382e+08
+    time: 0.090235 s
+  it 337:
+    append to seed 1: size=1287 neighbors=176 MISFIT=107507 COMPACTNESS=4.24587e+08 GOAL=4.24695e+08
+    time: 0.0729952 s
+  it 338:
+    append to seed 1: size=1288 neighbors=176 MISFIT=107402 COMPACTNESS=4.249e+08 GOAL=4.25007e+08
+    time: 0.073035 s
+  it 339:
+    append to seed 1: size=1289 neighbors=177 MISFIT=107329 COMPACTNESS=4.25212e+08 GOAL=4.2532e+08
+    time: 0.089865 s
+  it 340:
+    append to seed 1: size=1290 neighbors=178 MISFIT=106146 COMPACTNESS=4.25557e+08 GOAL=4.25663e+08
+    time: 0.089972 s
+  it 341:
+    append to seed 1: size=1291 neighbors=179 MISFIT=105120 COMPACTNESS=4.25902e+08 GOAL=4.26007e+08
+    time: 0.0904739 s
+  it 342:
+    append to seed 1: size=1292 neighbors=179 MISFIT=104513 COMPACTNESS=4.26246e+08 GOAL=4.26351e+08
+    time: 0.073801 s
+  it 343:
+    append to seed 1: size=1293 neighbors=179 MISFIT=104146 COMPACTNESS=4.26591e+08 GOAL=4.26695e+08
+    time: 0.0732529 s
+  it 344:
+    append to seed 1: size=1294 neighbors=179 MISFIT=103796 COMPACTNESS=4.26936e+08 GOAL=4.2704e+08
+    time: 0.0737319 s
+  it 345:
+    append to seed 1: size=1295 neighbors=180 MISFIT=103497 COMPACTNESS=4.2728e+08 GOAL=4.27384e+08
+    time: 0.0904381 s
+  it 346:
+    append to seed 1: size=1296 neighbors=181 MISFIT=103221 COMPACTNESS=4.27625e+08 GOAL=4.27728e+08
+    time: 0.0906549 s
+  it 347:
+    append to seed 1: size=1297 neighbors=181 MISFIT=103028 COMPACTNESS=4.2797e+08 GOAL=4.28073e+08
+    time: 0.0735829 s
+  it 348:
+    append to seed 1: size=1298 neighbors=182 MISFIT=102952 COMPACTNESS=4.28315e+08 GOAL=4.28418e+08
+    time: 0.090842 s
+  it 349:
+    append to seed 1: size=1299 neighbors=183 MISFIT=102886 COMPACTNESS=4.28659e+08 GOAL=4.28762e+08
+    time: 0.0906892 s
+  it 350:
+    append to seed 1: size=1300 neighbors=183 MISFIT=102420 COMPACTNESS=4.29038e+08 GOAL=4.2914e+08
+    time: 0.074023 s
+  it 351:
+    append to seed 1: size=1301 neighbors=183 MISFIT=101988 COMPACTNESS=4.29417e+08 GOAL=4.29519e+08
+    time: 0.0738902 s
+  it 352:
+    append to seed 1: size=1302 neighbors=183 MISFIT=101845 COMPACTNESS=4.29796e+08 GOAL=4.29897e+08
+    time: 0.0739021 s
+  it 353:
+    append to seed 1: size=1303 neighbors=183 MISFIT=101711 COMPACTNESS=4.30174e+08 GOAL=4.30276e+08
+    time: 0.073549 s
+  it 354:
+    append to seed 1: size=1304 neighbors=183 MISFIT=101060 COMPACTNESS=4.30627e+08 GOAL=4.30728e+08
+    time: 0.073525 s
+  it 355:
+    append to seed 1: size=1305 neighbors=185 MISFIT=100521 COMPACTNESS=4.3108e+08 GOAL=4.31181e+08
+    append to seed 2: size=1306 neighbors=177 MISFIT=100462 COMPACTNESS=4.37547e+08 GOAL=4.37648e+08
+    time: 0.177422 s
+  it 356:
+    append to seed 1: size=1307 neighbors=187 MISFIT=100035 COMPACTNESS=4.38e+08 GOAL=4.381e+08
+    time: 0.108769 s
+  it 357:
+    append to seed 1: size=1308 neighbors=188 MISFIT=99829.9 COMPACTNESS=4.38453e+08 GOAL=4.38553e+08
+    time: 0.092406 s
+  it 358:
+    append to seed 1: size=1309 neighbors=189 MISFIT=99675.7 COMPACTNESS=4.38906e+08 GOAL=4.39006e+08
+    time: 0.092768 s
+  it 359:
+    append to seed 1: size=1310 neighbors=189 MISFIT=99569.7 COMPACTNESS=4.39359e+08 GOAL=4.39458e+08
+    time: 0.074851 s
+  it 360:
+    append to seed 1: size=1311 neighbors=189 MISFIT=99479.9 COMPACTNESS=4.39812e+08 GOAL=4.39911e+08
+    time: 0.0771611 s
+  it 361:
+    append to seed 1: size=1312 neighbors=189 MISFIT=99111.5 COMPACTNESS=4.40305e+08 GOAL=4.40404e+08
+    time: 0.0753658 s
+  it 362:
+    append to seed 1: size=1313 neighbors=189 MISFIT=98814.3 COMPACTNESS=4.40798e+08 GOAL=4.40896e+08
+    time: 0.0759552 s
+  it 363:
+    append to seed 1: size=1314 neighbors=189 MISFIT=98687.4 COMPACTNESS=4.4129e+08 GOAL=4.41389e+08
+    time: 0.0747089 s
+  it 364:
+    append to seed 1: size=1315 neighbors=189 MISFIT=98594.8 COMPACTNESS=4.41783e+08 GOAL=4.41882e+08
+    time: 0.074419 s
+  it 365:
+    append to seed 1: size=1316 neighbors=189 MISFIT=98358.7 COMPACTNESS=4.42409e+08 GOAL=4.42507e+08
+    time: 0.0746601 s
+  it 366:
+    append to seed 1: size=1317 neighbors=189 MISFIT=98188.2 COMPACTNESS=4.43035e+08 GOAL=4.43133e+08
+    time: 0.0745161 s
+  it 367:
+    append to seed 1: size=1318 neighbors=190 MISFIT=97925.3 COMPACTNESS=4.43709e+08 GOAL=4.43807e+08
+    time: 0.091687 s
+  it 368:
+    append to seed 1: size=1319 neighbors=191 MISFIT=97743.4 COMPACTNESS=4.44433e+08 GOAL=4.44531e+08
+    time: 0.0916791 s
+  it 369:
+    append to seed 1: size=1320 neighbors=191 MISFIT=97687.1 COMPACTNESS=4.45266e+08 GOAL=4.45364e+08
+    time: 0.0744009 s
+  it 370:
+    append to seed 1: size=1321 neighbors=193 MISFIT=97575.5 COMPACTNESS=4.46156e+08 GOAL=4.46254e+08
+    time: 0.108182 s
+  it 371:
+    append to seed 1: size=1322 neighbors=195 MISFIT=97515.8 COMPACTNESS=4.47046e+08 GOAL=4.47144e+08
+    time: 0.108336 s
+  it 372:
+    append to seed 1: size=1323 neighbors=197 MISFIT=97437.5 COMPACTNESS=4.48259e+08 GOAL=4.48356e+08
+    time: 0.108606 s
+  it 373:
+    append to seed 1: size=1324 neighbors=199 MISFIT=97380.1 COMPACTNESS=4.49471e+08 GOAL=4.49569e+08
+    time: 0.108806 s
+  it 374:
+    append to seed 1: size=1325 neighbors=200 MISFIT=97282.5 COMPACTNESS=4.51152e+08 GOAL=4.51249e+08
+    time: 0.091625 s
+  it 375:
+    append to seed 1: size=1326 neighbors=202 MISFIT=97231.8 COMPACTNESS=4.52833e+08 GOAL=4.5293e+08
+    time: 0.108968 s
+  it 376:
+    append to seed 1: size=1327 neighbors=206 MISFIT=97125.4 COMPACTNESS=4.55859e+08 GOAL=4.55957e+08
+    time: 0.142877 s
+  it 377:
+    append to seed 1: size=1328 neighbors=210 MISFIT=97069.4 COMPACTNESS=4.58886e+08 GOAL=4.58983e+08
+    time: 0.142795 s
+  it 378:
+    append to seed 1: size=1329 neighbors=214 MISFIT=97019.2 COMPACTNESS=4.64089e+08 GOAL=4.64186e+08
+    time: 0.142898 s
+  it 379:
+    Exited because couldn't grow.
+  Size of estimate: 1329 cells
+  Filling estimate with zeros...
+  Total inversion time: 53.6489 s
+Plotting
