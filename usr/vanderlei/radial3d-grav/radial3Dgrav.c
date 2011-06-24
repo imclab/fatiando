@@ -17,6 +17,12 @@
  along with Fatiando a Terra.  If not, see <http://www.gnu.org/licenses/>.
  **************************************************************************** */
 
+/*
+Author: Vanderlei C. Oliveira Jr.
+Date: 24 Jun 2011
+Contact: vandscoelho@gmail.com
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
