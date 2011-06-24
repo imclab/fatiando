@@ -94,19 +94,6 @@ double derivada_ajuste_x0 (int ponto, int prisma, int nvertices, double *Xp, dou
 double derivada_ajuste_y0 (int ponto, int prisma, int nvertices, double *Xp, double *Yp, double *Zp, double *x0, double *y0, double *rho, double *z1, double *z2, double **raio, double teta, double **x, double **y, double dr);
 
 /* Contribuição dos vínculos na função objetivo ==> */
-
-double fobj_ridge (double uridge, double **raio, int M, int nvertices);
-
-double fobj_absolut_equality_raios (double uae_raios, double **raio, double *pae, int nvertices);
-
-double fobj_absolut_equality_origem (double uae_x0, double uae_y0, double x0_afloramento, double y0_afloramento, double *x0, double *y0, int M);
-
-double fobj_flatness_raios (double uflatness_rad, double uflatness_vert, double **raio, int M, int nvertices);
-
-double	fobj_flatness_origens (double uflatness_x0, double uflatness_y0, double *x0, double *y0, int M);
-
-/* <== Contribuição dos vínculos na função objetivo */
-
 int main() {
 
 	int i, j, k, l, m, n;
