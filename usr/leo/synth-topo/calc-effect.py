@@ -10,8 +10,8 @@ from fatiando.mesher.prism import Relief3D, relief2prisms, fill_relief
 log = logger.get()
 log.info(logger.header())
 
-#files = ['topo-ns.txt', 'topo-ew.txt', 'topo-diag.txt', 'topo-mount.txt']
-files = ['topo-ns.txt']
+files = ['topo-ns.txt', 'topo-ew.txt', 'topo-diag.txt', 'topo-mount.txt']
+#files = ['topo-ns.txt']
 shape = (101, 101)
 area = (-5000, 5000, -5000, 5000)
 areatopo = (-7000, 7000, -7000, 7000)
@@ -36,7 +36,7 @@ for f in files:
     pyplot.suptitle(f)
     for i, comp in enumerate(comps):
         res = comps[comp](xp, yp, zp, relief2prisms(relief, 'density'))
-        numpy.savetxt('%s-%s.txt' % (f, comp), numpy.array([xp,yp,zp,res]).T)
+        numpy.savetxt('%s-%s.txt' % (f.split('.')[0], comp), numpy.array([xp,yp,zp,res]).T)
         pyplot.subplot(3,2,i+1)
         pyplot.title(comp)
         pyplot.axis('scaled')
