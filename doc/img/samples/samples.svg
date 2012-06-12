@@ -63,7 +63,7 @@
      id="layer1"
      transform="translate(805.15625,-111.3125)">
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.84730852"
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.84730852000000001"
        id="rect3071"
        width="680.01044"
        height="345.62482"
@@ -94,10 +94,10 @@
        width="362.33347" />
     <image
        y="287.61993"
-       x="-807.67969"
+       x="-823.8421"
        id="image2993"
        xlink:href="file:///home/leo/src/fatiando/doc/img/samples/harvester-gz.png"
-       height="156.69775"
-       width="207.90619" />
+       height="175.89066"
+       width="234.17015" />
   </g>
 </svg>
